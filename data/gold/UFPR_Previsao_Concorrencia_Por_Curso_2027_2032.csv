@@ -1,0 +1,110 @@
+Curso,Campus,Cand_Vaga_2026,Ano_Minimo,Valor_Minimo,Ano_Entrada_Sobra_Vagas,Vagas_Edital_2026,Vagas_Referencia,Vagas_Cortadas,Prev_2027,Faixa_2027_Min,Faixa_2027_Max,Prob_Sobra_2027,Risco_2027
+Administração - Bacharelado - Curitiba - PR - M,Curitiba,3.81,2027,3.79,Sem Sobra,88,88,False,3.79,2.32,5.48,0.01,Baixo
+Administração - Bacharelado - Curitiba - PR - N,Curitiba,3.48,2027,3.59,Sem Sobra,88,88,False,3.59,2.19,5.18,0.01,Baixo
+Administração Pública - Bacharelado - Matinhos - PR - N,Matinhos,1.12,2027,1.18,Sem Sobra,27,32,True,1.18,0.72,1.71,0.31,Risco alto
+Agroecologia - Tecnológico - Matinhos - PR - M,Matinhos,0.61,2027,0.55,2025,13,28,True,0.55,0.34,0.79,0.96,Sobra certa
+Agronomia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,2.96,2027,2.92,Sem Sobra,106,106,False,2.92,1.78,4.21,0.01,Baixo
+Agronomia - Bacharelado - Palotina - PR - I (M+V),Palotina,2.36,2027,2.31,Sem Sobra,64,64,False,2.31,1.41,3.33,0.02,Baixo
+Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,Curitiba,8.31,2027,8.56,Sem Sobra,64,64,False,8.56,5.23,12.37,0.0,Baixo
+Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,Curitiba,6.88,2027,7.11,Sem Sobra,32,32,False,7.11,4.35,10.27,0.0,Baixo
+Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),Curitiba,17.15,2027,17.31,Sem Sobra,48,48,False,17.31,10.58,25.0,0.0,Baixo
+Artes - Licenciatura - Matinhos - PR - M,Matinhos,1.42,2027,1.42,Sem Sobra,24,24,False,1.42,0.87,2.05,0.17,Risco alto
+Artes Visuais - Bacharelado - Curitiba - PR - M,Curitiba,13.31,2027,13.47,Sem Sobra,13,13,False,13.47,8.23,19.45,0.0,Baixo
+Artes Visuais - Licenciatura - Curitiba - PR - M,Curitiba,5.15,2027,5.14,Sem Sobra,13,13,False,5.14,3.14,7.42,0.0,Baixo
+Biomedicina - Bacharelado - Curitiba - PR - I (M+V),Curitiba,29.62,2027,29.13,Sem Sobra,24,24,False,29.13,17.81,42.07,0.0,Baixo
+Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),Curitiba,15.78,2027,15.99,Sem Sobra,64,72,True,15.99,9.77,23.09,0.0,Baixo
+Ciências - Licenciatura - Matinhos - PR - N,Matinhos,0.25,2027,0.27,2025,6,28,True,0.27,0.16,0.38,0.99,Sobra certa
+Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),Matinhos,0.53,2027,0.53,2025,14,32,True,0.53,0.33,0.77,0.97,Sobra certa
+Ciências Contábeis - Bacharelado - Curitiba - PR - N,Curitiba,3.24,2027,3.16,Sem Sobra,96,100,True,3.16,1.93,4.57,0.01,Baixo
+Ciências Econômicas - Bacharelado - Curitiba - PR - M,Curitiba,4.17,2027,3.96,Sem Sobra,64,69,True,3.96,2.42,5.72,0.0,Baixo
+Ciências Econômicas - Bacharelado - Curitiba - PR - N,Curitiba,3.0,2027,2.85,Sem Sobra,72,76,True,2.85,1.74,4.12,0.01,Baixo
+Computação - Licenciatura - Palotina - PR - N,Palotina,0.38,2027,0.39,2025,11,40,True,0.39,0.24,0.56,0.99,Sobra certa
+Comunicação Institucional - Tecnológico - Curitiba - PR - M,Curitiba,1.22,2027,1.16,2025,34,36,True,1.16,0.71,1.67,0.34,Risco alto
+Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),Curitiba,13.12,2027,13.37,Sem Sobra,26,26,False,13.37,8.17,19.31,0.0,Baixo
+Design de Produto - Bacharelado - Curitiba - PR - M,Curitiba,3.54,2027,3.54,Sem Sobra,26,26,False,3.54,2.16,5.11,0.01,Baixo
+Direito - Bacharelado - Curitiba - PR - M,Curitiba,23.46,2027,23.23,Sem Sobra,80,80,False,23.23,14.2,33.55,0.0,Baixo
+Direito - Bacharelado - Curitiba - PR - N,Curitiba,16.68,2027,16.54,Sem Sobra,80,80,False,16.54,10.11,23.88,0.0,Baixo
+Educação Física - Bacharelado - Curitiba - PR - I (M+V),Curitiba,7.72,2027,7.07,Sem Sobra,60,60,False,7.07,4.32,10.21,0.0,Baixo
+Educação Física - Licenciatura - Curitiba - PR - I (M+V),Curitiba,1.8,2027,1.79,Sem Sobra,60,60,False,1.79,1.1,2.59,0.06,Atenção
+Educação Física - Licenciatura - Matinhos - PR - N,Matinhos,3.77,2027,3.62,Sem Sobra,28,30,True,3.62,2.21,5.22,0.01,Baixo
+Enfermagem - Bacharelado - Curitiba - PR - I (M+V),Curitiba,4.41,2027,4.51,Sem Sobra,48,64,True,4.51,2.76,6.52,0.0,Baixo
+Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+V),Jandaia do Sul,0.44,2027,0.47,2025,10,32,True,0.47,0.29,0.67,0.98,Sobra certa
+Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),Curitiba,1.08,2027,1.12,Sem Sobra,48,48,False,1.12,0.68,1.61,0.38,Risco alto
+Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,Pontal do Paraná,0.59,2027,0.63,2025,15,32,True,0.63,0.39,0.91,0.93,Sobra certa
+Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),Curitiba,0.51,2027,0.51,2025,16,35,True,0.51,0.31,0.73,0.97,Sobra certa
+Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),Curitiba,3.65,2027,3.56,Sem Sobra,133,133,False,3.56,2.17,5.13,0.01,Baixo
+Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,Pontal do Paraná,1.66,2027,1.61,Sem Sobra,32,32,False,1.61,0.99,2.33,0.11,Atenção
+Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),Curitiba,3.08,2027,2.93,Sem Sobra,80,80,False,2.93,1.79,4.24,0.01,Baixo
+Engenharia Elétrica - Bacharelado - Curitiba - PR - N,Curitiba,4.58,2027,4.37,Sem Sobra,40,40,False,4.37,2.67,6.31,0.0,Baixo
+Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),Curitiba,0.56,2027,0.57,2025,31,64,True,0.57,0.35,0.83,0.96,Sobra certa
+Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),Curitiba,0.25,2027,0.26,2025,8,32,True,0.26,0.16,0.38,0.99,Sobra certa
+Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,Curitiba,0.88,2027,0.81,2025,26,32,True,0.81,0.5,1.17,0.8,Sobra certa
+Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),Curitiba,6.25,2027,5.95,Sem Sobra,86,96,True,5.95,3.64,8.59,0.0,Baixo
+Engenharia Mecânica - Bacharelado - Curitiba - PR - N,Curitiba,6.97,2027,6.56,Sem Sobra,72,72,False,6.56,4.01,9.47,0.0,Baixo
+Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),Curitiba,4.86,2027,4.6,Sem Sobra,86,88,True,4.6,2.81,6.65,0.0,Baixo
+Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),Jandaia do Sul,0.14,2027,0.15,2025,4,28,True,0.15,0.09,0.22,1.0,Sobra certa
+Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),Palotina,0.1,2027,0.11,2025,5,48,True,0.11,0.06,0.15,1.0,Sobra certa
+Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,Pontal do Paraná,0.21,2027,0.21,2025,4,24,True,0.21,0.13,0.3,1.0,Sobra certa
+Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,4.0,2027,3.8,Sem Sobra,36,36,False,3.8,2.32,5.49,0.01,Baixo
+Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,Palotina,0.27,2027,0.29,2025,11,52,True,0.29,0.18,0.42,0.99,Sobra certa
+Engenharia de Energia - Bacharelado - Palotina - PR - M,Palotina,0.27,2027,0.26,2025,10,48,True,0.26,0.16,0.38,0.99,Sobra certa
+Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),Curitiba,4.63,2027,4.45,Sem Sobra,48,51,True,4.45,2.72,6.43,0.0,Baixo
+Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),Jandaia do Sul,0.34,2027,0.35,2025,10,32,True,0.35,0.22,0.51,0.99,Sobra certa
+Estatística e Ciência de Dados - Bacharelado - Curitiba - PR - I (V+N),Curitiba,2.58,2027,2.47,Sem Sobra,53,53,False,2.47,1.51,3.56,0.02,Baixo
+Expressão Gráfica - Bacharelado - Curitiba - PR - M,Curitiba,0.8,2027,0.83,2025,23,35,True,0.83,0.51,1.2,0.78,Sobra certa
+Farmácia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,6.3,2027,6.13,Sem Sobra,86,86,False,6.13,3.75,8.85,0.0,Baixo
+Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,12.8,2027,12.19,Sem Sobra,40,40,True,12.19,7.45,17.61,0.0,Baixo
+Física - Bacharelado - Curitiba - PR - I (M+V),Curitiba,1.96,2027,1.93,Sem Sobra,56,56,False,1.93,1.18,2.78,0.04,Atenção
+Física - Licenciatura - Curitiba - PR - N,Curitiba,0.67,2027,0.68,2025,38,72,True,0.68,0.41,0.98,0.91,Sobra certa
+Geografia - Licenciatura - Matinhos - PR - N,Matinhos,0.54,2027,0.49,2025,11,28,True,0.49,0.3,0.71,0.98,Sobra certa
+Geologia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,2.42,2027,2.46,Sem Sobra,26,26,False,2.46,1.5,3.55,0.02,Baixo
+Gestão Pública - Tecnológico - Curitiba - PR - N,Curitiba,0.92,2027,0.96,2026,26,36,True,0.96,0.59,1.38,0.62,Sobra certa
+Gestão da Informação - Bacharelado - Curitiba - PR - M,Curitiba,1.35,2027,1.24,2025,48,48,True,1.24,0.76,1.79,0.28,Risco alto
+Gestão da Qualidade - Tecnológico - Curitiba - PR - N,Curitiba,0.69,2027,0.81,2026,17,36,True,0.81,0.49,1.17,0.8,Sobra certa
+Gestão de Turismo - Tecnológico - Matinhos - PR - N,Matinhos,0.64,2027,0.66,2025,17,28,True,0.66,0.4,0.95,0.93,Sobra certa
+Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,Matinhos,0.86,2027,0.87,2025,16,28,True,0.87,0.53,1.26,0.74,Sobra certa
+História Memória e Imagem - Bacharelado - Curitiba - PR - N,Curitiba,1.28,2027,1.35,Sem Sobra,32,32,False,1.35,0.82,1.95,0.2,Risco alto
+Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),Curitiba,1.17,2027,1.32,Sem Sobra,24,29,True,1.32,0.81,1.91,0.22,Risco alto
+Jornalismo - Bacharelado - Curitiba - PR - I (M+N),Curitiba,11.67,2027,12.06,Sem Sobra,24,24,False,12.06,7.37,17.42,0.0,Baixo
+Letras - Francês - Bacharelado - Curitiba - PR - N,Curitiba,1.75,2027,2.13,Sem Sobra,5,4,False,2.13,1.3,3.08,0.02,Baixo
+Letras - Inglês - Licenciatura - Curitiba - PR - M,Curitiba,3.69,2027,3.58,Sem Sobra,16,16,False,3.58,2.19,5.17,0.01,Baixo
+Letras - Inglês - Licenciatura - Curitiba - PR - N,Curitiba,2.44,2027,2.54,Sem Sobra,16,16,False,2.54,1.55,3.67,0.01,Baixo
+Letras - Italiano - Licenciatura - Curitiba - PR - M,Curitiba,1.12,2027,1.04,2025,12,16,True,1.04,0.64,1.5,0.49,Risco alto
+Letras - Japonês - Bacharelado - Curitiba - PR - N,Curitiba,1.5,2027,1.63,Sem Sobra,8,8,False,1.63,0.99,2.35,0.1,Atenção
+Letras - Polonês - Bacharelado - Curitiba - PR - N,Curitiba,0.25,2027,0.36,2026,0,4,True,0.36,0.22,0.51,0.99,Sobra certa
+Letras - Português - Bacharelado - Curitiba - PR - M,Curitiba,2.5,2027,2.86,Sem Sobra,5,4,False,2.86,1.75,4.13,0.01,Baixo
+Letras - Português - Bacharelado - Curitiba - PR - N,Curitiba,3.0,2027,3.0,Sem Sobra,5,4,False,3.0,1.83,4.33,0.01,Baixo
+Letras - Português - Licenciatura - Curitiba - PR - M,Curitiba,2.12,2027,2.12,Sem Sobra,16,16,False,2.12,1.3,3.06,0.03,Baixo
+Letras - Português - Licenciatura - Curitiba - PR - N,Curitiba,3.0,2027,2.83,Sem Sobra,16,16,False,2.83,1.73,4.08,0.01,Baixo
+Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,Curitiba,0.67,2027,0.69,2025,8,12,True,0.69,0.42,0.99,0.91,Sobra certa
+Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,Curitiba,1.33,2027,1.28,2025,12,12,True,1.28,0.79,1.85,0.24,Risco alto
+Letras - Português e Francês - Licenciatura - Curitiba - PR - N,Curitiba,1.0,2027,1.15,Sem Sobra,9,12,True,1.15,0.71,1.67,0.34,Risco alto
+Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,Curitiba,1.38,2027,1.43,Sem Sobra,8,8,False,1.43,0.88,2.07,0.16,Risco alto
+Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,Curitiba,1.5,2027,1.19,2025,5,4,True,1.19,0.73,1.72,0.31,Risco alto
+Luteria - Tecnológico - Curitiba - PR - I (M+V),Curitiba,1.04,2027,1.14,Sem Sobra,18,24,True,1.14,0.7,1.64,0.35,Risco alto
+Matemática - Licenciatura - Curitiba - PR - N,Curitiba,1.16,2027,1.22,Sem Sobra,40,44,True,1.22,0.75,1.77,0.29,Risco alto
+Matemática Industrial - Bacharelado - Curitiba - PR - V,Curitiba,0.41,2027,0.41,2025,11,32,True,0.41,0.25,0.59,0.99,Sobra certa
+Medicina - Bacharelado - Curitiba - PR - I (M+V),Curitiba,68.13,2027,67.95,Sem Sobra,160,155,False,67.95,41.53,98.13,0.0,Baixo
+Medicina - Bacharelado - Toledo - PR - I (M+V),Toledo,58.16,2027,57.73,Sem Sobra,48,49,True,57.73,35.29,83.38,0.0,Baixo
+Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),Curitiba,19.79,2027,19.72,Sem Sobra,48,48,False,19.72,12.06,28.48,0.0,Baixo
+Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),Palotina,3.28,2027,3.38,Sem Sobra,64,64,False,3.38,2.07,4.88,0.01,Baixo
+Música - Bacharelado - Curitiba - PR - V,Curitiba,3.05,2027,3.2,Sem Sobra,20,20,False,3.2,1.96,4.63,0.01,Baixo
+Música - Licenciatura - Curitiba - PR - V,Curitiba,0.85,2027,1.01,2026,20,20,False,1.01,0.62,1.46,0.53,Risco alto
+Negócios Imobiliários - Tecnológico - Curitiba - PR - N,Curitiba,1.17,2027,1.18,Sem Sobra,34,36,True,1.18,0.72,1.7,0.31,Risco alto
+Nutrição - Bacharelado - Curitiba - PR - I (M+V),Curitiba,8.49,2027,8.46,Sem Sobra,53,53,False,8.46,5.17,12.22,0.0,Baixo
+Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),Pontal do Paraná,1.16,2027,1.17,Sem Sobra,30,32,True,1.17,0.72,1.7,0.32,Risco alto
+Odontologia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,10.51,2027,10.07,Sem Sobra,74,74,False,10.07,6.15,14.54,0.0,Baixo
+Pedagogia - Licenciatura - Curitiba - PR - M,Curitiba,3.04,2027,3.04,Sem Sobra,56,56,False,3.04,1.86,4.39,0.01,Baixo
+Pedagogia - Licenciatura - Curitiba - PR - N,Curitiba,2.46,2027,2.43,Sem Sobra,80,80,False,2.43,1.48,3.5,0.02,Baixo
+Produção Cultural - Bacharelado - Curitiba - PR - M,Curitiba,2.94,2027,2.8,Sem Sobra,16,16,False,2.8,1.71,4.04,0.01,Baixo
+Psicologia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,27.33,2027,27.25,Sem Sobra,64,64,False,27.25,16.66,39.36,0.0,Baixo
+Publicidade e Propaganda - Bacharelado - Curitiba - PR - I (M+N),Curitiba,12.62,2027,12.69,Sem Sobra,24,24,False,12.69,7.76,18.33,0.0,Baixo
+Química - Licenciatura - Curitiba - PR - N,Curitiba,0.78,2027,0.78,2025,28,40,True,0.78,0.48,1.13,0.83,Sobra certa
+Relações Públicas - Bacharelado - Curitiba - PR - I (M+N),Curitiba,4.38,2027,4.2,Sem Sobra,24,24,False,4.2,2.57,6.06,0.0,Baixo
+Saúde Coletiva - Bacharelado - Matinhos - PR - M,Matinhos,0.44,2027,0.44,2025,12,32,True,0.44,0.27,0.63,0.98,Sobra certa
+Secretariado - Tecnológico - Curitiba - PR - N,Curitiba,0.45,2027,0.45,2025,14,40,True,0.45,0.28,0.65,0.98,Sobra certa
+Serviço Social - Bacharelado - Matinhos - PR - N,Matinhos,1.39,2027,1.44,Sem Sobra,25,28,True,1.44,0.88,2.08,0.16,Risco alto
+Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),Curitiba,2.9,2027,2.73,Sem Sobra,48,48,False,2.73,1.67,3.94,0.01,Baixo
+Terapia Ocupacional - Bacharelado - Curitiba - PR - N,Curitiba,3.15,2027,3.17,Sem Sobra,48,48,False,3.17,1.94,4.58,0.01,Baixo
+Turismo - Bacharelado - Curitiba - PR - M,Curitiba,1.0,2027,1.0,2025,29,35,True,1.0,0.61,1.45,0.54,Risco alto
+Zootecnia - Bacharelado - Curitiba - PR - I (M+V),Curitiba,1.58,2027,1.53,Sem Sobra,48,48,False,1.53,0.94,2.21,0.13,Atenção

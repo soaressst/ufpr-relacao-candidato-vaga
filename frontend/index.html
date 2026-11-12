@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga Data Science UFPR — Ciência de dados na universidade</title>
+    <meta name="description" content="Projeto de extensão da UFPR que transforma dados em soluções: projetos reais, ensino prático e o podcast TAOcast.">
+    <meta property="og:title" content="Liga Data Science UFPR">
+    <meta property="og:description" content="Projeto de extensão da UFPR que transforma dados em soluções.">
+    <meta property="og:image" content="logo_circulo.png">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0D3C67">
+    <link rel="icon" href="logo_circulo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    colors: {
+                        marca: { 50: '#EEF4FB', 100: '#D6E4F5', 500: '#2563EB', 600: '#1D4ED8', 700: '#0D3C67', 800: '#0A2E4F', 900: '#071F36' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Grade sutil de fundo (padrão de sites de tecnologia) */
+        .grade { background-image: linear-gradient(to right, rgb(148 163 184 / .12) 1px, transparent 1px), linear-gradient(to bottom, rgb(148 163 184 / .12) 1px, transparent 1px); background-size: 48px 48px; }
+        @media (prefers-reduced-motion: no-preference) { .surgir { animation: surgir .6s ease-out both; } @keyframes surgir { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } } }
+    </style>
+</head>
+<body class="bg-white text-slate-700 antialiased dark:bg-slate-950 dark:text-slate-300">
+
+    <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-marca-700 focus:px-4 focus:py-2 focus:text-white">Pular para o conteúdo</a>
+
+    <!-- Cabeçalho -->
+    <header class="sticky top-0 z-40 border-b border-slate-200/70 bg-white/75 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-950/75">
+        <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+            <a href="index.html" class="flex items-center gap-2.5 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-marca-500">
+                <img src="logo_circulo.png" alt="" class="h-8 w-8 rounded-full object-contain">
+                <span class="text-[15px] font-semibold tracking-tight text-slate-900 dark:text-white">Liga Data Science</span>
+            </a>
+            <nav class="hidden items-center gap-1 text-sm md:flex" aria-label="Principal">
+                <a href="index.html" aria-current="page" class="rounded-md px-3 py-2 font-medium text-slate-900 dark:text-white">Início</a>
+                <a href="sobre.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Sobre</a>
+                <a href="projetos.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Projetos</a>
+                <a href="pipeline.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Pipeline</a>
+                <a href="taocast.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">TAOcast</a>
+            </nav>
+            <div class="flex items-center gap-2">
+                <a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="hidden rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700 sm:inline-flex dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200">Fale conosco</a>
+                <button id="botao-menu" type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-slate-100 md:hidden dark:text-slate-300 dark:hover:bg-slate-800" aria-controls="menu-movel" aria-expanded="false" aria-label="Abrir menu">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
+        </div>
+        <nav id="menu-movel" class="hidden border-t border-slate-200 px-4 py-3 md:hidden dark:border-slate-800" aria-label="Menu móvel">
+            <a href="index.html" class="block rounded-md px-3 py-2.5 font-medium text-slate-900 dark:text-white">Início</a>
+            <a href="sobre.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Sobre</a>
+            <a href="projetos.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Projetos</a>
+            <a href="pipeline.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Pipeline</a>
+            <a href="taocast.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">TAOcast</a>
+            <a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Fale conosco</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <!-- Hero -->
+        <section class="relative overflow-hidden">
+            <div class="grade absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]" aria-hidden="true"></div>
+            <div class="absolute left-1/2 top-0 -z-10 h-[480px] w-[900px] -translate-x-1/2 rounded-full bg-gradient-to-br from-marca-100 via-sky-100 to-transparent opacity-70 blur-3xl dark:from-marca-900 dark:via-slate-900 dark:opacity-60" aria-hidden="true"></div>
+            <div class="relative mx-auto max-w-6xl px-4 pb-20 pt-20 sm:px-6 sm:pt-28">
+                <div class="surgir mx-auto max-w-3xl text-center">
+                    <a href="projetos.html" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-xs font-medium text-slate-600 backdrop-blur transition hover:border-slate-300 dark:border-slate-800 dark:bg-slate-900/70 dark:text-slate-400">
+                        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+                        Novo: risco de sobra de vagas no Vestibular 2027
+                        <span aria-hidden="true">→</span>
+                    </a>
+                    <h1 class="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl dark:text-white">
+                        Transformamos dados<br class="hidden sm:block"> em <span class="bg-gradient-to-r from-marca-700 to-marca-500 bg-clip-text text-transparent dark:from-sky-300 dark:to-marca-500">soluções reais</span>
+                    </h1>
+                    <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                        A Liga Data Science é um projeto de extensão da UFPR formado por estudantes movidos pelo desafio de resolver problemas complexos com ciência de dados.
+                    </p>
+                    <div class="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+                        <a href="projetos.html" class="inline-flex w-full items-center justify-center gap-2 rounded-full bg-marca-700 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-marca-800 dark:bg-marca-500 dark:hover:bg-marca-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-marca-500 sm:w-auto">
+                            Ver projetos <span aria-hidden="true">→</span>
+                        </a>
+                        <a href="sobre.html" class="inline-flex w-full items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-400 hover:bg-slate-50 sm:w-auto dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800">
+                            Conheça a Liga
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Números do projeto em destaque (todos vêm do projeto UFPR Analytics) -->
+                <dl class="mx-auto mt-20 grid max-w-4xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 lg:grid-cols-4 dark:border-slate-800 dark:bg-slate-800">
+                    <div class="bg-white p-6 text-center dark:bg-slate-950">
+                        <dt class="text-xs font-medium uppercase tracking-wider text-slate-500">Anos de dados</dt>
+                        <dd class="mt-2 whitespace-nowrap text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">2003–2027</dd>
+                    </div>
+                    <div class="bg-white p-6 text-center dark:bg-slate-950">
+                        <dt class="text-xs font-medium uppercase tracking-wider text-slate-500">Cursos analisados</dt>
+                        <dd class="mt-2 whitespace-nowrap text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">109</dd>
+                    </div>
+                    <div class="bg-white p-6 text-center dark:bg-slate-950">
+                        <dt class="text-xs font-medium uppercase tracking-wider text-slate-500">Casos validados</dt>
+                        <dd class="mt-2 whitespace-nowrap text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">615</dd>
+                    </div>
+                    <div class="bg-white p-6 text-center dark:bg-slate-950">
+                        <dt class="text-xs font-medium uppercase tracking-wider text-slate-500">Fontes oficiais</dt>
+                        <dd class="mt-2 whitespace-nowrap text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">NC-UFPR</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- Pilares -->
+        <section class="border-t border-slate-200 bg-slate-50 py-24 dark:border-slate-800 dark:bg-slate-900/40">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6">
+                <div class="max-w-2xl">
+                    <p class="text-sm font-semibold text-marca-600 dark:text-sky-400">Como trabalhamos</p>
+                    <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">Dos dados às ideias, das ideias às soluções</h2>
+                    <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Difundimos a ciência de dados no ambiente universitário com projetos práticos, estudo em grupo e conteúdo aberto.</p>
+                </div>
+                <div class="mt-14 grid gap-6 md:grid-cols-3">
+                    <article class="group rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M7 15l4-4 3 3 5-6"/></svg>
+                        </div>
+                        <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">A partir de dados</h3>
+                        <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Coletamos e conferimos dados oficiais, sempre com a fonte rastreável.</p>
+                    </article>
+                    <article class="group rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3Z"/></svg>
+                        </div>
+                        <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">Surgem ideias</h3>
+                        <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Exploramos, testamos hipóteses e medimos o quanto cada resultado é confiável.</p>
+                    </article>
+                    <article class="group rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                        <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>
+                        </div>
+                        <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">Viram soluções</h3>
+                        <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Entregamos ferramentas abertas: apps, painéis e relatórios que qualquer pessoa pode usar.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projeto em destaque -->
+        <section class="py-24">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6">
+                <div class="overflow-hidden rounded-3xl bg-marca-900 text-white shadow-xl">
+                    <div class="grid items-center gap-10 p-8 sm:p-12 lg:grid-cols-2">
+                        <div>
+                            <p class="text-sm font-semibold text-sky-300">Projeto em destaque</p>
+                            <h2 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">UFPR Analytics: inteligência preditiva do vestibular</h2>
+                            <p class="mt-4 text-lg leading-relaxed text-slate-300">Prevemos a procura por cada curso e apontamos onde as vagas devem sobrar. Abaixo de 1 candidato por vaga, o curso terminou com vaga sobrando em 100% dos casos analisados.</p>
+                            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                                <a href="https://ufpr-analytics-rvhpwhnd523igz75r7vpfs.streamlit.app/" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-marca-900 transition hover:bg-slate-100">Abrir o simulador <span aria-hidden="true">↗</span></a>
+                                <a href="pipeline.html" class="inline-flex items-center justify-center rounded-full border border-white/25 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">Como foi feito</a>
+                            </div>
+                        </div>
+                        <!-- Mini gráfico com dados reais: inscritos no vestibular (mil) -->
+                        <figure class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                            <figcaption class="text-sm font-medium text-slate-300">Inscritos no vestibular da UFPR (mil)</figcaption>
+                            <div class="mt-6 flex h-48 items-end gap-1.5" role="img" aria-label="Inscritos: cerca de 48 mil em 2003, 50,6 mil em 2017, 30,7 mil em 2021 e 39,6 mil em 2026">
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:95%" title="2003: 47,9 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:87%" title="2005: 43,9 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:83%" title="2010: 42,1 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:86%" title="2012: 43,6 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:100%" title="2014: 50,4 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:100%" title="2017: 50,6 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:76%" title="2020: 38,5 mil"></div>
+                                <div class="flex-1 rounded-t bg-amber-400/80" style="height:61%" title="2021: 30,7 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:65%" title="2022: 33,0 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:69%" title="2023: 35,1 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:72%" title="2024: 36,2 mil"></div>
+                                <div class="flex-1 rounded-t bg-sky-400/70" style="height:78%" title="2026: 39,6 mil"></div>
+                            </div>
+                            <div class="mt-2 flex justify-between text-xs text-slate-400"><span>2003</span><span>2026</span></div>
+                            <p class="mt-3 flex items-center gap-2 text-xs text-slate-400"><span class="inline-block h-2.5 w-2.5 rounded-sm bg-amber-400/80"></span>2021, primeiro vestibular da pandemia</p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAOcast -->
+        <section class="border-t border-slate-200 py-24 dark:border-slate-800">
+            <div class="mx-auto flex max-w-6xl flex-col items-start justify-between gap-8 px-4 sm:px-6 md:flex-row md:items-center">
+                <div class="max-w-2xl">
+                    <p class="text-sm font-semibold text-marca-600 dark:text-sky-400">TAOcast</p>
+                    <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 dark:text-white">O podcast onde dados viram histórias</h2>
+                    <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Carreira, projetos e os bastidores da ciência de dados na universidade, em conversas com quem faz.</p>
+                </div>
+                <a href="taocast.html" class="inline-flex shrink-0 items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-50 dark:border-slate-700 dark:text-white dark:hover:bg-slate-900">Ouvir o TAOcast <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="border-t border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900/40">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5">
+                    <img src="logo_circulo.png" alt="" class="h-8 w-8 rounded-full object-contain">
+                    <span class="font-semibold text-slate-900 dark:text-white">Liga Data Science</span>
+                </div>
+                <p class="mt-4 max-w-sm text-sm leading-relaxed text-slate-500">Projeto de extensão da Universidade Federal do Paraná dedicado a difundir a ciência de dados.</p>
+            </div>
+            <div>
+                <p class="text-sm font-semibold text-slate-900 dark:text-white">Navegação</p>
+                <ul class="mt-4 space-y-2.5 text-sm">
+                    <li><a href="sobre.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Sobre</a></li>
+                    <li><a href="projetos.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Projetos</a></li>
+                    <li><a href="pipeline.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Pipeline</a></li>
+                    <li><a href="taocast.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">TAOcast</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-sm font-semibold text-slate-900 dark:text-white">Redes</p>
+                <ul class="mt-4 space-y-2.5 text-sm">
+                    <li><a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/liga-data-science-ufpr" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">LinkedIn</a></li>
+                    <li><a href="https://www.youtube.com/@LigaDataScience" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-slate-200 dark:border-slate-800">
+            <p class="mx-auto max-w-6xl px-4 py-6 text-xs text-slate-500 sm:px-6">© <span id="ano"></span> Liga Data Science · UFPR</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu móvel
+        const botao = document.getElementById('botao-menu');
+        const menu = document.getElementById('menu-movel');
+        botao.addEventListener('click', () => {
+            const aberto = botao.getAttribute('aria-expanded') === 'true';
+            botao.setAttribute('aria-expanded', String(!aberto));
+            botao.setAttribute('aria-label', aberto ? 'Abrir menu' : 'Fechar menu');
+            menu.classList.toggle('hidden', aberto);
+        });
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

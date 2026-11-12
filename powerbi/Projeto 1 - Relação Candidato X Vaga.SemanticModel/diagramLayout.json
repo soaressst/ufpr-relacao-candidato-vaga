@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 178.23736050312203,
+            "y": 411.925209245317
+          },
+          "nodeIndex": "f_Previsao_Concorrencia",
+          "nodeLineageTag": "a854b3ff-21ad-4022-9b25-94ed9fdcfa48",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 92.28125
+          },
+          "nodeIndex": "d_Campus",
+          "nodeLineageTag": "469756a3-8f02-42dd-b70c-c62d823c7bb2",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 613.93201730678322,
+            "y": 455.52120533733375
+          },
+          "nodeIndex": "d_Curso",
+          "nodeLineageTag": "c8c1da68-312e-4674-bc46-2fba3c91721c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1162,
+            "y": 22.78125
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "f9920d5c-c61a-4b9d-bd54-215b254c879d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 684.96010049099937,
+            "y": 92.901074214705645
+          },
+          "nodeIndex": "f_Historico_Concorrencia",
+          "nodeLineageTag": "e4412988-1a2b-4c3d-8e9f-0a1b2c3d4e5f",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1730,
+            "y": 59.84375
+          },
+          "nodeIndex": "Parametro_Fator_Impacto",
+          "nodeLineageTag": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 70.955543900969076,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

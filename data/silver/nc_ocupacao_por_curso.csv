@@ -1,0 +1,1841 @@
+ano,curso,tipo,aprovados
+2016,Administração - M,chamada_geral,77
+2016,Administração - N,chamada_geral,77
+2016,Agronomia - Campus Palotina - MT,chamada_geral,56
+2016,Agronomia - MT,chamada_geral,92
+2016,Arquitetura e Urbanismo - M(+T) - T(+M),chamada_geral,60
+2016,Artes - Licenciatura - Campus Matinhos - M,chamada_geral,32
+2016,Artes Visuais - Bacharelado - T,chamada_geral,11
+2016,Artes Visuais - Licenciatura - T,chamada_geral,11
+2016,Biomedicina - MT,chamada_geral,21
+2016,Ciência da Computação - Bacharelado - TN,chamada_geral,56
+2016,Ciências - Licenciatura - Campus Matinhos - N,chamada_geral,31
+2016,Ciências Biológicas - Campus Palotina - MT,chamada_geral,56
+2016,Ciências Biológicas - M,chamada_geral,42
+2016,Ciências Biológicas - N,chamada_geral,42
+2016,Ciências Contábeis - N,chamada_geral,84
+2016,Ciências Econômicas - M,chamada_geral,56
+2016,Ciências Econômicas - N,chamada_geral,63
+2016,Ciências Exatas - Licenciatura - Campus Jandaia - T,chamada_geral,17
+2016,Ciências Exatas - Licenciatura - Campus Palotina - N,chamada_geral,40
+2016,Ciências Exatas - Licenciatura - Campus Pontal do Paraná - N,chamada_geral,23
+2016,Ciências Sociais - M,chamada_geral,56
+2016,Computação - Licenciatura - Campus Jandaia - M,chamada_geral,12
+2016,Computação - Licenciatura - Campus Palotina - N,chamada_geral,13
+2016,Comunicação Social - Jornalismo - MN,chamada_geral,21
+2016,Comunicação Social - Publicidade e Propaganda - MN,chamada_geral,21
+2016,Comunicação Social - Relações Públicas - MN,chamada_geral,21
+2016,Design - Design Gráfico - M,chamada_geral,33
+2016,Design - Design de Produto - M,chamada_geral,33
+2016,Direito - M,chamada_geral,70
+2016,Direito - N,chamada_geral,70
+2016,Educação Física (Bacharelado) - MT,chamada_geral,52
+2016,Educação Física (Licenciatura) - MT,chamada_geral,52
+2016,Educação Física - Licenciatura - Campus Matinhos - N,chamada_geral,32
+2016,Enfermagem - MT,chamada_geral,38
+2016,Engenharia Agrícola - Campus Jandaia - M(+T),chamada_geral,35
+2016,Engenharia Ambiental - MT,chamada_geral,42
+2016,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,chamada_geral,35
+2016,Engenharia Cartográfica e de Agrimensura - MT,chamada_geral,31
+2016,Engenharia Civil - Campus Pontal do Paraná - T,chamada_geral,35
+2016,Engenharia Civil - MT,chamada_geral,116
+2016,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",chamada_geral,62
+2016,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,chamada_geral,42
+2016,Engenharia Florestal - MT,chamada_geral,56
+2016,Engenharia Industrial Madeireira - MT,chamada_geral,28
+2016,Engenharia Industrial Madeireira - N,chamada_geral,28
+2016,Engenharia Mecânica - MT,chamada_geral,76
+2016,Engenharia Mecânica - N,chamada_geral,63
+2016,Engenharia Química - MT,chamada_geral,76
+2016,Engenharia de Alimentos - Campus Jandaia - M(+T),chamada_geral,35
+2016,Engenharia de Aquicultura - Campus Palotina - MT,chamada_geral,23
+2016,Engenharia de Aquicultura - Campus Pontal do Paraná - M,chamada_geral,21
+2016,Engenharia de Bioprocessos e Biotecnologia - MT,chamada_geral,21
+2016,Engenharia de Energias Renováveis - Campus Palotina - M,chamada_geral,42
+2016,Engenharia de Produção - Campus Jandaia - T(+M),chamada_geral,35
+2016,Engenharia de Produção - MT,chamada_geral,42
+2016,Estatística - N,chamada_geral,39
+2016,Expressão Gráfica - M,chamada_geral,31
+2016,Farmácia - MT,chamada_geral,76
+2016,Filosofia (Bacharelado com Licenciatura Plena) - M,chamada_geral,28
+2016,Filosofia (Bacharelado com Licenciatura Plena) - N,chamada_geral,35
+2016,Fisioterapia - MT,chamada_geral,35
+2016,Física (Bacharelado) - M,chamada_geral,49
+2016,Física (Licenciatura) - N,chamada_geral,63
+2016,Geografia - M,chamada_geral,24
+2016,Geografia - N,chamada_geral,28
+2016,Geologia - MT,chamada_geral,23
+2016,Gestão Ambiental - Bacharelado - Campus Matinhos - M,chamada_geral,31
+2016,Gestão Pública - Bacharelado - Campus Matinhos - N,chamada_geral,32
+2016,Gestão da Informação - M,chamada_geral,42
+2016,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,chamada_geral,32
+2016,História (Licenciatura com Bacharelado) - T,chamada_geral,28
+2016,História - Memória e Imagem (Bacharelado) - N,chamada_geral,28
+2016,Informática Biomédica - Bacharelado - TN,chamada_geral,21
+2016,Letras - Espanhol ou Português com Espanhol - M,chamada_geral,17
+2016,Letras - Francês - N,chamada_geral,14
+2016,Letras - Inglês - N,chamada_geral,14
+2016,Letras - Inglês ou Português com Inglês - M,chamada_geral,14
+2016,Letras - Italiano ou Português com Italiano - M,chamada_geral,10
+2016,Letras - Japonês - N,chamada_geral,14
+2016,Letras - Polonês - N,chamada_geral,7
+2016,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. ou +Greg. ou +Lat. - M,chamada_geral,17
+2016,Letras - Português - N,chamada_geral,28
+2016,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,chamada_geral,23
+2016,Matemática (Bacharelado e Licenciatura) - T,chamada_geral,32
+2016,Matemática (Licenciatura) - N,chamada_geral,22
+2016,Matemática Industrial - T,chamada_geral,11
+2016,Medicina - Campus Toledo - MT,chamada_geral,61
+2016,Medicina - MT,chamada_geral,134
+2016,Medicina Veterinária - Campus Palotina - MT,chamada_geral,56
+2016,Medicina Veterinária - Curitiba - MT,chamada_geral,42
+2016,Música - Bacharelado (Produção Musical / Criação Musical) - T(+N),chamada_geral,20
+2016,Música - Licenciatura (Educação Musical) - T(+N),chamada_geral,20
+2016,Nutrição - MT,chamada_geral,46
+2016,Oceanografia - Campus Pontal do Paraná - MT,chamada_geral,28
+2016,Odontologia - MT,chamada_geral,64
+2016,Pedagogia - M,chamada_geral,49
+2016,Pedagogia - N,chamada_geral,70
+2016,Psicologia - MT,chamada_geral,56
+2016,Química (Licenciatura e Bacharelado) - MT,chamada_geral,46
+2016,Química (Licenciatura) - N,chamada_geral,28
+2016,Saúde Coletiva - Bacharelado - Campus Matinhos - M,chamada_geral,23
+2016,Serviço Social - Bacharelado - Campus Matinhos - N,chamada_geral,32
+2016,Tecnologia em Agroecologia - Campus Matinhos - M,chamada_geral,31
+2016,Tecnologia em Análise e Desenvolvimento de Sistemas - N,chamada_geral,56
+2016,Tecnologia em Análise e Desenvolvimento de Sistemas - T,chamada_geral,28
+2016,Tecnologia em Biotecnologia - Campus Palotina - N,chamada_geral,31
+2016,Tecnologia em Comunicação Institucional - M,chamada_geral,31
+2016,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,chamada_geral,23
+2016,Tecnologia em Gestão Pública - N,chamada_geral,31
+2016,Tecnologia em Gestão da Qualidade - N,chamada_geral,31
+2016,Tecnologia em Gestão de Turismo - Campus Matinhos - N,chamada_geral,31
+2016,Tecnologia em Luteria - MT,chamada_geral,21
+2016,Tecnologia em Negócios Imobiliários - N,chamada_geral,31
+2016,Tecnologia em Produção Cênica - N,chamada_geral,31
+2016,Tecnologia em Secretariado - N,chamada_geral,35
+2016,Terapia Ocupacional - MT,chamada_geral,42
+2016,Terapia Ocupacional - N,chamada_geral,42
+2016,Turismo - N,chamada_geral,31
+2016,Zootecnia - MT,chamada_geral,38
+2016,Administração - M,final,83
+2016,Administração - N,final,81
+2016,Agronomia - Campus Palotina - MT,final,78
+2016,Agronomia - MT,final,110
+2016,Arquitetura e Urbanismo - M(+T) - T(+M),final,72
+2016,Artes - Licenciatura - Campus Matinhos - M,final,38
+2016,Artes Visuais - Bacharelado - T,final,28
+2016,Artes Visuais - Licenciatura - T,final,18
+2016,Biomedicina - MT,final,27
+2016,Ciência da Computação - Bacharelado - TN,final,85
+2016,Ciências - Licenciatura - Campus Matinhos - N,final,34
+2016,Ciências Biológicas - Campus Palotina - MT,final,65
+2016,Ciências Biológicas - M,final,43
+2016,Ciências Biológicas - N,final,48
+2016,Ciências Contábeis - N,final,90
+2016,Ciências Econômicas - M,final,101
+2016,Ciências Econômicas - N,final,84
+2016,Ciências Exatas - Licenciatura - Campus Jandaia - T,final,17
+2016,Ciências Exatas - Licenciatura - Campus Palotina - N,final,40
+2016,Ciências Exatas - Licenciatura - Campus Pontal do Paraná - N,final,23
+2016,Ciências Sociais - M,final,76
+2016,Computação - Licenciatura - Campus Jandaia - M,final,12
+2016,Computação - Licenciatura - Campus Palotina - N,final,13
+2016,Comunicação Social - Jornalismo - MN,final,23
+2016,Comunicação Social - Publicidade e Propaganda - MN,final,23
+2016,Comunicação Social - Relações Públicas - MN,final,25
+2016,Design - Design Gráfico - M,final,35
+2016,Design - Design de Produto - M,final,34
+2016,Direito - M,final,82
+2016,Direito - N,final,90
+2016,Educação Física (Bacharelado) - MT,final,56
+2016,Educação Física (Licenciatura) - MT,final,54
+2016,Educação Física - Licenciatura - Campus Matinhos - N,final,37
+2016,Enfermagem - MT,final,58
+2016,Engenharia Agrícola - Campus Jandaia - M(+T),final,44
+2016,Engenharia Ambiental - MT,final,51
+2016,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,final,37
+2016,Engenharia Cartográfica e de Agrimensura - MT,final,49
+2016,Engenharia Civil - Campus Pontal do Paraná - T,final,45
+2016,Engenharia Civil - MT,final,140
+2016,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",final,127
+2016,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,final,63
+2016,Engenharia Florestal - MT,final,69
+2016,Engenharia Industrial Madeireira - MT,final,38
+2016,Engenharia Industrial Madeireira - N,final,32
+2016,Engenharia Mecânica - MT,final,168
+2016,Engenharia Mecânica - N,final,79
+2016,Engenharia Química - MT,final,109
+2016,Engenharia de Alimentos - Campus Jandaia - M(+T),final,51
+2016,Engenharia de Aquicultura - Campus Palotina - MT,final,23
+2016,Engenharia de Aquicultura - Campus Pontal do Paraná - M,final,21
+2016,Engenharia de Bioprocessos e Biotecnologia - MT,final,27
+2016,Engenharia de Energias Renováveis - Campus Palotina - M,final,43
+2016,Engenharia de Produção - Campus Jandaia - T(+M),final,45
+2016,Engenharia de Produção - MT,final,60
+2016,Estatística - N,final,39
+2016,Expressão Gráfica - M,final,37
+2016,Farmácia - MT,final,154
+2016,Filosofia (Bacharelado com Licenciatura Plena) - M,final,43
+2016,Filosofia (Bacharelado com Licenciatura Plena) - N,final,59
+2016,Fisioterapia - MT,final,41
+2016,Física (Bacharelado) - M,final,76
+2016,Física (Licenciatura) - N,final,85
+2016,Geografia - M,final,25
+2016,Geografia - N,final,28
+2016,Geologia - MT,final,27
+2016,Gestão Ambiental - Bacharelado - Campus Matinhos - M,final,36
+2016,Gestão Pública - Bacharelado - Campus Matinhos - N,final,35
+2016,Gestão da Informação - M,final,43
+2016,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,final,38
+2016,História (Licenciatura com Bacharelado) - T,final,38
+2016,História - Memória e Imagem (Bacharelado) - N,final,35
+2016,Informática Biomédica - Bacharelado - TN,final,24
+2016,Letras - Espanhol ou Português com Espanhol - M,final,26
+2016,Letras - Francês - N,final,16
+2016,Letras - Inglês - N,final,15
+2016,Letras - Inglês ou Português com Inglês - M,final,18
+2016,Letras - Italiano ou Português com Italiano - M,final,10
+2016,Letras - Japonês - N,final,14
+2016,Letras - Polonês - N,final,11
+2016,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. ou +Greg. ou +Lat. - M,final,21
+2016,Letras - Português - N,final,46
+2016,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,final,23
+2016,Matemática (Bacharelado e Licenciatura) - T,final,32
+2016,Matemática (Licenciatura) - N,final,22
+2016,Matemática Industrial - T,final,11
+2016,Medicina - Campus Toledo - MT,final,93
+2016,Medicina - MT,final,179
+2016,Medicina Veterinária - Campus Palotina - MT,final,65
+2016,Medicina Veterinária - Curitiba - MT,final,52
+2016,Música - Bacharelado (Produção Musical / Criação Musical) - T(+N),final,20
+2016,Música - Licenciatura (Educação Musical) - T(+N),final,23
+2016,Nutrição - MT,final,61
+2016,Oceanografia - Campus Pontal do Paraná - MT,final,49
+2016,Odontologia - MT,final,92
+2016,Pedagogia - M,final,60
+2016,Pedagogia - N,final,75
+2016,Psicologia - MT,final,67
+2016,Química (Licenciatura e Bacharelado) - MT,final,62
+2016,Química (Licenciatura) - N,final,37
+2016,Saúde Coletiva - Bacharelado - Campus Matinhos - M,final,23
+2016,Serviço Social - Bacharelado - Campus Matinhos - N,final,33
+2016,Tecnologia em Agroecologia - Campus Matinhos - M,final,45
+2016,Tecnologia em Análise e Desenvolvimento de Sistemas - N,final,70
+2016,Tecnologia em Análise e Desenvolvimento de Sistemas - T,final,35
+2016,Tecnologia em Biotecnologia - Campus Palotina - N,final,31
+2016,Tecnologia em Comunicação Institucional - M,final,44
+2016,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,final,23
+2016,Tecnologia em Gestão Pública - N,final,36
+2016,Tecnologia em Gestão da Qualidade - N,final,35
+2016,Tecnologia em Gestão de Turismo - Campus Matinhos - N,final,36
+2016,Tecnologia em Luteria - MT,final,24
+2016,Tecnologia em Negócios Imobiliários - N,final,37
+2016,Tecnologia em Produção Cênica - N,final,32
+2016,Tecnologia em Secretariado - N,final,37
+2016,Terapia Ocupacional - MT,final,49
+2016,Terapia Ocupacional - N,final,48
+2016,Turismo - N,final,51
+2016,Zootecnia - MT,final,45
+2017,Administração - M,chamada_geral,89
+2017,Administração - N,chamada_geral,88
+2017,Administração Pública - Campus Matinhos - N,chamada_geral,40
+2017,Agronomia - Campus Palotina - MT,chamada_geral,64
+2017,Agronomia - MT,chamada_geral,107
+2017,Arquitetura e Urbanismo - M(+T) - T(+M),chamada_geral,60
+2017,Artes - Licenciatura - Campus Matinhos - M,chamada_geral,24
+2017,Artes Visuais - Bacharelado - T,chamada_geral,13
+2017,Artes Visuais - Licenciatura - T,chamada_geral,13
+2017,Biomedicina - MT,chamada_geral,25
+2017,Ciência da Computação - Bacharelado - TN,chamada_geral,64
+2017,Ciências - Licenciatura - Campus Matinhos - N,chamada_geral,28
+2017,Ciências Biológicas - Campus Palotina - MT,chamada_geral,63
+2017,Ciências Biológicas - M,chamada_geral,48
+2017,Ciências Biológicas - N,chamada_geral,48
+2017,Ciências Contábeis - N,chamada_geral,97
+2017,Ciências Econômicas - M,chamada_geral,64
+2017,Ciências Econômicas - N,chamada_geral,72
+2017,Ciências Exatas - Licenciatura - Campus Jandaia - T,chamada_geral,14
+2017,Ciências Exatas - Licenciatura - Campus Palotina - N,chamada_geral,45
+2017,Ciências Exatas - Licenciatura - Campus Pontal do Paraná - N,chamada_geral,19
+2017,Ciências Sociais - M,chamada_geral,64
+2017,Computação - Licenciatura - Campus Jandaia - M,chamada_geral,8
+2017,Computação - Licenciatura - Campus Palotina - N,chamada_geral,18
+2017,Design Gráfico - M,chamada_geral,33
+2017,Design de Produto - M,chamada_geral,33
+2017,Direito - M,chamada_geral,81
+2017,Direito - N,chamada_geral,80
+2017,Educação Física (Bacharelado) - MT,chamada_geral,60
+2017,Educação Física (Licenciatura) - MT,chamada_geral,61
+2017,Educação Física - Licenciatura - Campus Matinhos - N,chamada_geral,28
+2017,Enfermagem - MT,chamada_geral,44
+2017,Engenharia Agrícola - Campus Jandaia - M(+T),chamada_geral,40
+2017,Engenharia Ambiental - MT,chamada_geral,48
+2017,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,chamada_geral,40
+2017,Engenharia Cartográfica e de Agrimensura - MT,chamada_geral,35
+2017,Engenharia Civil - Campus Pontal do Paraná - T,chamada_geral,40
+2017,Engenharia Civil - MT,chamada_geral,134
+2017,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",chamada_geral,70
+2017,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,chamada_geral,48
+2017,Engenharia Florestal - MT,chamada_geral,64
+2017,Engenharia Industrial Madeireira - MT,chamada_geral,32
+2017,Engenharia Industrial Madeireira - N,chamada_geral,32
+2017,Engenharia Mecânica - MT,chamada_geral,86
+2017,Engenharia Mecânica - N,chamada_geral,72
+2017,Engenharia Química - MT,chamada_geral,86
+2017,Engenharia de Alimentos - Campus Jandaia - M(+T),chamada_geral,35
+2017,Engenharia de Aquicultura - Campus Palotina - MT,chamada_geral,19
+2017,Engenharia de Aquicultura - Campus Pontal do Paraná - M,chamada_geral,15
+2017,Engenharia de Bioprocessos e Biotecnologia - Campus Palotina - N,chamada_geral,52
+2017,Engenharia de Bioprocessos e Biotecnologia - MT,chamada_geral,36
+2017,Engenharia de Energias Renováveis - Campus Palotina - M,chamada_geral,46
+2017,Engenharia de Produção - Campus Jandaia - T(+M),chamada_geral,40
+2017,Engenharia de Produção - MT,chamada_geral,48
+2017,Estatística - N,chamada_geral,51
+2017,Expressão Gráfica - M,chamada_geral,36
+2017,Farmácia - MT,chamada_geral,86
+2017,Filosofia (Bacharelado com Licenciatura Plena) - M,chamada_geral,32
+2017,Filosofia (Bacharelado com Licenciatura Plena) - N,chamada_geral,40
+2017,Fisioterapia - MT,chamada_geral,40
+2017,Física (Bacharelado) - M,chamada_geral,56
+2017,Física (Licenciatura) - N,chamada_geral,72
+2017,Geografia - Licenciatura - Campus Matinhos - N,chamada_geral,36
+2017,Geografia - M,chamada_geral,27
+2017,Geografia - N,chamada_geral,32
+2017,Geologia - MT,chamada_geral,26
+2017,Gestão Ambiental - Bacharelado - Campus Matinhos - M,chamada_geral,28
+2017,Gestão da Informação - M,chamada_geral,48
+2017,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,chamada_geral,28
+2017,História (Licenciatura com Bacharelado) - T,chamada_geral,33
+2017,História - Memória e Imagem (Bacharelado) - N,chamada_geral,32
+2017,Informática Biomédica - Bacharelado - TN,chamada_geral,24
+2017,Jornalismo - MN,chamada_geral,24
+2017,Letras - Espanhol ou Português com Espanhol - M,chamada_geral,20
+2017,Letras - Francês - N,chamada_geral,16
+2017,Letras - Inglês - N,chamada_geral,16
+2017,Letras - Inglês ou Português com Inglês - M,chamada_geral,16
+2017,Letras - Italiano ou Português com Italiano - M,chamada_geral,12
+2017,Letras - Japonês - N,chamada_geral,16
+2017,Letras - Polonês - N,chamada_geral,8
+2017,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. ou +Greg. ou +Lat. - M,chamada_geral,20
+2017,Letras - Português - N,chamada_geral,32
+2017,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,chamada_geral,28
+2017,Matemática (Bacharelado e Licenciatura) - T,chamada_geral,42
+2017,Matemática (Licenciatura) - N,chamada_geral,28
+2017,Matemática Industrial - T,chamada_geral,9
+2017,Medicina - Campus Toledo - MT,chamada_geral,60
+2017,Medicina - MT,chamada_geral,153
+2017,Medicina Veterinária - Campus Palotina - MT,chamada_geral,64
+2017,Medicina Veterinária - Curitiba - MT,chamada_geral,49
+2017,Música (Bacharelado) - T(+N),chamada_geral,20
+2017,Música (Licenciatura) - T(+N),chamada_geral,20
+2017,Nutrição - MT,chamada_geral,53
+2017,Oceanografia - Campus Pontal do Paraná - MT,chamada_geral,32
+2017,Odontologia - MT,chamada_geral,74
+2017,Pedagogia - M,chamada_geral,56
+2017,Pedagogia - N,chamada_geral,80
+2017,Psicologia - MT,chamada_geral,64
+2017,Publicidade e Propaganda - MN,chamada_geral,24
+2017,Química (Licenciatura e Bacharelado) - MT,chamada_geral,53
+2017,Química (Licenciatura) - N,chamada_geral,32
+2017,Relações Públicas - MN,chamada_geral,24
+2017,Saúde Coletiva - Bacharelado - Campus Matinhos - M,chamada_geral,32
+2017,Serviço Social - Bacharelado - Campus Matinhos - N,chamada_geral,28
+2017,Tecnologia em Agroecologia - Campus Matinhos - M,chamada_geral,28
+2017,Tecnologia em Análise e Desenvolvimento de Sistemas - N,chamada_geral,64
+2017,Tecnologia em Análise e Desenvolvimento de Sistemas - T,chamada_geral,33
+2017,Tecnologia em Comunicação Institucional - M,chamada_geral,36
+2017,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,chamada_geral,20
+2017,Tecnologia em Gestão Pública - N,chamada_geral,36
+2017,Tecnologia em Gestão da Qualidade - N,chamada_geral,36
+2017,Tecnologia em Gestão de Turismo - Campus Matinhos - N,chamada_geral,28
+2017,Tecnologia em Luteria - MT,chamada_geral,24
+2017,Tecnologia em Negócios Imobiliários - N,chamada_geral,36
+2017,Tecnologia em Produção Cênica - N,chamada_geral,36
+2017,Tecnologia em Secretariado - N,chamada_geral,40
+2017,Terapia Ocupacional - MT,chamada_geral,48
+2017,Terapia Ocupacional - N,chamada_geral,48
+2017,Turismo - N,chamada_geral,35
+2017,Zootecnia - MT,chamada_geral,44
+2017,Administração - M,final,99
+2017,Administração - N,final,97
+2017,Administração Pública - Campus Matinhos - N,final,47
+2017,Agronomia - Campus Palotina - MT,final,78
+2017,Agronomia - MT,final,127
+2017,Arquitetura e Urbanismo - M(+T) - T(+M),final,68
+2017,Artes - Licenciatura - Campus Matinhos - M,final,38
+2017,Artes Visuais - Bacharelado - T,final,19
+2017,Artes Visuais - Licenciatura - T,final,15
+2017,Biomedicina - MT,final,37
+2017,Ciência da Computação - Bacharelado - TN,final,78
+2017,Ciências - Licenciatura - Campus Matinhos - N,final,35
+2017,Ciências Biológicas - Campus Palotina - MT,final,73
+2017,Ciências Biológicas - M,final,60
+2017,Ciências Biológicas - N,final,53
+2017,Ciências Contábeis - N,final,116
+2017,Ciências Econômicas - M,final,81
+2017,Ciências Econômicas - N,final,82
+2017,Ciências Exatas - Licenciatura - Campus Jandaia - T,final,14
+2017,Ciências Exatas - Licenciatura - Campus Palotina - N,final,45
+2017,Ciências Exatas - Licenciatura - Campus Pontal do Paraná - N,final,19
+2017,Ciências Sociais - M,final,71
+2017,Computação - Licenciatura - Campus Jandaia - M,final,8
+2017,Computação - Licenciatura - Campus Palotina - N,final,18
+2017,Design Gráfico - M,final,35
+2017,Design de Produto - M,final,39
+2017,Direito - M,final,84
+2017,Direito - N,final,84
+2017,Educação Física (Bacharelado) - MT,final,64
+2017,Educação Física (Licenciatura) - MT,final,67
+2017,Educação Física - Licenciatura - Campus Matinhos - N,final,31
+2017,Enfermagem - MT,final,47
+2017,Engenharia Agrícola - Campus Jandaia - M(+T),final,44
+2017,Engenharia Ambiental - MT,final,59
+2017,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,final,43
+2017,Engenharia Cartográfica e de Agrimensura - MT,final,43
+2017,Engenharia Civil - Campus Pontal do Paraná - T,final,45
+2017,Engenharia Civil - MT,final,147
+2017,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",final,112
+2017,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,final,60
+2017,Engenharia Florestal - MT,final,76
+2017,Engenharia Industrial Madeireira - MT,final,45
+2017,Engenharia Industrial Madeireira - N,final,38
+2017,Engenharia Mecânica - MT,final,148
+2017,Engenharia Mecânica - N,final,96
+2017,Engenharia Química - MT,final,111
+2017,Engenharia de Alimentos - Campus Jandaia - M(+T),final,35
+2017,Engenharia de Aquicultura - Campus Palotina - MT,final,19
+2017,Engenharia de Aquicultura - Campus Pontal do Paraná - M,final,15
+2017,Engenharia de Bioprocessos e Biotecnologia - Campus Palotina - N,final,81
+2017,Engenharia de Bioprocessos e Biotecnologia - MT,final,41
+2017,Engenharia de Energias Renováveis - Campus Palotina - M,final,46
+2017,Engenharia de Produção - Campus Jandaia - T(+M),final,45
+2017,Engenharia de Produção - MT,final,65
+2017,Estatística - N,final,51
+2017,Expressão Gráfica - M,final,41
+2017,Farmácia - MT,final,130
+2017,Filosofia (Bacharelado com Licenciatura Plena) - M,final,40
+2017,Filosofia (Bacharelado com Licenciatura Plena) - N,final,48
+2017,Fisioterapia - MT,final,44
+2017,Física (Bacharelado) - M,final,68
+2017,Física (Licenciatura) - N,final,108
+2017,Geografia - Licenciatura - Campus Matinhos - N,final,39
+2017,Geografia - M,final,32
+2017,Geografia - N,final,35
+2017,Geologia - MT,final,29
+2017,Gestão Ambiental - Bacharelado - Campus Matinhos - M,final,38
+2017,Gestão da Informação - M,final,58
+2017,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,final,35
+2017,História (Licenciatura com Bacharelado) - T,final,36
+2017,História - Memória e Imagem (Bacharelado) - N,final,55
+2017,Informática Biomédica - Bacharelado - TN,final,26
+2017,Jornalismo - MN,final,29
+2017,Letras - Espanhol ou Português com Espanhol - M,final,20
+2017,Letras - Francês - N,final,20
+2017,Letras - Inglês - N,final,21
+2017,Letras - Inglês ou Português com Inglês - M,final,16
+2017,Letras - Italiano ou Português com Italiano - M,final,13
+2017,Letras - Japonês - N,final,19
+2017,Letras - Polonês - N,final,8
+2017,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. ou +Greg. ou +Lat. - M,final,21
+2017,Letras - Português - N,final,39
+2017,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,final,28
+2017,Matemática (Bacharelado e Licenciatura) - T,final,42
+2017,Matemática (Licenciatura) - N,final,28
+2017,Matemática Industrial - T,final,9
+2017,Medicina - Campus Toledo - MT,final,92
+2017,Medicina - MT,final,170
+2017,Medicina Veterinária - Campus Palotina - MT,final,79
+2017,Medicina Veterinária - Curitiba - MT,final,55
+2017,Música (Bacharelado) - T(+N),final,20
+2017,Música (Licenciatura) - T(+N),final,23
+2017,Nutrição - MT,final,65
+2017,Oceanografia - Campus Pontal do Paraná - MT,final,38
+2017,Odontologia - MT,final,90
+2017,Pedagogia - M,final,65
+2017,Pedagogia - N,final,87
+2017,Psicologia - MT,final,69
+2017,Publicidade e Propaganda - MN,final,34
+2017,Química (Licenciatura e Bacharelado) - MT,final,63
+2017,Química (Licenciatura) - N,final,37
+2017,Relações Públicas - MN,final,30
+2017,Saúde Coletiva - Bacharelado - Campus Matinhos - M,final,34
+2017,Serviço Social - Bacharelado - Campus Matinhos - N,final,42
+2017,Tecnologia em Agroecologia - Campus Matinhos - M,final,38
+2017,Tecnologia em Análise e Desenvolvimento de Sistemas - N,final,76
+2017,Tecnologia em Análise e Desenvolvimento de Sistemas - T,final,39
+2017,Tecnologia em Comunicação Institucional - M,final,38
+2017,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,final,20
+2017,Tecnologia em Gestão Pública - N,final,43
+2017,Tecnologia em Gestão da Qualidade - N,final,42
+2017,Tecnologia em Gestão de Turismo - Campus Matinhos - N,final,30
+2017,Tecnologia em Luteria - MT,final,27
+2017,Tecnologia em Negócios Imobiliários - N,final,42
+2017,Tecnologia em Produção Cênica - N,final,41
+2017,Tecnologia em Secretariado - N,final,41
+2017,Terapia Ocupacional - MT,final,56
+2017,Terapia Ocupacional - N,final,57
+2017,Turismo - N,final,43
+2017,Zootecnia - MT,final,53
+2018,Administração - M,chamada_geral,88
+2018,Administração - N,chamada_geral,89
+2018,Administração Pública - Campus Matinhos - N,chamada_geral,32
+2018,Agronomia - Campus Palotina - MT,chamada_geral,64
+2018,Agronomia - MT,chamada_geral,106
+2018,Arquitetura e Urbanismo - M(+T) - T(+M),chamada_geral,61
+2018,Artes - Licenciatura - Campus Matinhos - M,chamada_geral,24
+2018,Artes Visuais - Bacharelado - M,chamada_geral,13
+2018,Artes Visuais - Licenciatura - M,chamada_geral,13
+2018,Biomedicina - MT,chamada_geral,24
+2018,Ciência da Computação - Bacharelado - TN,chamada_geral,64
+2018,Ciências - Licenciatura - Campus Matinhos - N,chamada_geral,28
+2018,Ciências Biológicas - Campus Palotina - MT,chamada_geral,51
+2018,Ciências Biológicas - M,chamada_geral,48
+2018,Ciências Biológicas - N,chamada_geral,48
+2018,Ciências Contábeis - N,chamada_geral,96
+2018,Ciências Econômicas - M,chamada_geral,64
+2018,Ciências Econômicas - N,chamada_geral,72
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Jandaia do Sul - T,chamada_geral,10
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Palotina - N,chamada_geral,44
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Pontal do Paraná - N,chamada_geral,15
+2018,Ciências Sociais - M,chamada_geral,65
+2018,Computação - Licenciatura - Campus Jandaia do Sul - M,chamada_geral,10
+2018,Computação - Licenciatura - Campus Palotina - N,chamada_geral,20
+2018,Design Gráfico - M,chamada_geral,34
+2018,Design de Produto - M,chamada_geral,33
+2018,Direito - M,chamada_geral,81
+2018,Direito - N,chamada_geral,80
+2018,Educação Física (Bacharelado) - MT,chamada_geral,60
+2018,Educação Física (Licenciatura) - MT,chamada_geral,61
+2018,Educação Física - Licenciatura - Campus Matinhos - N,chamada_geral,28
+2018,Enfermagem - MT,chamada_geral,48
+2018,Engenharia Agrícola - Campus Jandaia do Sul - M(+T),chamada_geral,40
+2018,Engenharia Ambiental - MT,chamada_geral,48
+2018,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,chamada_geral,16
+2018,Engenharia Cartográfica e de Agrimensura - MT,chamada_geral,35
+2018,Engenharia Civil - Campus Pontal do Paraná - T,chamada_geral,32
+2018,Engenharia Civil - MT,chamada_geral,133
+2018,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",chamada_geral,70
+2018,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,chamada_geral,48
+2018,Engenharia Florestal - MT,chamada_geral,64
+2018,Engenharia Industrial Madeireira - MT,chamada_geral,24
+2018,Engenharia Industrial Madeireira - N,chamada_geral,33
+2018,Engenharia Mecânica - MT,chamada_geral,86
+2018,Engenharia Mecânica - N,chamada_geral,72
+2018,Engenharia Química - MT,chamada_geral,86
+2018,Engenharia de Alimentos - Campus Jandaia do Sul - M(+T),chamada_geral,31
+2018,Engenharia de Aquicultura - Campus Palotina - MT,chamada_geral,22
+2018,Engenharia de Aquicultura - Campus Pontal do Paraná - M,chamada_geral,24
+2018,Engenharia de Bioprocessos e Biotecnologia - Campus Palotina - N,chamada_geral,52
+2018,Engenharia de Bioprocessos e Biotecnologia - MT,chamada_geral,36
+2018,Engenharia de Energias Renováveis - Campus Palotina - M,chamada_geral,39
+2018,Engenharia de Produção - Campus Jandaia do Sul - T(+M),chamada_geral,40
+2018,Engenharia de Produção - MT,chamada_geral,48
+2018,Estatística - N,chamada_geral,51
+2018,Expressão Gráfica - MT,chamada_geral,35
+2018,Farmácia - MT,chamada_geral,86
+2018,Filosofia (Bacharelado com Licenciatura Plena) - M,chamada_geral,32
+2018,Filosofia (Bacharelado com Licenciatura Plena) - N,chamada_geral,40
+2018,Fisioterapia - MT,chamada_geral,37
+2018,Física (Bacharelado) - M,chamada_geral,56
+2018,Física (Licenciatura) - N,chamada_geral,72
+2018,Geografia - Licenciatura - Campus Matinhos - N,chamada_geral,29
+2018,Geografia - M,chamada_geral,27
+2018,Geografia - N,chamada_geral,32
+2018,Geologia - MT,chamada_geral,26
+2018,Gestão da Informação - M,chamada_geral,48
+2018,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,chamada_geral,28
+2018,História (Licenciatura com Bacharelado) - T,chamada_geral,33
+2018,História - Memória e Imagem (Bacharelado) - N,chamada_geral,32
+2018,Informática Biomédica - Bacharelado - TN,chamada_geral,24
+2018,Jornalismo - MN,chamada_geral,24
+2018,Letras - Espanhol ou Português com Espanhol - M,chamada_geral,20
+2018,Letras - Francês - N,chamada_geral,16
+2018,Letras - Inglês - N,chamada_geral,16
+2018,Letras - Inglês ou Português com Inglês - M,chamada_geral,16
+2018,Letras - Italiano ou Português com Italiano - M,chamada_geral,12
+2018,Letras - Japonês - N,chamada_geral,16
+2018,Letras - Polonês - N,chamada_geral,8
+2018,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. Ou +Greg. ou +Lat. - M,chamada_geral,20
+2018,Letras - Português - N,chamada_geral,32
+2018,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,chamada_geral,27
+2018,Matemática (Bacharelado e Licenciatura) - T,chamada_geral,37
+2018,Matemática (Licenciatura) - N,chamada_geral,24
+2018,Matemática Industrial - T,chamada_geral,20
+2018,Medicina - Campus Toledo - MT,chamada_geral,61
+2018,Medicina - MT,chamada_geral,146
+2018,Medicina Veterinária - Campus Palotina - MT,chamada_geral,64
+2018,Medicina Veterinária - Curitiba - MT,chamada_geral,49
+2018,Música (Bacharelado) - T(+N),chamada_geral,20
+2018,Música (Licenciatura) - T(+N),chamada_geral,20
+2018,Nutrição - MT,chamada_geral,53
+2018,Oceanografia - Campus Pontal do Paraná - MT,chamada_geral,32
+2018,Odontologia - MT,chamada_geral,74
+2018,Pedagogia - M,chamada_geral,57
+2018,Pedagogia - N,chamada_geral,80
+2018,Psicologia - MT,chamada_geral,65
+2018,Publicidade e Propaganda - MN,chamada_geral,24
+2018,Química (Licenciatura e Bacharelado) - MT,chamada_geral,53
+2018,Química (Licenciatura) - N,chamada_geral,32
+2018,Relações Públicas - MN,chamada_geral,24
+2018,Saúde Coletiva - Bacharelado - Campus Matinhos - M,chamada_geral,23
+2018,Serviço Social - Bacharelado - Campus Matinhos - N,chamada_geral,28
+2018,Tecnologia em Agroecologia - Campus Matinhos - M,chamada_geral,28
+2018,Tecnologia em Análise e Desenvolvimento de Sistemas - N,chamada_geral,64
+2018,Tecnologia em Análise e Desenvolvimento de Sistemas - T,chamada_geral,32
+2018,Tecnologia em Comunicação Institucional - M,chamada_geral,36
+2018,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,chamada_geral,21
+2018,Tecnologia em Gestão Pública - N,chamada_geral,36
+2018,Tecnologia em Gestão da Qualidade - N,chamada_geral,36
+2018,Tecnologia em Gestão de Turismo - Campus Matinhos - D,chamada_geral,28
+2018,Tecnologia em Luteria - MT,chamada_geral,24
+2018,Tecnologia em Negócios Imobiliários - N,chamada_geral,28
+2018,Tecnologia em Produção Cênica - N,chamada_geral,36
+2018,Tecnologia em Secretariado - N,chamada_geral,40
+2018,Terapia Ocupacional - MT,chamada_geral,48
+2018,Terapia Ocupacional - N,chamada_geral,48
+2018,Turismo - N,chamada_geral,35
+2018,Zootecnia - MT,chamada_geral,44
+2018,Administração - M,final,124
+2018,Administração - N,final,124
+2018,Administração Pública - Campus Matinhos - N,final,55
+2018,Agronomia - Campus Palotina - MT,final,83
+2018,Agronomia - MT,final,138
+2018,Arquitetura e Urbanismo - M(+T) - T(+M),final,65
+2018,Artes - Licenciatura - Campus Matinhos - M,final,31
+2018,Artes Visuais - Bacharelado - M,final,17
+2018,Artes Visuais - Licenciatura - M,final,19
+2018,Biomedicina - MT,final,26
+2018,Ciência da Computação - Bacharelado - TN,final,98
+2018,Ciências - Licenciatura - Campus Matinhos - N,final,30
+2018,Ciências Biológicas - Campus Palotina - MT,final,51
+2018,Ciências Biológicas - M,final,56
+2018,Ciências Biológicas - N,final,62
+2018,Ciências Contábeis - N,final,121
+2018,Ciências Econômicas - M,final,92
+2018,Ciências Econômicas - N,final,107
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Jandaia do Sul - T,final,10
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Palotina - N,final,44
+2018,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Campus Pontal do Paraná - N,final,15
+2018,Ciências Sociais - M,final,89
+2018,Computação - Licenciatura - Campus Jandaia do Sul - M,final,10
+2018,Computação - Licenciatura - Campus Palotina - N,final,20
+2018,Design Gráfico - M,final,41
+2018,Design de Produto - M,final,42
+2018,Direito - M,final,95
+2018,Direito - N,final,96
+2018,Educação Física (Bacharelado) - MT,final,68
+2018,Educação Física (Licenciatura) - MT,final,69
+2018,Educação Física - Licenciatura - Campus Matinhos - N,final,35
+2018,Enfermagem - MT,final,63
+2018,Engenharia Agrícola - Campus Jandaia do Sul - M(+T),final,41
+2018,Engenharia Ambiental - MT,final,63
+2018,Engenharia Ambiental e Sanitária - Campus Pontal do Paraná - T,final,16
+2018,Engenharia Cartográfica e de Agrimensura - MT,final,46
+2018,Engenharia Civil - Campus Pontal do Paraná - T,final,41
+2018,Engenharia Civil - MT,final,172
+2018,"Engenharia Elétrica (Eletron.,Eletrotec.,Telecom.) - MT",final,150
+2018,Engenharia Elétrica (Ênfase em Sistemas Eletrônicos Embarcados) - N,final,81
+2018,Engenharia Florestal - MT,final,70
+2018,Engenharia Industrial Madeireira - MT,final,24
+2018,Engenharia Industrial Madeireira - N,final,36
+2018,Engenharia Mecânica - MT,final,158
+2018,Engenharia Mecânica - N,final,93
+2018,Engenharia Química - MT,final,106
+2018,Engenharia de Alimentos - Campus Jandaia do Sul - M(+T),final,31
+2018,Engenharia de Aquicultura - Campus Palotina - MT,final,22
+2018,Engenharia de Aquicultura - Campus Pontal do Paraná - M,final,31
+2018,Engenharia de Bioprocessos e Biotecnologia - Campus Palotina - N,final,59
+2018,Engenharia de Bioprocessos e Biotecnologia - MT,final,43
+2018,Engenharia de Energias Renováveis - Campus Palotina - M,final,39
+2018,Engenharia de Produção - Campus Jandaia do Sul - T(+M),final,60
+2018,Engenharia de Produção - MT,final,53
+2018,Estatística - N,final,51
+2018,Expressão Gráfica - MT,final,48
+2018,Farmácia - MT,final,157
+2018,Filosofia (Bacharelado com Licenciatura Plena) - M,final,47
+2018,Filosofia (Bacharelado com Licenciatura Plena) - N,final,53
+2018,Fisioterapia - MT,final,49
+2018,Física (Bacharelado) - M,final,88
+2018,Física (Licenciatura) - N,final,80
+2018,Geografia - Licenciatura - Campus Matinhos - N,final,37
+2018,Geografia - M,final,29
+2018,Geografia - N,final,43
+2018,Geologia - MT,final,33
+2018,Gestão da Informação - M,final,61
+2018,Gestão e Empreendedorismo - Bacharelado - Campus Matinhos - N,final,38
+2018,História (Licenciatura com Bacharelado) - T,final,41
+2018,História - Memória e Imagem (Bacharelado) - N,final,40
+2018,Informática Biomédica - Bacharelado - TN,final,29
+2018,Jornalismo - MN,final,32
+2018,Letras - Espanhol ou Português com Espanhol - M,final,28
+2018,Letras - Francês - N,final,23
+2018,Letras - Inglês - N,final,17
+2018,Letras - Inglês ou Português com Inglês - M,final,24
+2018,Letras - Italiano ou Português com Italiano - M,final,12
+2018,Letras - Japonês - N,final,16
+2018,Letras - Polonês - N,final,8
+2018,Letras - Port. ou Alem. ou Greg. ou Lat. ou Port.+Alem. Ou +Greg. ou +Lat. - M,final,20
+2018,Letras - Português - N,final,49
+2018,Linguagem e Comunicação - Licenciatura - Campus Matinhos - N,final,27
+2018,Matemática (Bacharelado e Licenciatura) - T,final,37
+2018,Matemática (Licenciatura) - N,final,24
+2018,Matemática Industrial - T,final,20
+2018,Medicina - Campus Toledo - MT,final,70
+2018,Medicina - MT,final,174
+2018,Medicina Veterinária - Campus Palotina - MT,final,92
+2018,Medicina Veterinária - Curitiba - MT,final,63
+2018,Música (Bacharelado) - T(+N),final,23
+2018,Música (Licenciatura) - T(+N),final,22
+2018,Nutrição - MT,final,88
+2018,Oceanografia - Campus Pontal do Paraná - MT,final,54
+2018,Odontologia - MT,final,93
+2018,Pedagogia - M,final,73
+2018,Pedagogia - N,final,101
+2018,Psicologia - MT,final,71
+2018,Publicidade e Propaganda - MN,final,35
+2018,Química (Licenciatura e Bacharelado) - MT,final,65
+2018,Química (Licenciatura) - N,final,43
+2018,Relações Públicas - MN,final,30
+2018,Saúde Coletiva - Bacharelado - Campus Matinhos - M,final,23
+2018,Serviço Social - Bacharelado - Campus Matinhos - N,final,42
+2018,Tecnologia em Agroecologia - Campus Matinhos - M,final,38
+2018,Tecnologia em Análise e Desenvolvimento de Sistemas - N,final,85
+2018,Tecnologia em Análise e Desenvolvimento de Sistemas - T,final,39
+2018,Tecnologia em Comunicação Institucional - M,final,56
+2018,Tecnologia em Gestão Imobiliária - Campus Matinhos - N,final,21
+2018,Tecnologia em Gestão Pública - N,final,43
+2018,Tecnologia em Gestão da Qualidade - N,final,45
+2018,Tecnologia em Gestão de Turismo - Campus Matinhos - D,final,34
+2018,Tecnologia em Luteria - MT,final,30
+2018,Tecnologia em Negócios Imobiliários - N,final,28
+2018,Tecnologia em Produção Cênica - N,final,50
+2018,Tecnologia em Secretariado - N,final,41
+2018,Terapia Ocupacional - MT,final,51
+2018,Terapia Ocupacional - N,final,63
+2018,Turismo - N,final,47
+2018,Zootecnia - MT,final,45
+2019,Administração - Bacharelado - Curitiba - PR - M,chamada_geral,88
+2019,Administração - Bacharelado - Curitiba - PR - N,chamada_geral,88
+2019,Administração Pública - Bacharelado - Matinhos - PR - N,chamada_geral,40
+2019,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,chamada_geral,28
+2019,Agronomia - Bacharelado - Curitiba - PR - MT,chamada_geral,106
+2019,Agronomia - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2019,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,64
+2019,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,chamada_geral,32
+2019,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),chamada_geral,60
+2019,Artes - Licenciatura - Matinhos - PR - M,chamada_geral,24
+2019,Artes Visuais - Bacharelado - Curitiba - PR - M,chamada_geral,13
+2019,Artes Visuais - Licenciatura - Curitiba - PR - M,chamada_geral,14
+2019,Biomedicina - Bacharelado - Curitiba - PR - MT,chamada_geral,24
+2019,Ciência da Computação - Bacharelado - Curitiba - PR - TN,chamada_geral,64
+2019,Ciências - Licenciatura - Matinhos - PR - N,chamada_geral,26
+2019,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,chamada_geral,27
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,48
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,48
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,chamada_geral,48
+2019,Ciências Contábeis - Bacharelado - Curitiba - PR - N,chamada_geral,96
+2019,Ciências Econômicas - Bacharelado - Curitiba - PR - M,chamada_geral,64
+2019,Ciências Econômicas - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,chamada_geral,18
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,chamada_geral,34
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,chamada_geral,21
+2019,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,64
+2019,Computação - Licenciatura - Jandaia do Sul - PR - T,chamada_geral,8
+2019,Computação - Licenciatura - Palotina - PR - N,chamada_geral,23
+2019,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,chamada_geral,36
+2019,Design Gráfico - Bacharelado - Curitiba - PR - M,chamada_geral,33
+2019,Design de Produto - Bacharelado - Curitiba - PR - M,chamada_geral,33
+2019,Direito - Bacharelado - Curitiba - PR - M,chamada_geral,80
+2019,Direito - Bacharelado - Curitiba - PR - N,chamada_geral,80
+2019,Educação Física - Bacharelado - Curitiba - PR - MT,chamada_geral,60
+2019,Educação Física - Licenciatura - Curitiba - PR - MT,chamada_geral,60
+2019,Educação Física - Licenciatura - Matinhos - PR - N,chamada_geral,28
+2019,Enfermagem - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2019,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,21
+2019,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2019,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,24
+2019,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,chamada_geral,31
+2019,Engenharia Civil - Bacharelado - Curitiba - PR - MT,chamada_geral,133
+2019,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,32
+2019,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,chamada_geral,80
+2019,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,chamada_geral,40
+2019,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,chamada_geral,64
+2019,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2019,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,chamada_geral,28
+2019,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2019,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2019,Engenharia Química - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2019,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,29
+2019,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,chamada_geral,22
+2019,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,chamada_geral,20
+2019,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,chamada_geral,36
+2019,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,chamada_geral,48
+2019,Engenharia de Energia - Bacharelado - Palotina - PR - M,chamada_geral,33
+2019,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2019,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),chamada_geral,34
+2019,Estatística - Bacharelado - Curitiba - PR - N,chamada_geral,116
+2019,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,chamada_geral,35
+2019,Farmácia - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2019,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,32
+2019,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,40
+2019,Fisioterapia - Bacharelado - Curitiba - PR - MT,chamada_geral,40
+2019,Física - Bacharelado - Curitiba - PR - M,chamada_geral,56
+2019,Física - Licenciatura - Curitiba - PR - N,chamada_geral,71
+2019,Geografia - Licenciatura - Matinhos - PR - N,chamada_geral,27
+2019,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,27
+2019,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,32
+2019,Geologia - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2019,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,18
+2019,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2019,Gestão da Informação - Bacharelado - Curitiba - PR - M,chamada_geral,48
+2019,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2019,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - M,chamada_geral,16
+2019,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,chamada_geral,28
+2019,História - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,32
+2019,História Memória e Imagem - Bacharelado - Curitiba - PR - N,chamada_geral,31
+2019,Informática Biomédica - Bacharelado - Curitiba - PR - TN,chamada_geral,24
+2019,Jornalismo - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2019,"Letras - Alemão, Grego, Latim/Português - Licenciatura/Bacharelado - Curitiba - PR - M",chamada_geral,20
+2019,Letras - Espanhol/Português - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,21
+2019,Letras - Francês - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,16
+2019,Letras - Inglês - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,16
+2019,Letras - Inglês/Português - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,16
+2019,Letras - Italiano/Português - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,12
+2019,Letras - Japonês - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,16
+2019,Letras - Polonês - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,8
+2019,Letras - Português - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,32
+2019,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,chamada_geral,24
+2019,Matemática - Licenciatura - Curitiba - PR - N,chamada_geral,85
+2019,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,82
+2019,Matemática Industrial - Bacharelado - Curitiba - PR - T,chamada_geral,32
+2019,Medicina - Bacharelado - Curitiba - PR - MT,chamada_geral,153
+2019,Medicina - Bacharelado - Toledo - PR - MT,chamada_geral,60
+2019,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,chamada_geral,47
+2019,Medicina Veterinária - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2019,Música - Bacharelado - Curitiba - PR - T(+N),chamada_geral,20
+2019,Música - Licenciatura - Curitiba - PR - T(+N),chamada_geral,20
+2019,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2019,Nutrição - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2019,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,chamada_geral,32
+2019,Odontologia - Bacharelado - Curitiba - PR - MT,chamada_geral,74
+2019,Pedagogia - Licenciatura - Curitiba - PR - M,chamada_geral,56
+2019,Pedagogia - Licenciatura - Curitiba - PR - N,chamada_geral,80
+2019,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2019,Psicologia - Bacharelado - Curitiba - PR - MT,chamada_geral,64
+2019,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2019,Química - Licenciatura - Curitiba - PR - N,chamada_geral,32
+2019,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2019,Relações Públicas - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2019,Saúde Coletiva - Bacharelado - Matinhos - PR - M,chamada_geral,25
+2019,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,40
+2019,Serviço Social - Bacharelado - Matinhos - PR - N,chamada_geral,28
+2019,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2019,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,chamada_geral,48
+2019,Turismo - Bacharelado - Curitiba - PR - N,chamada_geral,35
+2019,Zootecnia - Bacharelado - Curitiba - PR - MT,chamada_geral,44
+2019,Administração - Bacharelado - Curitiba - PR - M,final,111
+2019,Administração - Bacharelado - Curitiba - PR - N,final,115
+2019,Administração Pública - Bacharelado - Matinhos - PR - N,final,45
+2019,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,final,38
+2019,Agronomia - Bacharelado - Curitiba - PR - MT,final,124
+2019,Agronomia - Bacharelado - Palotina - PR - MT,final,96
+2019,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,final,71
+2019,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,final,36
+2019,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),final,68
+2019,Artes - Licenciatura - Matinhos - PR - M,final,38
+2019,Artes Visuais - Bacharelado - Curitiba - PR - M,final,20
+2019,Artes Visuais - Licenciatura - Curitiba - PR - M,final,20
+2019,Biomedicina - Bacharelado - Curitiba - PR - MT,final,27
+2019,Ciência da Computação - Bacharelado - Curitiba - PR - TN,final,87
+2019,Ciências - Licenciatura - Matinhos - PR - N,final,26
+2019,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,final,27
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,final,55
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,final,57
+2019,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,final,49
+2019,Ciências Contábeis - Bacharelado - Curitiba - PR - N,final,111
+2019,Ciências Econômicas - Bacharelado - Curitiba - PR - M,final,101
+2019,Ciências Econômicas - Bacharelado - Curitiba - PR - N,final,86
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,final,18
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,final,34
+2019,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,final,21
+2019,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,final,77
+2019,Computação - Licenciatura - Jandaia do Sul - PR - T,final,8
+2019,Computação - Licenciatura - Palotina - PR - N,final,23
+2019,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,final,36
+2019,Design Gráfico - Bacharelado - Curitiba - PR - M,final,36
+2019,Design de Produto - Bacharelado - Curitiba - PR - M,final,38
+2019,Direito - Bacharelado - Curitiba - PR - M,final,84
+2019,Direito - Bacharelado - Curitiba - PR - N,final,89
+2019,Educação Física - Bacharelado - Curitiba - PR - MT,final,64
+2019,Educação Física - Licenciatura - Curitiba - PR - MT,final,64
+2019,Educação Física - Licenciatura - Matinhos - PR - N,final,40
+2019,Enfermagem - Bacharelado - Curitiba - PR - MT,final,63
+2019,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),final,21
+2019,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,final,67
+2019,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,final,24
+2019,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,final,31
+2019,Engenharia Civil - Bacharelado - Curitiba - PR - MT,final,178
+2019,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,final,40
+2019,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,final,151
+2019,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,final,50
+2019,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,final,85
+2019,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,final,26
+2019,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,final,28
+2019,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,final,163
+2019,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,final,92
+2019,Engenharia Química - Bacharelado - Curitiba - PR - MT,final,91
+2019,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),final,29
+2019,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,final,22
+2019,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,final,20
+2019,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,final,44
+2019,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,final,48
+2019,Engenharia de Energia - Bacharelado - Palotina - PR - M,final,33
+2019,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,final,58
+2019,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),final,34
+2019,Estatística - Bacharelado - Curitiba - PR - N,final,116
+2019,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,final,39
+2019,Farmácia - Bacharelado - Curitiba - PR - MT,final,138
+2019,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,final,59
+2019,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,final,63
+2019,Fisioterapia - Bacharelado - Curitiba - PR - MT,final,46
+2019,Física - Bacharelado - Curitiba - PR - M,final,68
+2019,Física - Licenciatura - Curitiba - PR - N,final,71
+2019,Geografia - Licenciatura - Matinhos - PR - N,final,27
+2019,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,final,35
+2019,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,final,33
+2019,Geologia - Bacharelado - Curitiba - PR - MT,final,30
+2019,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,final,18
+2019,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,final,49
+2019,Gestão da Informação - Bacharelado - Curitiba - PR - M,final,60
+2019,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,final,37
+2019,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - M,final,16
+2019,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,final,40
+2019,História - Licenciatura/Bacharelado - Curitiba - PR - T,final,42
+2019,História Memória e Imagem - Bacharelado - Curitiba - PR - N,final,42
+2019,Informática Biomédica - Bacharelado - Curitiba - PR - TN,final,36
+2019,Jornalismo - Bacharelado - Curitiba - PR - MN,final,29
+2019,"Letras - Alemão, Grego, Latim/Português - Licenciatura/Bacharelado - Curitiba - PR - M",final,20
+2019,Letras - Espanhol/Português - Licenciatura/Bacharelado - Curitiba - PR - M,final,22
+2019,Letras - Francês - Licenciatura/Bacharelado - Curitiba - PR - N,final,19
+2019,Letras - Inglês - Licenciatura/Bacharelado - Curitiba - PR - N,final,17
+2019,Letras - Inglês/Português - Licenciatura/Bacharelado - Curitiba - PR - M,final,20
+2019,Letras - Italiano/Português - Licenciatura/Bacharelado - Curitiba - PR - M,final,12
+2019,Letras - Japonês - Licenciatura/Bacharelado - Curitiba - PR - N,final,16
+2019,Letras - Polonês - Licenciatura/Bacharelado - Curitiba - PR - N,final,10
+2019,Letras - Português - Licenciatura/Bacharelado - Curitiba - PR - N,final,39
+2019,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,final,26
+2019,Matemática - Licenciatura - Curitiba - PR - N,final,85
+2019,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,final,82
+2019,Matemática Industrial - Bacharelado - Curitiba - PR - T,final,43
+2019,Medicina - Bacharelado - Curitiba - PR - MT,final,172
+2019,Medicina - Bacharelado - Toledo - PR - MT,final,78
+2019,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,final,52
+2019,Medicina Veterinária - Bacharelado - Palotina - PR - MT,final,86
+2019,Música - Bacharelado - Curitiba - PR - T(+N),final,26
+2019,Música - Licenciatura - Curitiba - PR - T(+N),final,23
+2019,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,final,36
+2019,Nutrição - Bacharelado - Curitiba - PR - MT,final,57
+2019,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,final,48
+2019,Odontologia - Bacharelado - Curitiba - PR - MT,final,87
+2019,Pedagogia - Licenciatura - Curitiba - PR - M,final,70
+2019,Pedagogia - Licenciatura - Curitiba - PR - N,final,96
+2019,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,final,54
+2019,Psicologia - Bacharelado - Curitiba - PR - MT,final,70
+2019,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,final,30
+2019,Química - Licenciatura - Curitiba - PR - N,final,40
+2019,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,final,64
+2019,Relações Públicas - Bacharelado - Curitiba - PR - MN,final,29
+2019,Saúde Coletiva - Bacharelado - Matinhos - PR - M,final,25
+2019,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,final,44
+2019,Serviço Social - Bacharelado - Matinhos - PR - N,final,38
+2019,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,final,58
+2019,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,final,52
+2019,Turismo - Bacharelado - Curitiba - PR - N,final,47
+2019,Zootecnia - Bacharelado - Curitiba - PR - MT,final,48
+2020,Administração - Bacharelado - Curitiba - PR - M,chamada_geral,88
+2020,Administração - Bacharelado - Curitiba - PR - N,chamada_geral,88
+2020,Administração Pública (Modalidade a Distância) - Bacharelado - Terra Roxa - PR - EaD,chamada_geral,33
+2020,Administração Pública - Bacharelado - Matinhos - PR - N,chamada_geral,32
+2020,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,chamada_geral,17
+2020,Agronomia - Bacharelado - Curitiba - PR - MT,chamada_geral,106
+2020,Agronomia - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2020,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,65
+2020,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,chamada_geral,33
+2020,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),chamada_geral,66
+2020,Artes - Licenciatura - Matinhos - PR - M,chamada_geral,23
+2020,Artes Visuais - Bacharelado - Curitiba - PR - M,chamada_geral,13
+2020,Artes Visuais - Licenciatura - Curitiba - PR - M,chamada_geral,13
+2020,Biomedicina - Bacharelado - Curitiba - PR - MT,chamada_geral,24
+2020,Ciência da Computação - Bacharelado - Curitiba - PR - TN,chamada_geral,69
+2020,Ciências - Licenciatura - Matinhos - PR - N,chamada_geral,16
+2020,Ciências Ambientais - Bacharelado - Matinhos - PR - M,chamada_geral,24
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,48
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,48
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,chamada_geral,38
+2020,Ciências Contábeis - Bacharelado - Curitiba - PR - N,chamada_geral,96
+2020,Ciências Econômicas - Bacharelado - Curitiba - PR - M,chamada_geral,64
+2020,Ciências Econômicas - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,chamada_geral,6
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,chamada_geral,19
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,chamada_geral,11
+2020,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,64
+2020,Computação - Licenciatura - Jandaia do Sul - PR - T,chamada_geral,5
+2020,Computação - Licenciatura - Palotina - PR - N,chamada_geral,25
+2020,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,chamada_geral,36
+2020,Design Gráfico - Bacharelado - Curitiba - PR - MT,chamada_geral,33
+2020,Design de Produto - Bacharelado - Curitiba - PR - M,chamada_geral,33
+2020,Direito - Bacharelado - Curitiba - PR - M,chamada_geral,81
+2020,Direito - Bacharelado - Curitiba - PR - N,chamada_geral,83
+2020,Educação Física - Bacharelado - Curitiba - PR - MT,chamada_geral,60
+2020,Educação Física - Licenciatura - Curitiba - PR - MT,chamada_geral,60
+2020,Educação Física - Licenciatura - Matinhos - PR - N,chamada_geral,28
+2020,Enfermagem - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2020,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,25
+2020,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2020,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,18
+2020,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,chamada_geral,27
+2020,Engenharia Civil - Bacharelado - Curitiba - PR - MT,chamada_geral,142
+2020,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,34
+2020,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,chamada_geral,80
+2020,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,chamada_geral,40
+2020,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2020,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2020,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,chamada_geral,26
+2020,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2020,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2020,Engenharia Química - Bacharelado - Curitiba - PR - MT,chamada_geral,87
+2020,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,14
+2020,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,chamada_geral,10
+2020,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,chamada_geral,16
+2020,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,chamada_geral,36
+2020,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,chamada_geral,45
+2020,Engenharia de Energia - Bacharelado - Palotina - PR - M,chamada_geral,30
+2020,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2020,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),chamada_geral,31
+2020,Estatística - Bacharelado - Curitiba - PR - N,chamada_geral,113
+2020,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,chamada_geral,28
+2020,Farmácia - Bacharelado - Curitiba - PR - MT,chamada_geral,91
+2020,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,37
+2020,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,45
+2020,Fisioterapia - Bacharelado - Curitiba - PR - MT,chamada_geral,43
+2020,Física - Bacharelado - Curitiba - PR - M,chamada_geral,56
+2020,Física - Licenciatura - Curitiba - PR - N,chamada_geral,72
+2020,Geografia - Licenciatura - Matinhos - PR - N,chamada_geral,23
+2020,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,27
+2020,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,32
+2020,Geologia - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2020,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,11
+2020,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2020,Gestão da Informação - Bacharelado - Curitiba - PR - M,chamada_geral,48
+2020,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2020,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,21
+2020,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,chamada_geral,30
+2020,História - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,32
+2020,História Memória e Imagem - Bacharelado - Curitiba - PR - N,chamada_geral,32
+2020,Informática Biomédica - Bacharelado - Curitiba - PR - TN,chamada_geral,30
+2020,Jornalismo - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2020,Letras - Francês - Bacharelado - Curitiba - PR - N,chamada_geral,5
+2020,Letras - Inglês - Licenciatura - Curitiba - PR - M,chamada_geral,20
+2020,Letras - Inglês - Licenciatura - Curitiba - PR - N,chamada_geral,20
+2020,Letras - Italiano - Licenciatura - Curitiba - PR - M,chamada_geral,8
+2020,Letras - Japonês - Bacharelado - Curitiba - PR - N,chamada_geral,10
+2020,Letras - Polonês - Bacharelado - Curitiba - PR - N,chamada_geral,5
+2020,Letras - Português - Bacharelado - Curitiba - PR - M,chamada_geral,5
+2020,Letras - Português - Bacharelado - Curitiba - PR - N,chamada_geral,5
+2020,Letras - Português - Licenciatura - Curitiba - PR - M,chamada_geral,20
+2020,Letras - Português - Licenciatura - Curitiba - PR - N,chamada_geral,20
+2020,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,chamada_geral,15
+2020,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,chamada_geral,15
+2020,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,chamada_geral,20
+2020,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,chamada_geral,15
+2020,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,chamada_geral,10
+2020,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,chamada_geral,5
+2020,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,chamada_geral,24
+2020,Matemática - Licenciatura - Curitiba - PR - N,chamada_geral,53
+2020,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,65
+2020,Matemática Industrial - Bacharelado - Curitiba - PR - T,chamada_geral,24
+2020,Medicina - Bacharelado - Curitiba - PR - MT,chamada_geral,152
+2020,Medicina - Bacharelado - Toledo - PR - MT,chamada_geral,49
+2020,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2020,Medicina Veterinária - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2020,Música - Bacharelado - Curitiba - PR - T(+N),chamada_geral,20
+2020,Música - Licenciatura - Curitiba - PR - T(+N),chamada_geral,20
+2020,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,38
+2020,Nutrição - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2020,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,chamada_geral,37
+2020,Odontologia - Bacharelado - Curitiba - PR - MT,chamada_geral,74
+2020,Pedagogia - Licenciatura - Curitiba - PR - M,chamada_geral,57
+2020,Pedagogia - Licenciatura - Curitiba - PR - N,chamada_geral,83
+2020,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2020,Psicologia - Bacharelado - Curitiba - PR - MT,chamada_geral,66
+2020,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2020,Química - Licenciatura - Curitiba - PR - N,chamada_geral,32
+2020,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2020,Relações Públicas - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2020,Saúde Coletiva - Bacharelado - Matinhos - PR - M,chamada_geral,16
+2020,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,36
+2020,Serviço Social - Bacharelado - Matinhos - PR - N,chamada_geral,28
+2020,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2020,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,chamada_geral,48
+2020,Turismo - Bacharelado - Curitiba - PR - N,chamada_geral,38
+2020,Zootecnia - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2020,Administração - Bacharelado - Curitiba - PR - M,final,95
+2020,Administração - Bacharelado - Curitiba - PR - N,final,101
+2020,Administração Pública (Modalidade a Distância) - Bacharelado - Terra Roxa - PR - EaD,final,33
+2020,Administração Pública - Bacharelado - Matinhos - PR - N,final,45
+2020,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,final,17
+2020,Agronomia - Bacharelado - Curitiba - PR - MT,final,135
+2020,Agronomia - Bacharelado - Palotina - PR - MT,final,90
+2020,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,final,74
+2020,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,final,45
+2020,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),final,70
+2020,Artes - Licenciatura - Matinhos - PR - M,final,23
+2020,Artes Visuais - Bacharelado - Curitiba - PR - M,final,15
+2020,Artes Visuais - Licenciatura - Curitiba - PR - M,final,14
+2020,Biomedicina - Bacharelado - Curitiba - PR - MT,final,28
+2020,Ciência da Computação - Bacharelado - Curitiba - PR - TN,final,117
+2020,Ciências - Licenciatura - Matinhos - PR - N,final,16
+2020,Ciências Ambientais - Bacharelado - Matinhos - PR - M,final,24
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,final,57
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,final,55
+2020,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,final,38
+2020,Ciências Contábeis - Bacharelado - Curitiba - PR - N,final,112
+2020,Ciências Econômicas - Bacharelado - Curitiba - PR - M,final,83
+2020,Ciências Econômicas - Bacharelado - Curitiba - PR - N,final,84
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,final,6
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,final,19
+2020,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,final,11
+2020,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,final,79
+2020,Computação - Licenciatura - Jandaia do Sul - PR - T,final,5
+2020,Computação - Licenciatura - Palotina - PR - N,final,25
+2020,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,final,44
+2020,Design Gráfico - Bacharelado - Curitiba - PR - MT,final,47
+2020,Design de Produto - Bacharelado - Curitiba - PR - M,final,38
+2020,Direito - Bacharelado - Curitiba - PR - M,final,90
+2020,Direito - Bacharelado - Curitiba - PR - N,final,89
+2020,Educação Física - Bacharelado - Curitiba - PR - MT,final,66
+2020,Educação Física - Licenciatura - Curitiba - PR - MT,final,66
+2020,Educação Física - Licenciatura - Matinhos - PR - N,final,29
+2020,Enfermagem - Bacharelado - Curitiba - PR - MT,final,58
+2020,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),final,25
+2020,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,final,67
+2020,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,final,18
+2020,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,final,27
+2020,Engenharia Civil - Bacharelado - Curitiba - PR - MT,final,169
+2020,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,final,47
+2020,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,final,143
+2020,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,final,53
+2020,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,final,53
+2020,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,final,26
+2020,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,final,26
+2020,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,final,136
+2020,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,final,77
+2020,Engenharia Química - Bacharelado - Curitiba - PR - MT,final,114
+2020,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),final,14
+2020,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,final,10
+2020,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,final,16
+2020,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,final,42
+2020,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,final,45
+2020,Engenharia de Energia - Bacharelado - Palotina - PR - M,final,30
+2020,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,final,56
+2020,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),final,31
+2020,Estatística - Bacharelado - Curitiba - PR - N,final,113
+2020,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,final,28
+2020,Farmácia - Bacharelado - Curitiba - PR - MT,final,151
+2020,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,final,60
+2020,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,final,53
+2020,Fisioterapia - Bacharelado - Curitiba - PR - MT,final,50
+2020,Física - Bacharelado - Curitiba - PR - M,final,71
+2020,Física - Licenciatura - Curitiba - PR - N,final,75
+2020,Geografia - Licenciatura - Matinhos - PR - N,final,23
+2020,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,final,32
+2020,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,final,38
+2020,Geologia - Bacharelado - Curitiba - PR - MT,final,28
+2020,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,final,11
+2020,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,final,37
+2020,Gestão da Informação - Bacharelado - Curitiba - PR - M,final,54
+2020,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,final,40
+2020,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,final,21
+2020,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,final,38
+2020,História - Licenciatura/Bacharelado - Curitiba - PR - T,final,39
+2020,História Memória e Imagem - Bacharelado - Curitiba - PR - N,final,41
+2020,Informática Biomédica - Bacharelado - Curitiba - PR - TN,final,37
+2020,Jornalismo - Bacharelado - Curitiba - PR - MN,final,33
+2020,Letras - Francês - Bacharelado - Curitiba - PR - N,final,5
+2020,Letras - Inglês - Licenciatura - Curitiba - PR - M,final,26
+2020,Letras - Inglês - Licenciatura - Curitiba - PR - N,final,25
+2020,Letras - Italiano - Licenciatura - Curitiba - PR - M,final,8
+2020,Letras - Japonês - Bacharelado - Curitiba - PR - N,final,12
+2020,Letras - Polonês - Bacharelado - Curitiba - PR - N,final,5
+2020,Letras - Português - Bacharelado - Curitiba - PR - M,final,5
+2020,Letras - Português - Bacharelado - Curitiba - PR - N,final,5
+2020,Letras - Português - Licenciatura - Curitiba - PR - M,final,23
+2020,Letras - Português - Licenciatura - Curitiba - PR - N,final,22
+2020,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,final,17
+2020,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,final,18
+2020,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,final,21
+2020,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,final,16
+2020,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,final,10
+2020,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,final,6
+2020,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,final,27
+2020,Matemática - Licenciatura - Curitiba - PR - N,final,53
+2020,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,final,65
+2020,Matemática Industrial - Bacharelado - Curitiba - PR - T,final,24
+2020,Medicina - Bacharelado - Curitiba - PR - MT,final,169
+2020,Medicina - Bacharelado - Toledo - PR - MT,final,64
+2020,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,final,53
+2020,Medicina Veterinária - Bacharelado - Palotina - PR - MT,final,94
+2020,Música - Bacharelado - Curitiba - PR - T(+N),final,29
+2020,Música - Licenciatura - Curitiba - PR - T(+N),final,24
+2020,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,final,42
+2020,Nutrição - Bacharelado - Curitiba - PR - MT,final,57
+2020,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,final,45
+2020,Odontologia - Bacharelado - Curitiba - PR - MT,final,79
+2020,Pedagogia - Licenciatura - Curitiba - PR - M,final,73
+2020,Pedagogia - Licenciatura - Curitiba - PR - N,final,96
+2020,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,final,42
+2020,Psicologia - Bacharelado - Curitiba - PR - MT,final,71
+2020,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,final,28
+2020,Química - Licenciatura - Curitiba - PR - N,final,43
+2020,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,final,76
+2020,Relações Públicas - Bacharelado - Curitiba - PR - MN,final,31
+2020,Saúde Coletiva - Bacharelado - Matinhos - PR - M,final,16
+2020,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,final,36
+2020,Serviço Social - Bacharelado - Matinhos - PR - N,final,41
+2020,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,final,65
+2020,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,final,48
+2020,Turismo - Bacharelado - Curitiba - PR - N,final,43
+2020,Zootecnia - Bacharelado - Curitiba - PR - MT,final,59
+2021,Administração - Bacharelado - Curitiba - PR - M,chamada_geral,88
+2021,Administração - Bacharelado - Curitiba - PR - N,chamada_geral,88
+2021,Administração Pública (Modalidade a Distância) - Bacharelado - Terra Roxa - PR - EaD,chamada_geral,0
+2021,Administração Pública - Bacharelado - Matinhos - PR - N,chamada_geral,15
+2021,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,chamada_geral,10
+2021,Agronomia - Bacharelado - Curitiba - PR - MT,chamada_geral,106
+2021,Agronomia - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2021,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,64
+2021,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,chamada_geral,32
+2021,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),chamada_geral,60
+2021,Artes - Licenciatura - Matinhos - PR - M,chamada_geral,10
+2021,Artes Visuais - Bacharelado - Curitiba - PR - M,chamada_geral,13
+2021,Artes Visuais - Licenciatura - Curitiba - PR - M,chamada_geral,13
+2021,Biomedicina - Bacharelado - Curitiba - PR - MT,chamada_geral,24
+2021,Ciência da Computação - Bacharelado - Curitiba - PR - TN,chamada_geral,65
+2021,Ciências - Licenciatura - Matinhos - PR - N,chamada_geral,2
+2021,Ciências Ambientais - Bacharelado - Matinhos - PR - M,chamada_geral,13
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,48
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,48
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,chamada_geral,12
+2021,Ciências Contábeis - Bacharelado - Curitiba - PR - N,chamada_geral,96
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - M,chamada_geral,64
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,chamada_geral,1
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,chamada_geral,4
+2021,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,chamada_geral,1
+2021,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,64
+2021,Computação - Licenciatura - Jandaia do Sul - PR - T,chamada_geral,2
+2021,Computação - Licenciatura - Palotina - PR - N,chamada_geral,3
+2021,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,chamada_geral,21
+2021,Design Gráfico - Bacharelado - Curitiba - PR - MT,chamada_geral,33
+2021,Design de Produto - Bacharelado - Curitiba - PR - M,chamada_geral,33
+2021,Direito - Bacharelado - Curitiba - PR - M,chamada_geral,80
+2021,Direito - Bacharelado - Curitiba - PR - N,chamada_geral,80
+2021,Educação Física - Bacharelado - Curitiba - PR - MT,chamada_geral,60
+2021,Educação Física - Licenciatura - Curitiba - PR - MT,chamada_geral,60
+2021,Educação Física - Licenciatura - Matinhos - PR - N,chamada_geral,28
+2021,Enfermagem - Bacharelado/Licenciatura - Curitiba - PR - MT,chamada_geral,48
+2021,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,2
+2021,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,chamada_geral,34
+2021,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,19
+2021,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,chamada_geral,18
+2021,Engenharia Civil - Bacharelado - Curitiba - PR - MT,chamada_geral,133
+2021,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,26
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,chamada_geral,80
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,chamada_geral,40
+2021,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,chamada_geral,23
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,chamada_geral,8
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,chamada_geral,12
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2021,Engenharia Química - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2021,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),chamada_geral,5
+2021,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,chamada_geral,1
+2021,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,chamada_geral,5
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,chamada_geral,36
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,chamada_geral,12
+2021,Engenharia de Energia - Bacharelado - Palotina - PR - M,chamada_geral,11
+2021,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2021,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),chamada_geral,10
+2021,Estatística - Bacharelado - Curitiba - PR - N,chamada_geral,47
+2021,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,chamada_geral,13
+2021,Farmácia - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,32
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,40
+2021,Fisioterapia - Bacharelado - Curitiba - PR - MT,chamada_geral,40
+2021,Física - Bacharelado - Curitiba - PR - M,chamada_geral,56
+2021,Física - Licenciatura - Curitiba - PR - N,chamada_geral,30
+2021,Geografia - Licenciatura - Matinhos - PR - N,chamada_geral,14
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,19
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,22
+2021,Geologia - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2021,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,14
+2021,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,27
+2021,Gestão da Informação - Bacharelado - Curitiba - PR - M,chamada_geral,23
+2021,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,23
+2021,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,5
+2021,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,chamada_geral,12
+2021,História - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,32
+2021,História Memória e Imagem - Bacharelado - Curitiba - PR - N,chamada_geral,32
+2021,Informática Biomédica - Bacharelado - Curitiba - PR - TN,chamada_geral,24
+2021,Jornalismo - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2021,Letras - Francês - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - M,chamada_geral,16
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2021,Letras - Italiano - Licenciatura - Curitiba - PR - M,chamada_geral,8
+2021,Letras - Japonês - Bacharelado - Curitiba - PR - N,chamada_geral,8
+2021,Letras - Polonês - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2021,Letras - Português - Bacharelado - Curitiba - PR - M,chamada_geral,4
+2021,Letras - Português - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2021,Letras - Português - Licenciatura - Curitiba - PR - M,chamada_geral,20
+2021,Letras - Português - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2021,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,chamada_geral,10
+2021,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,chamada_geral,13
+2021,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,chamada_geral,20
+2021,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,chamada_geral,15
+2021,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,chamada_geral,6
+2021,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,chamada_geral,1
+2021,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,chamada_geral,3
+2021,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,chamada_geral,12
+2021,Matemática - Licenciatura - Curitiba - PR - N,chamada_geral,22
+2021,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,36
+2021,Matemática Industrial - Bacharelado - Curitiba - PR - T,chamada_geral,12
+2021,Medicina - Bacharelado - Curitiba - PR - MT,chamada_geral,153
+2021,Medicina - Bacharelado - Toledo - PR - MT,chamada_geral,48
+2021,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,chamada_geral,49
+2021,Medicina Veterinária - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2021,Música - Bacharelado - Curitiba - PR - T(+N),chamada_geral,20
+2021,Música - Licenciatura - Curitiba - PR - T(+N),chamada_geral,11
+2021,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,12
+2021,Nutrição - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2021,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,chamada_geral,24
+2021,Odontologia - Bacharelado - Curitiba - PR - MT,chamada_geral,74
+2021,Pedagogia - Licenciatura - Curitiba - PR - M,chamada_geral,56
+2021,Pedagogia - Licenciatura - Curitiba - PR - N,chamada_geral,80
+2021,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,21
+2021,Psicologia - Bacharelado - Curitiba - PR - MT,chamada_geral,65
+2021,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,chamada_geral,25
+2021,Química - Licenciatura - Curitiba - PR - N,chamada_geral,24
+2021,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2021,Relações Públicas - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2021,Saúde Coletiva - Bacharelado - Matinhos - PR - M,chamada_geral,5
+2021,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,7
+2021,Serviço Social - Bacharelado - Matinhos - PR - N,chamada_geral,27
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,chamada_geral,37
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,chamada_geral,48
+2021,Turismo - Bacharelado - Curitiba - PR - N,chamada_geral,26
+2021,Zootecnia - Bacharelado - Curitiba - PR - MT,chamada_geral,40
+2021,Administração - Bacharelado - Curitiba - PR - M,final,133
+2021,Administração - Bacharelado - Curitiba - PR - N,final,111
+2021,Administração Pública (Modalidade a Distância) - Bacharelado - Terra Roxa - PR - EaD,final,0
+2021,Administração Pública - Bacharelado - Matinhos - PR - N,final,15
+2021,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,final,10
+2021,Agronomia - Bacharelado - Curitiba - PR - MT,final,108
+2021,Agronomia - Bacharelado - Palotina - PR - MT,final,77
+2021,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,final,81
+2021,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,final,36
+2021,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),final,64
+2021,Artes - Licenciatura - Matinhos - PR - M,final,10
+2021,Artes Visuais - Bacharelado - Curitiba - PR - M,final,14
+2021,Artes Visuais - Licenciatura - Curitiba - PR - M,final,20
+2021,Biomedicina - Bacharelado - Curitiba - PR - MT,final,31
+2021,Ciência da Computação - Bacharelado - Curitiba - PR - TN,final,84
+2021,Ciências - Licenciatura - Matinhos - PR - N,final,2
+2021,Ciências Ambientais - Bacharelado - Matinhos - PR - M,final,13
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,final,55
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,final,62
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,final,12
+2021,Ciências Contábeis - Bacharelado - Curitiba - PR - N,final,117
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - M,final,88
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - N,final,79
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,final,1
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,final,4
+2021,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,final,1
+2021,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,final,76
+2021,Computação - Licenciatura - Jandaia do Sul - PR - T,final,2
+2021,Computação - Licenciatura - Palotina - PR - N,final,3
+2021,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,final,21
+2021,Design Gráfico - Bacharelado - Curitiba - PR - MT,final,39
+2021,Design de Produto - Bacharelado - Curitiba - PR - M,final,38
+2021,Direito - Bacharelado - Curitiba - PR - M,final,91
+2021,Direito - Bacharelado - Curitiba - PR - N,final,84
+2021,Educação Física - Bacharelado - Curitiba - PR - MT,final,78
+2021,Educação Física - Licenciatura - Curitiba - PR - MT,final,70
+2021,Educação Física - Licenciatura - Matinhos - PR - N,final,32
+2021,Enfermagem - Bacharelado/Licenciatura - Curitiba - PR - MT,final,55
+2021,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),final,2
+2021,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,final,34
+2021,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,final,19
+2021,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,final,18
+2021,Engenharia Civil - Bacharelado - Curitiba - PR - MT,final,163
+2021,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,final,26
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,final,106
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,final,47
+2021,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,final,23
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,final,8
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,final,12
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,final,128
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,final,93
+2021,Engenharia Química - Bacharelado - Curitiba - PR - MT,final,110
+2021,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),final,5
+2021,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,final,1
+2021,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,final,5
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,final,37
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,final,12
+2021,Engenharia de Energia - Bacharelado - Palotina - PR - M,final,11
+2021,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,final,63
+2021,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - T (+M),final,10
+2021,Estatística - Bacharelado - Curitiba - PR - N,final,47
+2021,Expressão Gráfica - Bacharelado - Curitiba - PR - MT,final,13
+2021,Farmácia - Bacharelado - Curitiba - PR - MT,final,138
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,final,45
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,final,46
+2021,Fisioterapia - Bacharelado - Curitiba - PR - MT,final,48
+2021,Física - Bacharelado - Curitiba - PR - M,final,56
+2021,Física - Licenciatura - Curitiba - PR - N,final,30
+2021,Geografia - Licenciatura - Matinhos - PR - N,final,14
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,final,19
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,final,22
+2021,Geologia - Bacharelado - Curitiba - PR - MT,final,27
+2021,Gestão Imobiliária - Formação do Tecnólogo - Matinhos - PR - N,final,14
+2021,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,final,27
+2021,Gestão da Informação - Bacharelado - Curitiba - PR - M,final,23
+2021,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,final,23
+2021,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,final,5
+2021,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,final,12
+2021,História - Licenciatura/Bacharelado - Curitiba - PR - T,final,48
+2021,História Memória e Imagem - Bacharelado - Curitiba - PR - N,final,33
+2021,Informática Biomédica - Bacharelado - Curitiba - PR - TN,final,33
+2021,Jornalismo - Bacharelado - Curitiba - PR - MN,final,32
+2021,Letras - Francês - Bacharelado - Curitiba - PR - N,final,5
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - M,final,22
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - N,final,21
+2021,Letras - Italiano - Licenciatura - Curitiba - PR - M,final,8
+2021,Letras - Japonês - Bacharelado - Curitiba - PR - N,final,11
+2021,Letras - Polonês - Bacharelado - Curitiba - PR - N,final,4
+2021,Letras - Português - Bacharelado - Curitiba - PR - M,final,6
+2021,Letras - Português - Bacharelado - Curitiba - PR - N,final,6
+2021,Letras - Português - Licenciatura - Curitiba - PR - M,final,25
+2021,Letras - Português - Licenciatura - Curitiba - PR - N,final,16
+2021,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,final,10
+2021,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,final,13
+2021,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,final,25
+2021,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,final,16
+2021,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,final,6
+2021,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,final,1
+2021,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,final,3
+2021,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,final,14
+2021,Matemática - Licenciatura - Curitiba - PR - N,final,22
+2021,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,final,36
+2021,Matemática Industrial - Bacharelado - Curitiba - PR - T,final,12
+2021,Medicina - Bacharelado - Curitiba - PR - MT,final,159
+2021,Medicina - Bacharelado - Toledo - PR - MT,final,55
+2021,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,final,51
+2021,Medicina Veterinária - Bacharelado - Palotina - PR - MT,final,86
+2021,Música - Bacharelado - Curitiba - PR - T(+N),final,20
+2021,Música - Licenciatura - Curitiba - PR - T(+N),final,11
+2021,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,final,12
+2021,Nutrição - Bacharelado - Curitiba - PR - MT,final,67
+2021,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,final,24
+2021,Odontologia - Bacharelado - Curitiba - PR - MT,final,80
+2021,Pedagogia - Licenciatura - Curitiba - PR - M,final,60
+2021,Pedagogia - Licenciatura - Curitiba - PR - N,final,81
+2021,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,final,21
+2021,Psicologia - Bacharelado - Curitiba - PR - MT,final,74
+2021,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,final,28
+2021,Química - Licenciatura - Curitiba - PR - N,final,24
+2021,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,final,73
+2021,Relações Públicas - Bacharelado - Curitiba - PR - MN,final,27
+2021,Saúde Coletiva - Bacharelado - Matinhos - PR - M,final,5
+2021,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,final,7
+2021,Serviço Social - Bacharelado - Matinhos - PR - N,final,27
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,final,37
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,final,58
+2021,Turismo - Bacharelado - Curitiba - PR - N,final,26
+2021,Zootecnia - Bacharelado - Curitiba - PR - MT,final,40
+2022,Administração - Bacharelado - Curitiba - PR - M,chamada_geral,88
+2022,Administração - Bacharelado - Curitiba - PR - N,chamada_geral,88
+2022,Administração Pública - Bacharelado - Matinhos - PR - N,chamada_geral,23
+2022,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,chamada_geral,12
+2022,Agronomia - Bacharelado - Curitiba - PR - MT,chamada_geral,106
+2022,Agronomia - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2022,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,64
+2022,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,chamada_geral,32
+2022,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),chamada_geral,60
+2022,Artes - Licenciatura - Matinhos - PR - M,chamada_geral,9
+2022,Artes Visuais - Bacharelado - Curitiba - PR - M,chamada_geral,13
+2022,Artes Visuais - Licenciatura - Curitiba - PR - M,chamada_geral,13
+2022,Biomedicina - Bacharelado - Curitiba - PR - MT,chamada_geral,24
+2022,Ciência da Computação - Bacharelado - Curitiba - PR - TN,chamada_geral,64
+2022,Ciências - Licenciatura - Matinhos - PR - N,chamada_geral,3
+2022,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,chamada_geral,8
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,48
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,48
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,chamada_geral,18
+2022,Ciências Contábeis - Bacharelado - Curitiba - PR - N,chamada_geral,96
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - M,chamada_geral,64
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,chamada_geral,5
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,chamada_geral,12
+2022,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,chamada_geral,3
+2022,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,64
+2022,Computação - Licenciatura - Jandaia do Sul - PR - T,chamada_geral,3
+2022,Computação - Licenciatura - Palotina - PR - N,chamada_geral,12
+2022,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,chamada_geral,12
+2022,Design Gráfico - Bacharelado - Curitiba - PR - MT,chamada_geral,33
+2022,Design de Produto - Bacharelado - Curitiba - PR - M,chamada_geral,33
+2022,Direito - Bacharelado - Curitiba - PR - M,chamada_geral,80
+2022,Direito - Bacharelado - Curitiba - PR - N,chamada_geral,80
+2022,Educação Física - Bacharelado - Curitiba - PR - MT,chamada_geral,60
+2022,Educação Física - Licenciatura - Curitiba - PR - MT,chamada_geral,60
+2022,Educação Física - Licenciatura - Matinhos - PR - N,chamada_geral,28
+2022,Enfermagem - Bacharelado/Licenciatura - Curitiba - PR - MT,chamada_geral,48
+2022,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - MT,chamada_geral,15
+2022,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2022,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,9
+2022,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,chamada_geral,9
+2022,Engenharia Civil - Bacharelado - Curitiba - PR - MT,chamada_geral,133
+2022,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,chamada_geral,32
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,chamada_geral,80
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,chamada_geral,40
+2022,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,chamada_geral,3
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,chamada_geral,16
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2022,Engenharia Química - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2022,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - MT,chamada_geral,3
+2022,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,chamada_geral,4
+2022,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,chamada_geral,2
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,chamada_geral,36
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,chamada_geral,11
+2022,Engenharia de Energia - Bacharelado - Palotina - PR - M,chamada_geral,14
+2022,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2022,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - MT,chamada_geral,13
+2022,Estatística - Bacharelado - Curitiba - PR - N,chamada_geral,47
+2022,Expressão Gráfica - Bacharelado - Curitiba - PR - M,chamada_geral,11
+2022,Farmácia - Bacharelado - Curitiba - PR - MT,chamada_geral,86
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,32
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,40
+2022,Fisioterapia - Bacharelado - Curitiba - PR - MT,chamada_geral,40
+2022,Física - Bacharelado - Curitiba - PR - M,chamada_geral,56
+2022,Física - Licenciatura - Curitiba - PR - N,chamada_geral,22
+2022,Geografia - Licenciatura - Matinhos - PR - N,chamada_geral,4
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,15
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,19
+2022,Geologia - Bacharelado - Curitiba - PR - MT,chamada_geral,26
+2022,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,22
+2022,Gestão da Informação - Bacharelado - Curitiba - PR - M,chamada_geral,28
+2022,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,14
+2022,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,chamada_geral,4
+2022,História - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,32
+2022,História Memória e Imagem - Bacharelado - Curitiba - PR - N,chamada_geral,21
+2022,Informática Biomédica - Bacharelado - Curitiba - PR - TN,chamada_geral,24
+2022,Jornalismo - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2022,Letras - Francês - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - M,chamada_geral,16
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2022,Letras - Italiano - Licenciatura - Curitiba - PR - M,chamada_geral,8
+2022,Letras - Japonês - Bacharelado - Curitiba - PR - N,chamada_geral,8
+2022,Letras - Polonês - Bacharelado - Curitiba - PR - N,chamada_geral,0
+2022,Letras - Português - Bacharelado - Curitiba - PR - M,chamada_geral,2
+2022,Letras - Português - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2022,Letras - Português - Licenciatura - Curitiba - PR - M,chamada_geral,20
+2022,Letras - Português - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2022,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,chamada_geral,9
+2022,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,chamada_geral,10
+2022,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,chamada_geral,20
+2022,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,chamada_geral,11
+2022,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,chamada_geral,7
+2022,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,chamada_geral,2
+2022,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,chamada_geral,3
+2022,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,chamada_geral,12
+2022,Matemática - Licenciatura - Curitiba - PR - N,chamada_geral,22
+2022,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,chamada_geral,29
+2022,Matemática Industrial - Bacharelado - Curitiba - PR - T,chamada_geral,12
+2022,Medicina - Bacharelado - Curitiba - PR - MT,chamada_geral,153
+2022,Medicina - Bacharelado - Toledo - PR - MT,chamada_geral,49
+2022,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,chamada_geral,48
+2022,Medicina Veterinária - Bacharelado - Palotina - PR - MT,chamada_geral,64
+2022,Música - Bacharelado - Curitiba - PR - T,chamada_geral,20
+2022,Música - Licenciatura - Curitiba - PR - T,chamada_geral,5
+2022,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,19
+2022,Nutrição - Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2022,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,chamada_geral,32
+2022,Odontologia - Bacharelado - Curitiba - PR - MT,chamada_geral,74
+2022,Pedagogia - Licenciatura - Curitiba - PR - M,chamada_geral,56
+2022,Pedagogia - Licenciatura - Curitiba - PR - N,chamada_geral,79
+2022,Produção Cultural - Bacharelado - Curitiba - PR - M,chamada_geral,20
+2022,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,0
+2022,Psicologia - Bacharelado - Curitiba - PR - MT,chamada_geral,64
+2022,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2022,Química - Licenciatura - Curitiba - PR - N,chamada_geral,14
+2022,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,chamada_geral,53
+2022,Relações Públicas - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2022,Saúde Coletiva - Bacharelado - Matinhos - PR - M,chamada_geral,2
+2022,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,chamada_geral,8
+2022,Serviço Social - Bacharelado - Matinhos - PR - N,chamada_geral,27
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,chamada_geral,32
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,chamada_geral,39
+2022,Turismo - Bacharelado - Curitiba - PR - N,chamada_geral,30
+2022,Zootecnia - Bacharelado - Curitiba - PR - MT,chamada_geral,28
+2022,Administração - Bacharelado - Curitiba - PR - M,final,130
+2022,Administração - Bacharelado - Curitiba - PR - N,final,113
+2022,Administração Pública - Bacharelado - Matinhos - PR - N,final,23
+2022,Agroecologia - Formação do Tecnólogo - Matinhos - PR - M,final,12
+2022,Agronomia - Bacharelado - Curitiba - PR - MT,final,141
+2022,Agronomia - Bacharelado - Palotina - PR - MT,final,97
+2022,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - N,final,72
+2022,Análise e Desenvolvimento de Sistemas - Formação do Tecnólogo - Curitiba - PR - T,final,43
+2022,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),final,74
+2022,Artes - Licenciatura - Matinhos - PR - M,final,9
+2022,Artes Visuais - Bacharelado - Curitiba - PR - M,final,21
+2022,Artes Visuais - Licenciatura - Curitiba - PR - M,final,14
+2022,Biomedicina - Bacharelado - Curitiba - PR - MT,final,29
+2022,Ciência da Computação - Bacharelado - Curitiba - PR - TN,final,100
+2022,Ciências - Licenciatura - Matinhos - PR - N,final,3
+2022,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,final,8
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,final,68
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,final,65
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,final,18
+2022,Ciências Contábeis - Bacharelado - Curitiba - PR - N,final,136
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - M,final,92
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - N,final,86
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,final,5
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,final,12
+2022,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,final,3
+2022,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,final,89
+2022,Computação - Licenciatura - Jandaia do Sul - PR - T,final,3
+2022,Computação - Licenciatura - Palotina - PR - N,final,12
+2022,Comunicação Institucional - Formação do Tecnólogo - Curitiba - PR - M,final,12
+2022,Design Gráfico - Bacharelado - Curitiba - PR - MT,final,49
+2022,Design de Produto - Bacharelado - Curitiba - PR - M,final,44
+2022,Direito - Bacharelado - Curitiba - PR - M,final,99
+2022,Direito - Bacharelado - Curitiba - PR - N,final,85
+2022,Educação Física - Bacharelado - Curitiba - PR - MT,final,86
+2022,Educação Física - Licenciatura - Curitiba - PR - MT,final,64
+2022,Educação Física - Licenciatura - Matinhos - PR - N,final,38
+2022,Enfermagem - Bacharelado/Licenciatura - Curitiba - PR - MT,final,68
+2022,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - MT,final,15
+2022,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,final,73
+2022,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,final,9
+2022,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,final,9
+2022,Engenharia Civil - Bacharelado - Curitiba - PR - MT,final,202
+2022,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,final,41
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,final,135
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,final,58
+2022,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,final,26
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,final,3
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,final,16
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,final,177
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,final,107
+2022,Engenharia Química - Bacharelado - Curitiba - PR - MT,final,156
+2022,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - MT,final,3
+2022,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,final,4
+2022,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,final,2
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,final,56
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,final,11
+2022,Engenharia de Energia - Bacharelado - Palotina - PR - M,final,14
+2022,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,final,66
+2022,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - MT,final,13
+2022,Estatística - Bacharelado - Curitiba - PR - N,final,47
+2022,Expressão Gráfica - Bacharelado - Curitiba - PR - M,final,11
+2022,Farmácia - Bacharelado - Curitiba - PR - MT,final,119
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,final,32
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,final,45
+2022,Fisioterapia - Bacharelado - Curitiba - PR - MT,final,54
+2022,Física - Bacharelado - Curitiba - PR - M,final,56
+2022,Física - Licenciatura - Curitiba - PR - N,final,22
+2022,Geografia - Licenciatura - Matinhos - PR - N,final,4
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,final,15
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,final,19
+2022,Geologia - Bacharelado - Curitiba - PR - MT,final,28
+2022,Gestão Pública - Formação do Tecnólogo - Curitiba - PR - N,final,22
+2022,Gestão da Informação - Bacharelado - Curitiba - PR - M,final,28
+2022,Gestão da Qualidade - Formação do Tecnólogo - Curitiba - PR - N,final,14
+2022,Gestão de Turismo - Formação do Tecnólogo - Matinhos - PR - N,final,4
+2022,História - Licenciatura/Bacharelado - Curitiba - PR - T,final,45
+2022,História Memória e Imagem - Bacharelado - Curitiba - PR - N,final,21
+2022,Informática Biomédica - Bacharelado - Curitiba - PR - TN,final,32
+2022,Jornalismo - Bacharelado - Curitiba - PR - MN,final,33
+2022,Letras - Francês - Bacharelado - Curitiba - PR - N,final,4
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - M,final,25
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - N,final,25
+2022,Letras - Italiano - Licenciatura - Curitiba - PR - M,final,8
+2022,Letras - Japonês - Bacharelado - Curitiba - PR - N,final,8
+2022,Letras - Polonês - Bacharelado - Curitiba - PR - N,final,0
+2022,Letras - Português - Bacharelado - Curitiba - PR - M,final,2
+2022,Letras - Português - Bacharelado - Curitiba - PR - N,final,8
+2022,Letras - Português - Licenciatura - Curitiba - PR - M,final,22
+2022,Letras - Português - Licenciatura - Curitiba - PR - N,final,17
+2022,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,final,9
+2022,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,final,10
+2022,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,final,24
+2022,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,final,11
+2022,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,final,7
+2022,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,final,2
+2022,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,final,3
+2022,Luteria - Formação do Tecnólogo - Curitiba - PR - MT,final,12
+2022,Matemática - Licenciatura - Curitiba - PR - N,final,22
+2022,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,final,29
+2022,Matemática Industrial - Bacharelado - Curitiba - PR - T,final,12
+2022,Medicina - Bacharelado - Curitiba - PR - MT,final,171
+2022,Medicina - Bacharelado - Toledo - PR - MT,final,57
+2022,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,final,62
+2022,Medicina Veterinária - Bacharelado - Palotina - PR - MT,final,86
+2022,Música - Bacharelado - Curitiba - PR - T,final,23
+2022,Música - Licenciatura - Curitiba - PR - T,final,5
+2022,Negócios Imobiliários - Formação do Tecnólogo - Curitiba - PR - N,final,19
+2022,Nutrição - Bacharelado - Curitiba - PR - MT,final,69
+2022,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,final,32
+2022,Odontologia - Bacharelado - Curitiba - PR - MT,final,84
+2022,Pedagogia - Licenciatura - Curitiba - PR - M,final,72
+2022,Pedagogia - Licenciatura - Curitiba - PR - N,final,79
+2022,Produção Cultural - Bacharelado - Curitiba - PR - M,final,22
+2022,Produção Cênica - Formação do Tecnólogo - Curitiba - PR - N,final,0
+2022,Psicologia - Bacharelado - Curitiba - PR - MT,final,82
+2022,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,final,35
+2022,Química - Licenciatura - Curitiba - PR - N,final,14
+2022,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,final,60
+2022,Relações Públicas - Bacharelado - Curitiba - PR - MN,final,35
+2022,Saúde Coletiva - Bacharelado - Matinhos - PR - M,final,2
+2022,Secretariado - Formação do Tecnólogo - Curitiba - PR - N,final,8
+2022,Serviço Social - Bacharelado - Matinhos - PR - N,final,27
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,final,32
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,final,39
+2022,Turismo - Bacharelado - Curitiba - PR - N,final,30
+2022,Zootecnia - Bacharelado - Curitiba - PR - MT,final,28
+2023,Administração - Bacharelado - Curitiba - PR - M,chamada_geral,88
+2023,Administração - Bacharelado - Curitiba - PR - N,chamada_geral,88
+2023,Administração Pública - Bacharelado - Matinhos - PR - N,chamada_geral,32
+2023,Agroecologia - Tecnológico - Matinhos - PR - M,chamada_geral,13
+2023,Agronomia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,106
+2023,Agronomia - Bacharelado - Palotina - PR - I (M+V),chamada_geral,64
+2023,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,chamada_geral,64
+2023,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,chamada_geral,32
+2023,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,48
+2023,Artes - Licenciatura - Matinhos - PR - M,chamada_geral,24
+2023,Artes Visuais - Bacharelado - Curitiba - PR - M,chamada_geral,14
+2023,Artes Visuais - Licenciatura - Curitiba - PR - M,chamada_geral,13
+2023,Biomedicina - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,24
+2023,Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),chamada_geral,64
+2023,Ciências - Licenciatura - Matinhos - PR - N,chamada_geral,11
+2023,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),chamada_geral,12
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,48
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,48
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - I (M+V),chamada_geral,14
+2023,Ciências Contábeis - Bacharelado - Curitiba - PR - N,chamada_geral,96
+2023,Ciências Econômicas - Bacharelado - Curitiba - PR - M,chamada_geral,64
+2023,Ciências Econômicas - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,chamada_geral,3
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,chamada_geral,7
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,chamada_geral,17
+2023,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,64
+2023,Computação - Licenciatura - Jandaia do Sul - PR - V,chamada_geral,3
+2023,Computação - Licenciatura - Palotina - PR - N,chamada_geral,19
+2023,Comunicação Institucional - Tecnológico - Curitiba - PR - M,chamada_geral,34
+2023,Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,26
+2023,Design de Produto - Bacharelado - Curitiba - PR - M,chamada_geral,26
+2023,Direito - Bacharelado - Curitiba - PR - M,chamada_geral,80
+2023,Direito - Bacharelado - Curitiba - PR - N,chamada_geral,80
+2023,Educação Física - Licenciatura - Matinhos - PR - N,chamada_geral,28
+2023,Educação Física - Licenciatura/Bacharelado - Curitiba - PR - I (M+V),chamada_geral,120
+2023,Enfermagem - Licenciatura/Bacharelado - Curitiba - PR - I (M+V),chamada_geral,48
+2023,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+V),chamada_geral,12
+2023,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,21
+2023,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,chamada_geral,19
+2023,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,15
+2023,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,133
+2023,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,chamada_geral,16
+2023,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,80
+2023,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,chamada_geral,40
+2023,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,29
+2023,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,12
+2023,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,chamada_geral,22
+2023,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,86
+2023,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,chamada_geral,72
+2023,Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,86
+2023,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),chamada_geral,5
+2023,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),chamada_geral,4
+2023,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,chamada_geral,9
+2023,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,36
+2023,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,chamada_geral,15
+2023,Engenharia de Energia - Bacharelado - Palotina - PR - M,chamada_geral,14
+2023,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,48
+2023,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),chamada_geral,7
+2023,Estatística - Bacharelado - Curitiba - PR - I (V+N),chamada_geral,52
+2023,Expressão Gráfica - Bacharelado - Curitiba - PR - M,chamada_geral,23
+2023,Farmácia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,86
+2023,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,31
+2023,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,40
+2023,Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,40
+2023,Física - Bacharelado - Curitiba - PR - M,chamada_geral,52
+2023,Física - Licenciatura - Curitiba - PR - N,chamada_geral,42
+2023,Geografia - Licenciatura - Matinhos - PR - N,chamada_geral,16
+2023,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,chamada_geral,28
+2023,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,chamada_geral,30
+2023,Geologia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,26
+2023,Gestão Pública - Tecnológico - Curitiba - PR - N,chamada_geral,14
+2023,Gestão da Informação - Bacharelado - Curitiba - PR - M,chamada_geral,48
+2023,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,chamada_geral,27
+2023,Gestão de Turismo - Tecnológico - Matinhos - PR - N,chamada_geral,10
+2023,História - Licenciatura/Bacharelado - Curitiba - PR - V,chamada_geral,32
+2023,História Memória e Imagem - Bacharelado - Curitiba - PR - N,chamada_geral,30
+2023,Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),chamada_geral,24
+2023,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),chamada_geral,24
+2023,Letras - Francês - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2023,Letras - Inglês - Licenciatura - Curitiba - PR - M,chamada_geral,16
+2023,Letras - Inglês - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2023,Letras - Italiano - Licenciatura - Curitiba - PR - M,chamada_geral,9
+2023,Letras - Japonês - Bacharelado - Curitiba - PR - N,chamada_geral,8
+2023,Letras - Polonês - Bacharelado - Curitiba - PR - N,chamada_geral,2
+2023,Letras - Português - Bacharelado - Curitiba - PR - M,chamada_geral,4
+2023,Letras - Português - Bacharelado - Curitiba - PR - N,chamada_geral,4
+2023,Letras - Português - Licenciatura - Curitiba - PR - M,chamada_geral,16
+2023,Letras - Português - Licenciatura - Curitiba - PR - N,chamada_geral,16
+2023,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,chamada_geral,11
+2023,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,chamada_geral,9
+2023,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,chamada_geral,16
+2023,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,chamada_geral,11
+2023,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,chamada_geral,8
+2023,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,chamada_geral,4
+2023,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,chamada_geral,13
+2023,Luteria - Tecnológico - Curitiba - PR - I (M+V),chamada_geral,24
+2023,Matemática - Licenciatura - Curitiba - PR - N,chamada_geral,35
+2023,Matemática - Licenciatura/Bacharelado - Curitiba - PR - V,chamada_geral,35
+2023,Matemática Industrial - Bacharelado - Curitiba - PR - V,chamada_geral,10
+2023,Medicina - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,152
+2023,Medicina - Bacharelado - Toledo - PR - I (M+V),chamada_geral,48
+2023,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,48
+2023,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),chamada_geral,64
+2023,Música - Bacharelado - Curitiba - PR - V,chamada_geral,20
+2023,Música - Licenciatura - Curitiba - PR - V,chamada_geral,20
+2023,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,chamada_geral,25
+2023,Nutrição - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,53
+2023,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),chamada_geral,32
+2023,Odontologia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,74
+2023,Pedagogia - Licenciatura - Curitiba - PR - M,chamada_geral,56
+2023,Pedagogia - Licenciatura - Curitiba - PR - N,chamada_geral,80
+2023,Produção Cultural - Bacharelado - Curitiba - PR - M,chamada_geral,16
+2023,Psicologia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,64
+2023,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2023,Química - Licenciatura - Curitiba - PR - N,chamada_geral,37
+2023,Química - Licenciatura/Bacharelado - Curitiba - PR - I (M+V),chamada_geral,53
+2023,Relações Públicas - Bacharelado - Curitiba - PR - MN,chamada_geral,24
+2023,Saúde Coletiva - Bacharelado - Matinhos - PR - M,chamada_geral,9
+2023,Secretariado - Tecnológico - Curitiba - PR - N,chamada_geral,14
+2023,Serviço Social - Bacharelado - Matinhos - PR - N,chamada_geral,28
+2023,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,43
+2023,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,chamada_geral,48
+2023,Turismo - Bacharelado - Curitiba - PR - M,chamada_geral,35
+2023,Zootecnia - Bacharelado - Curitiba - PR - I (M+V),chamada_geral,22

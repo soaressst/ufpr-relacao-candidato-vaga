@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Projeto 1 - Relação Candidato X Vaga"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "278d98bb-4685-456c-b9a0-611813501167"
+  }
+}

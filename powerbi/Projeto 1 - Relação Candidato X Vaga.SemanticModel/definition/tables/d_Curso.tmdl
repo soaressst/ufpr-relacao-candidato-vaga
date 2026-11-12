@@ -1,0 +1,40 @@
+table d_Curso
+	lineageTag: c8c1da68-312e-4674-bc46-2fba3c91721c
+
+	column turno
+		dataType: string
+		lineageTag: 6c94c3e0-15a7-4c38-92f3-ed6fc5c6269c
+		summarizeBy: none
+		sourceColumn: turno
+
+		annotation SummarizationSetBy = Automatic
+
+	column grau
+		dataType: string
+		lineageTag: 3c60d220-b362-4d20-afb9-bf651e9df7d9
+		summarizeBy: none
+		sourceColumn: grau
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_curso
+		dataType: string
+		lineageTag: 035503ca-712f-4687-b14f-66a55b67713b
+		summarizeBy: none
+		sourceColumn: nome_curso
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Curso = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"),
+				    Tabela = Fonte{[Schema="ufpr_analytics",Item="dim_curso"]}[Data]
+				in
+				    Tabela
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

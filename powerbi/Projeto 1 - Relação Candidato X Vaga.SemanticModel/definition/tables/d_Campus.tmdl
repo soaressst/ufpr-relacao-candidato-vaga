@@ -1,0 +1,24 @@
+table d_Campus
+	lineageTag: 469756a3-8f02-42dd-b70c-c62d823c7bb2
+
+	column nome_campus
+		dataType: string
+		lineageTag: c6a726a0-b045-45b7-b845-d1dabbdbe132
+		summarizeBy: none
+		sourceColumn: nome_campus
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Campus = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"),
+				    Tabela = Fonte{[Schema="ufpr_analytics",Item="dim_campus"]}[Data]
+				in
+				    Tabela
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,4 @@
+# Pacotes extras só para as análises (analises/); o app usa requirements.txt
+-r requirements.txt
+matplotlib>=3.8
+scikit-learn>=1.5

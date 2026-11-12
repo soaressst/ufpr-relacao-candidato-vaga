@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "c574b3d32416b8a7cee3",
+  "position": {
+    "x": 17.506234413965089,
+    "y": 1039.6009975062345,
+    "z": 9000,
+    "height": 40,
+    "width": 1473.3333333333335,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "*Mostra em quais anos ocorrem os maiores picos de entrada de cursos em situação crítica.",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

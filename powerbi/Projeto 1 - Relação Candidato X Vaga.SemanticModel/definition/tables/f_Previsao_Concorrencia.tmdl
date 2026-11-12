@@ -1,0 +1,134 @@
+table f_Previsao_Concorrencia
+	lineageTag: a854b3ff-21ad-4022-9b25-94ed9fdcfa48
+
+	column curso
+		dataType: string
+		lineageTag: 9428e6a5-4af2-4f7b-ac63-c66bc7a58fae
+		summarizeBy: none
+		sourceColumn: curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column campus
+		dataType: string
+		lineageTag: b6cc2988-3209-49bb-a9b5-a9fb433797a1
+		summarizeBy: none
+		sourceColumn: campus
+
+		annotation SummarizationSetBy = Automatic
+
+	column cand_vaga_2026
+		dataType: double
+		formatString: 0.00
+		lineageTag: 9ed37366-5bb7-47e9-8822-e45a9d88fbe3
+		summarizeBy: none
+		sourceColumn: cand_vaga_2026
+
+		annotation SummarizationSetBy = User
+
+	column valor_minimo
+		dataType: double
+		formatString: 0.00
+		lineageTag: 8aaac240-29cf-4930-a1c7-e7f5cb49916e
+		summarizeBy: none
+		sourceColumn: valor_minimo
+
+		annotation SummarizationSetBy = User
+
+	column ano_entrada_sobra_vagas
+		dataType: string
+		lineageTag: fc2d504e-60cf-47e2-bee9-f8454621df64
+		summarizeBy: none
+		sourceColumn: ano_entrada_sobra_vagas
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano_minimo
+		dataType: int64
+		formatString: 0
+		lineageTag: 2cc2292d-6561-4c6f-8bfb-87cdf3327d09
+		summarizeBy: none
+		sourceColumn: ano_minimo
+
+		annotation SummarizationSetBy = User
+
+	column turno
+		dataType: string
+		lineageTag: b5e695bf-b33a-41a9-a170-9f085c54592b
+		summarizeBy: none
+		sourceColumn: turno
+
+		annotation SummarizationSetBy = Automatic
+
+	column grau
+		dataType: string
+		lineageTag: 044b4491-8733-436a-b172-f31cc528d6d0
+		summarizeBy: none
+		sourceColumn: grau
+
+		annotation SummarizationSetBy = Automatic
+
+	column prev_2027
+		dataType: double
+		formatString: 0.00
+		lineageTag: 217ea021-34a6-4099-acd6-059b021da736
+		summarizeBy: none
+		sourceColumn: prev_2027
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column faixa_2027_min
+		dataType: double
+		formatString: 0.00
+		lineageTag: 72271b05-dd9f-4b85-a2d8-93f38c081086
+		summarizeBy: none
+		sourceColumn: faixa_2027_min
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column faixa_2027_max
+		dataType: double
+		formatString: 0.00
+		lineageTag: 1237f00d-f309-420d-88a9-771d69f31536
+		summarizeBy: none
+		sourceColumn: faixa_2027_max
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column prob_sobra_2027
+		dataType: double
+		formatString: 0%
+		lineageTag: 82b4154a-ac7e-4a3e-97d8-cd96dcbe5cdd
+		summarizeBy: none
+		sourceColumn: prob_sobra_2027
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column risco_2027
+		dataType: string
+		lineageTag: 5a9d3ebf-97ea-43b3-b3a4-108b6fee439f
+		summarizeBy: none
+		sourceColumn: risco_2027
+
+		annotation SummarizationSetBy = Automatic
+
+	partition f_Previsao_Concorrencia = m
+		mode: import
+		source =
+				let
+				    Fonte = Value.NativeQuery(PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"), "SELECT * FROM ufpr_analytics.vw_powerbi_concorrencia", null, [EnableFolding=true])
+				in
+				    Fonte
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

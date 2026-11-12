@@ -1,0 +1,899 @@
+ano,curso,vagas_1sem,vagas_2sem,vagas,leitura_ambigua
+2021,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2021,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2021,Agronomia - Bacharelado - Curitiba - PR - MT,53,53,106,False
+2021,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2021,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - T,32,0,32,False
+2021,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),60,0,60,False
+2021,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2021,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2021,Biomedicina - Bacharelado - Curitiba - PR - MT,24,0,24,False
+2021,Ciência da Computação - Bacharelado - Curitiba - PR - TN,64,0,64,False
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,48,0,48,False
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,48,0,48,False
+2021,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - M,64,0,64,False
+2021,Ciências Econômicas - Bacharelado - Curitiba - PR - N,72,0,72,False
+2021,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,64,0,64,False
+2021,Comunicação Institucional - Tecnológico - Curitiba - PR - M,36,0,36,False
+2021,Design de Produto - Bacharelado - Curitiba - PR - M,33,0,33,False
+2021,Design Gráfico - Bacharelado - Curitiba - PR - MT,33,0,33,False
+2021,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2021,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2021,Educação Física - Bacharelado - Curitiba - PR - MT,60,0,60,False
+2021,Educação Física - Licenciatura - Curitiba - PR - MT,60,0,60,False
+2021,Enfermagem - Bacharelado/ - Licenciatura - Curitiba - PR - MT,24,24,48,False
+2021,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2021,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,35,0,35,False
+2021,Engenharia Civil - Bacharelado - Curitiba - PR - MT,133,0,133,False
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,36,0,36,False
+2021,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,40,40,80,False
+2021,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2021,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,32,32,64,False
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,32,0,32,False
+2021,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,32,0,32,False
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2021,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2021,Engenharia Química - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2021,Estatística - Bacharelado - Curitiba - PR - N,66,0,66,False
+2021,Expressão Gráfica - Bacharelado - Curitiba - PR - M,35,0,35,False
+2021,Farmácia - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,32,0,32,False
+2021,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,40,0,40,False
+2021,Física - Bacharelado - Curitiba - PR - M,28,28,56,False
+2021,Física - Licenciatura - Curitiba - PR - N,36,36,72,False
+2021,Fisioterapia - Bacharelado - Curitiba - PR - MT,40,0,40,False
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,27,0,27,False
+2021,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,32,0,32,False
+2021,Geologia - Bacharelado - Curitiba - PR - MT,26,0,26,False
+2021,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2021,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,36,0,36,False
+2021,Gestão Pública - Tecnológico - Curitiba - PR - N,36,0,36,False
+2021,História - Licenciatura/Bacharelado - Curitiba - PR - T,32,0,32,False
+2021,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2021,Informática Biomédica - Bacharelado - Curitiba - PR - TN,24,0,24,False
+2021,Jornalismo - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2021,Letras - Francês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2021,Letras - Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2021,Letras - Italiano - Licenciatura - Curitiba - PR - M,16,0,16,False
+2021,Letras - Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2021,Letras - Polonês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2021,Letras - Português - Bacharelado - Curitiba - PR - M,4,0,4,False
+2021,Letras - Português - Bacharelado - Curitiba - PR - N,4,0,4,False
+2021,Letras - Português - Licenciatura - Curitiba - PR - M,20,0,20,False
+2021,Letras - Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2021,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,15,0,15,True
+2021,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,15,0,15,True
+2021,Letras - Português e Espanhol ou Alemão ou Grego ou Latim - Bacharelado - Curitiba - PR - M,20,0,20,True
+2021,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,15,0,15,True
+2021,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,10,0,10,False
+2021,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,5,0,5,True
+2021,Luteria - Tecnológico - Curitiba - PR - MT,12,0,12,True
+2021,Matemática - Licenciatura - Curitiba - PR - N,44,0,44,False
+2021,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,44,0,44,False
+2021,Matemática Industrial - Bacharelado - Curitiba - PR - T,32,0,32,False
+2021,Medicina - Bacharelado - Curitiba - PR - MT,76,76,152,False
+2021,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,24,24,48,False
+2021,Música - Bacharelado - Curitiba - PR - T(+N),20,0,20,False
+2021,Música - Licenciatura - Curitiba - PR - T(+N),20,0,20,False
+2021,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,36,0,36,False
+2021,Nutrição - Bacharelado - Curitiba - PR - MT,27,26,53,False
+2021,Odontologia - Bacharelado - Curitiba - PR - MT,37,37,74,False
+2021,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2021,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2021,Produção Cênica - Tecnológico - Curitiba - PR - N,36,0,36,False
+2021,Psicologia - Bacharelado - Curitiba - PR - MT,64,0,64,False
+2021,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2021,Química - Licenciatura - Curitiba - PR - N,40,0,40,False
+2021,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,53,0,53,False
+2021,Relações Públicas - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2021,Secretariado - Tecnológico - Curitiba - PR - N,40,0,40,False
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2021,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2021,Turismo - Bacharelado - Curitiba - PR - N,35,0,35,False
+2021,Zootecnia - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,40,0,40,False
+2021,Computação - Licenciatura - Jandaia do Sul - PR - T,40,0,40,False
+2021,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - M(+T),32,0,32,False
+2021,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - M(+T),28,0,28,False
+2021,Administração Pública - Bacharelado - Matinhos - PR - N,32,0,32,False
+2021,Agroecologia - Tecnológico - Matinhos - PR - M,28,0,28,False
+2021,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2021,Ciências - Licenciatura - Matinhos - PR - N,28,0,28,False
+2021,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,32,0,32,False
+2021,Educação Física - Licenciatura - Matinhos - PR - N,28,0,28,False
+2021,Geografia - Licenciatura - Matinhos - PR - N,28,0,28,False
+2021,Gestão de Turismo - Tecnológico - Matinhos - PR - N,28,0,28,False
+2021,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,28,0,28,False
+2021,Gestão Imobiliária - Tecnológico - Matinhos - PR - N,28,0,28,False
+2021,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,28,0,28,False
+2021,Saúde Coletiva - Bacharelado - Matinhos - PR - M,32,0,32,False
+2021,Serviço Social - Bacharelado - Matinhos - PR - N,28,0,28,False
+2021,Agronomia - Bacharelado - Palotina - PR - MT,32,32,64,False
+2021,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,48,0,48,False
+2021,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,80,0,80,False
+2021,Computação - Licenciatura - Palotina - PR - N,40,0,40,False
+2021,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,48,0,48,False
+2021,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,52,0,52,False
+2021,Engenharia de Energia - Bacharelado - Palotina - PR - M,60,0,60,False
+2021,Medicina Veterinária - Bacharelado - Palotina - PR - MT,32,32,64,False
+2021,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,26,0,26,False
+2021,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2021,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2021,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,24,0,24,False
+2021,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,32,0,32,False
+2021,Administração Pública (Modalidade a Distância) - Bacharelado - Terra Roxa - PR - EaD,0,0,0,False
+2021,Medicina - Bacharelado - Toledo - PR - MT,24,24,48,False
+2022,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2022,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2022,Agronomia - Bacharelado - Curitiba - PR - MT,53,53,106,False
+2022,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2022,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - T,32,0,32,False
+2022,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - M(+T)/T(+M),60,0,60,False
+2022,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2022,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2022,Biomedicina - Bacharelado - Curitiba - PR - MT,24,0,24,False
+2022,Ciência da Computação - Bacharelado - Curitiba - PR - TN,64,0,64,False
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,48,0,48,False
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,48,0,48,False
+2022,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - M,64,0,64,False
+2022,Ciências Econômicas - Bacharelado - Curitiba - PR - N,72,0,72,False
+2022,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,64,0,64,False
+2022,Comunicação Institucional - Tecnológico - Curitiba - PR - M,36,0,36,False
+2022,Design de Produto - Bacharelado - Curitiba - PR - M,33,0,33,False
+2022,Design Gráfico - Bacharelado - Curitiba - PR - MT,33,0,33,False
+2022,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2022,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2022,Educação Física - Bacharelado - Curitiba - PR - MT,60,0,60,False
+2022,Educação Física - Licenciatura - Curitiba - PR - MT,60,0,60,False
+2022,Enfermagem - Bacharelado/ - Licenciatura - Curitiba - PR - MT,24,24,48,False
+2022,Engenharia Ambiental - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2022,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - MT,35,0,35,False
+2022,Engenharia Civil - Bacharelado - Curitiba - PR - MT,133,0,133,False
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - MT,36,0,36,False
+2022,Engenharia de Produção - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - MT,40,40,80,False
+2022,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2022,Engenharia Florestal - Bacharelado - Curitiba - PR - MT,32,32,64,False
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - MT,32,0,32,False
+2022,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,32,0,32,False
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2022,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2022,Engenharia Química - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2022,Estatística - Bacharelado - Curitiba - PR - N,66,0,66,False
+2022,Expressão Gráfica - Bacharelado - Curitiba - PR - M,35,0,35,False
+2022,Farmácia - Bacharelado - Curitiba - PR - MT,43,43,86,False
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,32,0,32,False
+2022,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,40,0,40,False
+2022,Física - Bacharelado - Curitiba - PR - M,28,28,56,False
+2022,Física - Licenciatura - Curitiba - PR - N,36,36,72,False
+2022,Fisioterapia - Bacharelado - Curitiba - PR - MT,40,0,40,False
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,27,0,27,False
+2022,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,32,0,32,False
+2022,Geologia - Bacharelado - Curitiba - PR - MT,26,0,26,False
+2022,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2022,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,36,0,36,False
+2022,Gestão Pública - Tecnológico - Curitiba - PR - N,36,0,36,False
+2022,História - Licenciatura/Bacharelado - Curitiba - PR - T,32,0,32,False
+2022,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2022,Informática Biomédica - Bacharelado - Curitiba - PR - TN,24,0,24,False
+2022,Jornalismo - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2022,Letras - Francês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2022,Letras - Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2022,Letras - Italiano - Licenciatura - Curitiba - PR - M,16,0,16,False
+2022,Letras - Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2022,Letras - Polonês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2022,Letras - Português - Bacharelado - Curitiba - PR - M,5,0,5,False
+2022,Letras - Português - Bacharelado - Curitiba - PR - N,4,0,4,False
+2022,Letras - Português - Licenciatura - Curitiba - PR - M,20,0,20,False
+2022,Letras - Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2022,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,15,0,15,False
+2022,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,15,0,15,False
+2022, - Bacharelado - Curitiba - PR - M,20,0,20,False
+2022,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,15,0,15,False
+2022,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,10,0,10,False
+2022,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,5,0,5,False
+2022,Luteria - Tecnológico - Curitiba - PR - MT,12,0,12,False
+2022,Matemática - Licenciatura - Curitiba - PR - N,44,0,44,False
+2022,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,44,0,44,False
+2022,Matemática Industrial - Bacharelado - Curitiba - PR - T,32,0,32,False
+2022,Medicina - Bacharelado - Curitiba - PR - MT,76,76,152,False
+2022,Medicina Veterinária - Bacharelado - Curitiba - PR - MT,24,24,48,False
+2022,Música - Bacharelado - Curitiba - PR - T,20,0,20,False
+2022,Música - Licenciatura - Curitiba - PR - T,20,0,20,False
+2022,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,36,0,36,False
+2022,Nutrição - Bacharelado - Curitiba - PR - MT,27,26,53,False
+2022,Odontologia - Bacharelado - Curitiba - PR - MT,37,37,74,False
+2022,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2022,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2022,Produção Cênica - Tecnológico - Curitiba - PR - N,0,0,0,False
+2022,Produção Cultural - Bacharelado - Curitiba - PR - M,20,0,20,False
+2022,Psicologia - Bacharelado - Curitiba - PR - MT,64,0,64,False
+2022,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2022,Química - Licenciatura - Curitiba - PR - N,40,0,40,False
+2022,Química - Licenciatura/Bacharelado - Curitiba - PR - MT,53,0,53,False
+2022,Relações Públicas - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2022,Secretariado - Tecnológico - Curitiba - PR - N,40,0,40,False
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2022,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2022,Turismo - Bacharelado - Curitiba - PR - N,35,0,35,False
+2022,Zootecnia - Bacharelado - Curitiba - PR - MT,48,0,48,False
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,40,0,40,False
+2022,Computação - Licenciatura - Jandaia do Sul - PR - T,40,0,40,False
+2022,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - MT,32,0,32,False
+2022,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - MT,28,0,28,False
+2022,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - MT,32,0,32,False
+2022,Administração Pública - Bacharelado - Matinhos - PR - N,32,0,32,False
+2022,Agroecologia - Tecnológico - Matinhos - PR - M,28,0,28,False
+2022,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2022,Ciências - Licenciatura - Matinhos - PR - N,28,0,28,False
+2022,Ciências Ambientais - Bacharelado - Matinhos - PR - MT,32,0,32,False
+2022,Educação Física - Licenciatura - Matinhos - PR - N,28,0,28,False
+2022,Geografia - Licenciatura - Matinhos - PR - N,28,0,28,False
+2022,Gestão de Turismo - Tecnológico - Matinhos - PR - N,28,0,28,False
+2022,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,28,0,28,False
+2022,Saúde Coletiva - Bacharelado - Matinhos - PR - M,32,0,32,False
+2022,Serviço Social - Bacharelado - Matinhos - PR - N,28,0,28,False
+2022,Agronomia - Bacharelado - Palotina - PR - MT,32,32,64,False
+2022,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - MT,48,0,48,False
+2022,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,80,0,80,False
+2022,Computação - Licenciatura - Palotina - PR - N,40,0,40,False
+2022,Engenharia de Aquicultura - Bacharelado - Palotina - PR - MT,48,0,48,False
+2022,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,52,0,52,False
+2022,Engenharia de Energia - Bacharelado - Palotina - PR - M,48,0,48,False
+2022,Medicina Veterinária - Bacharelado - Palotina - PR - MT,32,32,64,False
+2022,Ciências Exatas (Física/Química) - Licenciatura - Pontal do Paraná - PR - N,26,0,26,False
+2022,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2022,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2022,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,24,0,24,False
+2022,Oceanografia - Bacharelado - Pontal do Paraná - PR - MT,32,0,32,False
+2022,Medicina - Bacharelado - Toledo - PR - MT,24,24,48,False
+2023,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2023,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2023,Agronomia - Bacharelado - Curitiba - PR - I (M+T),53,53,106,False
+2023,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2023,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - T,32,0,32,False
+2023,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+T),48,0,48,False
+2023,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2023,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2023,Biomedicina - Bacharelado - Curitiba - PR - I (M+T),24,0,24,False
+2023,Ciência da Computação - Bacharelado - Curitiba - PR - I (T+N),64,0,64,False
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - M,48,0,48,False
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Curitiba - PR - N,48,0,48,False
+2023,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2023,Ciências Econômicas - Bacharelado - Curitiba - PR - M,64,0,64,False
+2023,Ciências Econômicas - Bacharelado - Curitiba - PR - N,72,0,72,False
+2023,Ciências Sociais - Licenciatura/Bacharelado - Curitiba - PR - M,64,0,64,False
+2023,Comunicação Institucional - Tecnológico - Curitiba - PR - M,36,0,36,False
+2023,Design de Produto - Bacharelado - Curitiba - PR - M,26,0,26,False
+2023,Design Gráfico - Bacharelado - Curitiba - PR - I (M+T),26,0,26,True
+2023,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2023,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2023,Educação Física - Licenciatura/Bacharelado - Curitiba - PR - I (M+T),120,0,120,False
+2023,Enfermagem - Licenciatura/Bacharelado - Curitiba - PR - I (M+T),24,24,48,False
+2023,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+T),48,0,48,False
+2023,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+T),35,0,35,False
+2023,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+T),67,66,133,False
+2023,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+T),36,0,36,False
+2023,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+T),48,0,48,False
+2023,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+T),40,40,80,False
+2023,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2023,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+T),32,32,64,False
+2023,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+T),32,0,32,False
+2023,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,32,0,32,False
+2023,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+T),43,43,86,False
+2023,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2023,Engenharia Química - Bacharelado - Curitiba - PR - I (M+T),43,43,86,False
+2023,Estatística - Bacharelado - Curitiba - PR - I (T+N),53,0,53,False
+2023,Expressão Gráfica - Bacharelado - Curitiba - PR - M,35,0,35,False
+2023,Farmácia - Bacharelado - Curitiba - PR - I (M+T),43,43,86,False
+2023,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - M,32,0,32,False
+2023,Filosofia - Licenciatura/Bacharelado - Curitiba - PR - N,40,0,40,False
+2023,Física - Bacharelado - Curitiba - PR - I (M+T),28,28,56,False
+2023,Física - Licenciatura - Curitiba - PR - N,36,36,72,False
+2023,Fisioterapia - Bacharelado - Curitiba - PR - I (M+T),40,0,40,False
+2023,Geografia - Licenciatura/Bacharelado - Curitiba - PR - M,27,0,27,False
+2023,Geografia - Licenciatura/Bacharelado - Curitiba - PR - N,32,0,32,False
+2023,Geologia - Bacharelado - Curitiba - PR - I (M+T),26,0,26,False
+2023,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2023,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,36,0,36,False
+2023,Gestão Pública - Tecnológico - Curitiba - PR - N,36,0,36,False
+2023,História - Licenciatura/Bacharelado - Curitiba - PR - T,32,0,32,False
+2023,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2023,Informática Biomédica - Bacharelado - Curitiba - PR - I (T+N),24,0,24,False
+2023,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2023,Letras Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2023,Letras Italiano - Licenciatura - Curitiba - PR - M,16,0,16,False
+2023,Letras Português - Licenciatura - Curitiba - PR - M,16,0,16,False
+2023,Letras Português e Espanhol - Licenciatura - Curitiba - PR - M,12,0,12,False
+2023,Letras Português e Alemão - Licenciatura - Curitiba - PR - M,12,0,12,False
+2023,Letras Português - Bacharelado - Curitiba - PR - M,4,0,4,False
+2023,Letras Português e Espanhol ou Alemão ou Grego ou Latim - Curitiba - PR - M,16,0,16,False
+2023,Letras Francês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2023,Letras Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2023,Letras Polonês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2023,Letras Português - Bacharelado - Curitiba - PR - N,4,0,4,False
+2023,Letras Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2023,Letras Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2023,Letras Português e Francês - Licenciatura - Curitiba - PR - N,12,0,12,False
+2023,Letras Português e Japonês - Licenciatura - Curitiba - PR - N,8,0,8,False
+2023,Letras Português e Polonês - Licenciatura - Curitiba - PR - N,4,0,4,False
+2023,Luteria - Tecnológico - Curitiba - PR - I (M+T),24,0,24,False
+2023,Matemática - Licenciatura - Curitiba - PR - N,35,0,35,False
+2023,Matemática - Licenciatura/Bacharelado - Curitiba - PR - T,35,0,35,False
+2023,Matemática Industrial - Bacharelado - Curitiba - PR - T,32,0,32,False
+2023,Medicina - Bacharelado - Curitiba - PR - I (M+T),76,76,152,False
+2023,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+T),24,24,48,False
+2023,Música - Bacharelado - Curitiba - PR - T,20,0,20,False
+2023,Música - Licenciatura - Curitiba - PR - T,20,0,20,False
+2023,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,36,0,36,False
+2023,Nutrição - Bacharelado - Curitiba - PR - I (M+T),27,26,53,False
+2023,Odontologia - Bacharelado - Curitiba - PR - I (M+T),37,37,74,False
+2023,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2023,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2023,Produção Cultural - Bacharelado - Curitiba - PR - M,16,0,16,False
+2023,Psicologia - Bacharelado - Curitiba - PR - I (M+T),64,0,64,False
+2023,Publicidade e Propaganda - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2023,Química - Licenciatura - Curitiba - PR - N,40,0,40,False
+2023,Química - Licenciatura/Bacharelado - Curitiba - PR - I (M+T),53,0,53,False
+2023,Relações Públicas - Bacharelado - Curitiba - PR - MN,24,0,24,False
+2023,Secretariado - Tecnológico - Curitiba - PR - N,40,0,40,False
+2023,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+T),48,0,48,False
+2023,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2023,Turismo - Bacharelado - Curitiba - PR - M,35,0,35,False
+2023,Zootecnia - Bacharelado - Curitiba - PR - I (M+T),48,0,48,False
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Jandaia do Sul - PR - N,40,0,40,False
+2023,Computação - Licenciatura - Jandaia do Sul - PR - T,40,0,40,False
+2023,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+T),32,0,32,False
+2023,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+T),28,0,28,False
+2023,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+T),32,0,32,False
+2023,Administração Pública - Bacharelado - Matinhos - PR - N,32,0,32,False
+2023,Agroecologia - Tecnológico - Matinhos - PR - M,28,0,28,False
+2023,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2023,Ciências - Licenciatura - Matinhos - PR - N,28,0,28,False
+2023,Educação Física - Licenciatura - Matinhos - PR - N,28,0,28,False
+2023,Geografia - Licenciatura - Matinhos - PR - N,28,0,28,False
+2023,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+T),32,0,32,False
+2023,Gestão de Turismo - Tecnológico - Matinhos - PR - N,28,0,28,False
+2023,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,28,0,28,False
+2023,Saúde Coletiva - Bacharelado - Matinhos - PR - M,32,0,32,False
+2023,Serviço Social - Bacharelado - Matinhos - PR - N,28,0,28,False
+2023,Agronomia - Bacharelado - Palotina - PR - I (M+T),32,32,64,False
+2023,Ciências Biológicas - Licenciatura/Bacharelado - Palotina - PR - I (M+T),48,0,48,False
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Palotina - PR - N,80,0,80,False
+2023,Computação - Licenciatura - Palotina - PR - N,40,0,40,False
+2023,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+T),48,0,48,False
+2023,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,52,0,52,False
+2023,Engenharia de Energia - Bacharelado - Palotina - PR - M,48,0,48,False
+2023,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+T),32,32,64,False
+2023,Ciências Exatas (Física/Matemática/Química) - Licenciatura - Pontal do Paraná - PR - N,40,0,40,False
+2023,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2023,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - T,32,0,32,False
+2023,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,24,0,24,False
+2023,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+T),32,0,32,False
+2023,Medicina - Bacharelado - Toledo - PR - I (M+T),24,24,48,False
+2024,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2024,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2024,Agronomia - Bacharelado - Curitiba - PR - I (M+V),53,53,106,False
+2024,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2024,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,32,0,32,False
+2024,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2024,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2024,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2024,Biomedicina - Bacharelado - Curitiba - PR - I (M+V),24,0,24,False
+2024,Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),72,0,72,False
+2024,Ciências Biológicas - ABI - Curitiba - PR - M,48,0,48,False
+2024,Ciências Biológicas - ABI - Curitiba - PR - N,48,0,48,False
+2024,Ciências Contábeis - Bacharelado - Curitiba - PR - N,100,0,100,False
+2024,Ciências Econômicas - Bacharelado - Curitiba - PR - M,69,0,69,False
+2024,Ciências Econômicas - Bacharelado - Curitiba - PR - N,76,0,76,False
+2024,Ciências Sociais - ABI - Curitiba - PR - M,64,0,64,False
+2024,Comunicação Institucional - Tecnológico - Curitiba - PR - M,36,0,36,False
+2024,Design de Produto - Bacharelado - Curitiba - PR - M,26,0,26,False
+2024,Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2024,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2024,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2024,Educação Física - ABI - Curitiba - PR - I (M+V),120,0,120,False
+2024,Enfermagem - ABI - Curitiba - PR - I (M+V),16,16,32,False
+2024,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2024,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),35,0,35,False
+2024,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),67,66,133,False
+2024,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),36,0,36,False
+2024,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),51,0,51,False
+2024,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),40,40,80,False
+2024,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2024,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),32,32,64,False
+2024,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),32,0,32,False
+2024,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,32,0,32,False
+2024,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),48,48,96,False
+2024,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2024,Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),44,44,88,False
+2024,Estatística - Bacharelado - Curitiba - PR - I (V+N),53,0,53,False
+2024,Expressão Gráfica - Bacharelado - Curitiba - PR - M,35,0,35,False
+2024,Farmácia - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2024,Filosofia - ABI - Curitiba - PR - M,32,0,32,False
+2024,Filosofia - ABI - Curitiba - PR - N,40,0,40,False
+2024,Física - Bacharelado - Curitiba - PR - I (M+V),28,28,56,False
+2024,Física - Licenciatura - Curitiba - PR - N,36,36,72,False
+2024,Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),40,0,40,False
+2024,Geografia - ABI - Curitiba - PR - M,27,0,27,False
+2024,Geografia - ABI - Curitiba - PR - N,32,0,32,False
+2024,Geologia - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2024,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2024,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,36,0,36,False
+2024,Gestão Pública - Tecnológico - Curitiba - PR - N,36,0,36,False
+2024,História - ABI - Curitiba - PR - V,32,0,32,False
+2024,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2024,Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),29,0,29,False
+2024,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2024,Letras Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2024,Letras Italiano - Licenciatura - Curitiba - PR - M,16,0,16,False
+2024,Letras Português - Licenciatura - Curitiba - PR - M,16,0,16,False
+2024,Letras Português e Espanhol - Licenciatura - Curitiba - PR - M,12,0,12,False
+2024,Letras Português e Alemão - Licenciatura - Curitiba - PR - M,12,0,12,False
+2024,Letras Português - Bacharelado - Curitiba - PR - M,4,0,4,False
+2024,Letras Português e (Espanhol ou Alemão ou Grego ou Latim) - Bacharelado - Curitiba - PR - M,16,0,16,False
+2024,Letras Francês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2024,Letras Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2024,Letras Polonês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2024,Letras Português - Bacharelado - Curitiba - PR - N,4,0,4,False
+2024,Letras Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2024,Letras Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2024,Letras Português e Francês - Licenciatura - Curitiba - PR - N,12,0,12,False
+2024,Letras Português e Japonês - Licenciatura - Curitiba - PR - N,8,0,8,False
+2024,Letras Português e Polonês - Licenciatura - Curitiba - PR - N,4,0,4,False
+2024,Luteria - Tecnológico - Curitiba - PR - I (M+V),24,0,24,False
+2024,Matemática - Licenciatura - Curitiba - PR - N,44,0,44,False
+2024,Matemática - ABI - Curitiba - PR - V,35,0,35,False
+2024,Matemática Industrial - Bacharelado - Curitiba - PR - V,32,0,32,False
+2024,Medicina - Bacharelado - Curitiba - PR - I (M+V),78,77,155,False
+2024,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2024,Música - Bacharelado - Curitiba - PR - V,20,0,20,False
+2024,Música - Licenciatura - Curitiba - PR - V,20,0,20,False
+2024,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,36,0,36,False
+2024,Nutrição - Bacharelado - Curitiba - PR - I (M+V),27,26,53,False
+2024,Odontologia - Bacharelado - Curitiba - PR - I (M+V),37,37,74,False
+2024,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2024,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2024,Produção Cultural - Bacharelado - Curitiba - PR - M,16,0,16,False
+2024,Psicologia - Bacharelado - Curitiba - PR - I (M+V),64,0,64,False
+2024,Publicidade e Propaganda - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2024,Química - Licenciatura - Curitiba - PR - N,40,0,40,False
+2024,Química - ABI - Curitiba - PR - I (M+V),58,0,58,False
+2024,Relações Públicas - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2024,Secretariado - Tecnológico - Curitiba - PR - N,40,0,40,False
+2024,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2024,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2024,Turismo - Bacharelado - Curitiba - PR - M,35,0,35,False
+2024,Zootecnia - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2024,Ciências Exatas (Física/Matemática/Química) - ABI (Licenciatura) - Jandaia do Sul - PR - N,40,0,40,False
+2024,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+V),32,0,32,False
+2024,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),28,0,28,False
+2024,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),32,0,32,False
+2024,Administração Pública - Bacharelado - Matinhos - PR - N,32,0,32,False
+2024,Agroecologia - Tecnológico - Matinhos - PR - M,28,0,28,False
+2024,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2024,Ciências - Licenciatura - Matinhos - PR - N,28,0,28,False
+2024,Educação Física - Licenciatura - Matinhos - PR - N,30,0,30,False
+2024,Geografia - Licenciatura - Matinhos - PR - N,28,0,28,False
+2024,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),32,0,32,False
+2024,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,28,0,28,False
+2024,Gestão de Turismo - Tecnológico - Matinhos - PR - N,28,0,28,False
+2024,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,28,0,28,False
+2024,Saúde Coletiva - Bacharelado - Matinhos - PR - M,32,0,32,False
+2024,Serviço Social - Bacharelado - Matinhos - PR - N,28,0,28,False
+2024,Agronomia - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2024,Ciências Biológicas - ABI - Palotina - PR - I (M+V),48,0,48,False
+2024,Ciências Exatas (Física/Matemática/Química) - ABI (Licenciatura) - Palotina - PR - N,80,0,80,False
+2024,Computação - Licenciatura - Palotina - PR - N,40,0,40,False
+2024,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),48,0,48,False
+2024,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,52,0,52,False
+2024,Engenharia de Energia - Bacharelado - Palotina - PR - M,48,0,48,False
+2024,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2024,Ciências Exatas (Física/Matemática/Química) - ABI (Licenciatura) - Pontal do Paraná - PR - N,40,0,40,False
+2024,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,32,0,32,False
+2024,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,32,0,32,False
+2024,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,24,0,24,False
+2024,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),32,0,32,False
+2024,Medicina - Bacharelado - Toledo - PR - I (M+V),25,24,49,False
+2025,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2025,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2025,Agronomia - Bacharelado - Curitiba - PR - I (M+V),53,53,106,False
+2025,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2025,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,32,0,32,False
+2025,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2025,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2025,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2025,Biomedicina - Bacharelado - Curitiba - PR - I (M+V),24,0,24,False
+2025,Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),64,0,64,False
+2025,Ciências Biológicas ABI - Curitiba - PR - M,48,0,48,False
+2025,Ciências Biológicas ABI - Curitiba - PR - N,48,0,48,False
+2025,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2025,Ciências Econômicas - Bacharelado - Curitiba - PR - M,64,0,64,False
+2025,Ciências Econômicas - Bacharelado - Curitiba - PR - N,72,0,72,False
+2025,Ciências Sociais ABI - Curitiba - PR - M,64,0,64,False
+2025,Comunicação Institucional - Tecnológico - Curitiba - PR - M,29,0,29,False
+2025,Design de Produto - Bacharelado - Curitiba - PR - M,26,0,26,False
+2025,Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2025,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2025,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2025,Educação Física ABI - Curitiba - PR - I (M+V),120,0,120,False
+2025,Enfermagem - Bacharelado - Curitiba - PR - I (M+V),16,16,32,False
+2025,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2025,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),16,0,16,False
+2025,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),67,66,133,False
+2025,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),36,0,36,False
+2025,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2025,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),40,40,80,False
+2025,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2025,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),32,5,37,False
+2025,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),10,0,10,False
+2025,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,18,0,18,False
+2025,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2025,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2025,Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2025,Estatística e Ciência de Dados - Bacharelado - Curitiba - PR - I (V+N),53,0,53,False
+2025,Expressão Gráfica - Bacharelado - Curitiba - PR - M,26,0,26,False
+2025,Farmácia - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2025,Filosofia ABI - Curitiba - PR - M,32,0,32,False
+2025,Filosofia ABI - Curitiba - PR - N,40,0,40,False
+2025,Física - Bacharelado - Curitiba - PR - I (M+V),28,28,56,False
+2025,Física - Licenciatura - Curitiba - PR - N,36,15,51,False
+2025,Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),20,0,20,False
+2025,Geografia ABI - Curitiba - PR - M,27,0,27,False
+2025,Geografia ABI - Curitiba - PR - N,32,0,32,False
+2025,Geologia - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2025,Gestão da Informação - Bacharelado - Curitiba - PR - M,34,0,34,False
+2025,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,36,0,36,False
+2025,Gestão Pública - Tecnológico - Curitiba - PR - N,36,0,36,False
+2025,História ABI - Curitiba - PR - V,32,0,32,False
+2025,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2025,Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),24,0,24,False
+2025,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2025,Letras Francês - Bacharelado - Curitiba - PR - N,5,0,5,False
+2025,Letras Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2025,Letras Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2025,Letras Italiano - Licenciatura - Curitiba - PR - M,8,0,8,False
+2025,Letras Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2025,Letras Polonês - Bacharelado - Curitiba - PR - N,4,0,4,False
+2025,Letras Português - Bacharelado - Curitiba - PR - M,5,0,5,False
+2025,Letras Português - Bacharelado - Curitiba - PR - N,5,0,5,False
+2025,Letras Português - Licenciatura - Curitiba - PR - M,16,0,16,False
+2025,Letras Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2025,Letras Português e Alemão - Licenciatura - Curitiba - PR - M,8,0,8,False
+2025,Letras Português e Espanhol - Licenciatura - Curitiba - PR - M,11,0,11,False
+2025,Letras Português e (Espanhol ou Bacharelado Alemão ou Grego ou Latim) - Curitiba - PR - M,16,0,16,False
+2025,Letras Português e Francês - Licenciatura - Curitiba - PR - N,12,0,12,False
+2025,Letras Português e Japonês - Licenciatura - Curitiba - PR - N,8,0,8,False
+2025,Letras Português e Polonês - Licenciatura - Curitiba - PR - N,1,0,1,False
+2025,Luteria - Tecnológico - Curitiba - PR - I (M+V),24,0,24,False
+2025,Matemática - Licenciatura - Curitiba - PR - N,44,0,44,False
+2025,Matemática ABI - Curitiba - PR - V,27,0,27,False
+2025,Matemática Industrial - Bacharelado - Curitiba - PR - V,12,0,12,False
+2025,Medicina - Bacharelado - Curitiba - PR - I (M+V),80,80,160,False
+2025,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2025,Música - Bacharelado - Curitiba - PR - V,20,0,20,False
+2025,Música - Licenciatura - Curitiba - PR - V,20,0,20,False
+2025,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,36,0,36,False
+2025,Nutrição - Bacharelado - Curitiba - PR - I (M+V),27,26,53,False
+2025,Odontologia - Bacharelado - Curitiba - PR - I (M+V),37,37,74,False
+2025,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2025,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2025,Produção Cultural - Bacharelado - Curitiba - PR - M,16,0,16,False
+2025,Psicologia - Bacharelado - Curitiba - PR - I (M+V),64,0,64,False
+2025,Publicidade e Propaganda - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2025,Química ABI - Curitiba - PR - I (M+V),53,0,53,False
+2025,Química - Licenciatura - Curitiba - PR - N,30,0,30,False
+2025,Relações Públicas - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2025,Secretariado - Tecnológico - Curitiba - PR - N,17,0,17,False
+2025,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2025,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2025,Turismo - Bacharelado - Curitiba - PR - M,34,0,34,False
+2025,Zootecnia - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2025,(Física/Matemática/ - Jandaia do Sul - PR - N,6,0,6,False
+2025,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+V),20,0,20,False
+2025,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),5,0,5,False
+2025,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),12,0,12,False
+2025,Administração Pública - Bacharelado - Matinhos - PR - N,32,0,32,False
+2025,Agroecologia - Tecnológico - Matinhos - PR - M,8,0,8,False
+2025,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2025,Ciências - Licenciatura - Matinhos - PR - N,9,0,9,False
+2025,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),16,0,16,False
+2025,Educação Física - Licenciatura - Matinhos - PR - N,28,0,28,False
+2025,Geografia - Licenciatura - Matinhos - PR - N,7,0,7,False
+2025,Gestão de Turismo - Tecnológico - Matinhos - PR - N,19,0,19,False
+2025,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,25,0,25,False
+2025,Linguagem e Comunicação - Licenciatura - Matinhos - PR - N,9,0,9,False
+2025,Saúde Coletiva - Bacharelado - Matinhos - PR - M,14,0,14,False
+2025,Serviço Social - Bacharelado - Matinhos - PR - N,28,0,28,False
+2025,Agronomia - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2025,Ciências Biológicas ABI - Palotina - PR - I (M+V),31,0,31,False
+2025,(Física/Matemática/ - Palotina - PR - N,7,0,7,False
+2025,Computação - Licenciatura - Palotina - PR - N,16,0,16,False
+2025,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),5,0,5,False
+2025,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,18,0,18,False
+2025,Engenharia de Energia - Bacharelado - Palotina - PR - M,9,0,9,False
+2025,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2025,(Física/Matemática/ - Pontal do Paraná - PR - N,8,0,8,False
+2025,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,23,0,23,False
+2025,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,32,0,32,False
+2025,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,4,0,4,False
+2025,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),32,0,32,False
+2025,Medicina - Bacharelado - Toledo - PR - I (M+V),25,24,49,False
+2026,Administração - Bacharelado - Curitiba - PR - M,44,44,88,False
+2026,Administração - Bacharelado - Curitiba - PR - N,44,44,88,False
+2026,Agronomia - Bacharelado - Curitiba - PR - I (M+V),53,53,106,False
+2026,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,32,32,64,False
+2026,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,32,0,32,False
+2026,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2026,Artes Visuais - Bacharelado - Curitiba - PR - M,13,0,13,False
+2026,Artes Visuais - Licenciatura - Curitiba - PR - M,13,0,13,False
+2026,Biomedicina - Bacharelado - Curitiba - PR - I (M+V),24,0,24,False
+2026,Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),64,0,64,False
+2026,Ciências Biológicas ABI (Bacharelado) - Curitiba - PR - M,24,0,24,False
+2026,Ciências Biológicas ABI (Licenciatura) - Curitiba - PR - M,24,0,24,False
+2026,Ciências Biológicas ABI (Bacharelado) - Curitiba - PR - N,24,0,24,False
+2026,Ciências Biológicas ABI (Licenciatura) - Curitiba - PR - N,24,0,24,False
+2026,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2026,Ciências Econômicas - Bacharelado - Curitiba - PR - M,64,0,64,False
+2026,Ciências Econômicas - Bacharelado - Curitiba - PR - N,72,0,72,False
+2026,Ciências Sociais ABI (Bacharelado) - Curitiba - PR - M,32,0,32,False
+2026,Ciências Sociais ABI (Licenciatura) - Curitiba - PR - M,22,0,22,False
+2026,Comunicação Institucional - Tecnológico - Curitiba - PR - M,34,0,34,False
+2026,Design de Produto - Bacharelado - Curitiba - PR - M,26,0,26,False
+2026,Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2026,Direito - Bacharelado - Curitiba - PR - M,80,0,80,False
+2026,Direito - Bacharelado - Curitiba - PR - N,80,0,80,False
+2026,Educação Física ABI (Bacharelado) - Curitiba - PR - I (M+V),60,0,60,False
+2026,Educação Física ABI (Licenciatura) - Curitiba - PR - I (M+V),60,0,60,False
+2026,Enfermagem - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2026,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2026,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),16,0,16,False
+2026,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),67,66,133,False
+2026,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),36,0,36,False
+2026,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2026,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),40,40,80,False
+2026,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,40,0,40,False
+2026,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),31,0,31,False
+2026,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),8,0,8,False
+2026,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,26,0,26,False
+2026,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2026,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,36,36,72,False
+2026,Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2026,Estatística e Ciência de Dados - Bacharelado - Curitiba - PR - I (V+N),53,0,53,False
+2026,Expressão Gráfica - Bacharelado - Curitiba - PR - M,23,0,23,False
+2026,Farmácia - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2026,Filosofia ABI (Bacharelado) - Curitiba - PR - M,16,0,16,False
+2026,Filosofia ABI (Licenciatura) - Curitiba - PR - M,16,0,16,False
+2026,Filosofia ABI (Bacharelado) - Curitiba - PR - N,20,0,20,False
+2026,Filosofia ABI (Licenciatura) - Curitiba - PR - N,20,0,20,False
+2026,Física - Bacharelado - Curitiba - PR - I (M+V),28,28,56,False
+2026,Física - Licenciatura - Curitiba - PR - N,36,2,38,False
+2026,Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),40,0,40,False
+2026,Geografia ABI (Bacharelado) - Curitiba - PR - M,10,0,10,False
+2026,Geografia ABI (Licenciatura) - Curitiba - PR - M,14,0,14,False
+2026,Geografia ABI (Bacharelado) - Curitiba - PR - N,12,0,12,False
+2026,Geografia ABI (Licenciatura) - Curitiba - PR - N,16,0,16,False
+2026,Geologia - Bacharelado - Curitiba - PR - I (M+V),26,0,26,False
+2026,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2026,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,17,0,17,False
+2026,Gestão Pública - Tecnológico - Curitiba - PR - N,26,0,26,False
+2026,História ABI (Bacharelado) - Curitiba - PR - V,16,0,16,False
+2026,História ABI (Licenciatura) - Curitiba - PR - V,16,0,16,False
+2026,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2026,Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),24,0,24,False
+2026,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2026,Letras - Francês - Bacharelado - Curitiba - PR - N,5,0,5,False
+2026,Letras - Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2026,Letras - Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2026,Letras - Italiano - Licenciatura - Curitiba - PR - M,12,0,12,False
+2026,Letras - Japonês - Bacharelado - Curitiba - PR - N,8,0,8,False
+2026,Letras - Polonês - Bacharelado - Curitiba - PR - N,0,0,0,False
+2026,Letras - Português - Bacharelado - Curitiba - PR - M,5,0,5,False
+2026,Letras - Português - Licenciatura - Curitiba - PR - M,16,0,16,False
+2026,Letras - Português - Bacharelado - Curitiba - PR - N,5,0,5,False
+2026,Letras - Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2026,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,8,0,8,False
+2026,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,12,0,12,False
+2026,Letras - Português e (Espanhol ou Alemão ou Grego ou Latim) - Bacharelado - Curitiba - PR - M,16,0,16,False
+2026,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,9,0,9,False
+2026,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,8,0,8,False
+2026,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,5,0,5,False
+2026,Luteria - Tecnológico - Curitiba - PR - I (M+V),18,0,18,False
+2026,Matemática - Licenciatura - Curitiba - PR - N,40,0,40,False
+2026,Matemática ABI (Bacharelado) - Curitiba - PR - V,17,0,17,False
+2026,Matemática ABI (Licenciatura) - Curitiba - PR - V,8,0,8,False
+2026,Matemática Industrial - Bacharelado - Curitiba - PR - V,11,0,11,False
+2026,Medicina - Bacharelado - Curitiba - PR - I (M+V),80,80,160,False
+2026,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2026,Música - Bacharelado - Curitiba - PR - V,20,0,20,False
+2026,Música - Licenciatura - Curitiba - PR - V,20,0,20,False
+2026,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,34,0,34,False
+2026,Nutrição - Bacharelado - Curitiba - PR - I (M+V),27,26,53,False
+2026,Odontologia - Bacharelado - Curitiba - PR - I (M+V),37,37,74,False
+2026,Pedagogia - Licenciatura - Curitiba - PR - M,56,0,56,False
+2026,Pedagogia - Licenciatura - Curitiba - PR - N,80,0,80,False
+2026,Produção Cultural - Bacharelado - Curitiba - PR - M,16,0,16,False
+2026,Psicologia - Bacharelado - Curitiba - PR - I (M+V),64,0,64,False
+2026,Publicidade e Propaganda - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2026,Química ABI (Bacharelado) - Curitiba - PR - I (M+V),37,0,37,False
+2026,Química ABI (Licenciatura) - Curitiba - PR - I (M+V),2,0,2,False
+2026,Química - Licenciatura - Curitiba - PR - N,28,0,28,False
+2026,Relações Públicas - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2026,Secretariado - Tecnológico - Curitiba - PR - N,14,0,14,False
+2026,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2026,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,48,48,False
+2026,Turismo - Bacharelado - Curitiba - PR - M,29,0,29,False
+2026,Zootecnia - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2026,Ciências Exatas (Física) ABI (Licenciatura) - Jandaia do Sul - PR - N,1,0,1,False
+2026,Ciências Exatas (Matemática) ABI (Licenciatura) - Jandaia do Sul - PR - N,5,0,5,False
+2026,Ciências Exatas (Química) ABI (Licenciatura) - Jandaia do Sul - PR - N,2,0,2,False
+2026,Engenharia Agrícola - Bacharelado - Jandaia do Sul - PR - I (M+V),10,0,10,False
+2026,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),4,0,4,False
+2026,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),10,0,10,False
+2026,Inteligência Artificial e Engenharia de Software - Bacharelado - Jandaia do Sul - PR - I (M+V),24,0,24,False
+2026,Administração Pública - Bacharelado - Matinhos - PR - N,27,0,27,False
+2026,Agroecologia - Tecnológico - Matinhos - PR - M,13,0,13,False
+2026,Artes - Licenciatura - Matinhos - PR - M,24,0,24,False
+2026,Ciências - Licenciatura - Matinhos - PR - N,6,0,6,False
+2026,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),14,0,14,False
+2026,Educação Física - Licenciatura - Matinhos - PR - N,28,0,28,False
+2026,Geografia - Licenciatura - Matinhos - PR - N,11,0,11,False
+2026,Gestão de Turismo - Tecnológico - Matinhos - PR - N,17,0,17,False
+2026,Gestão e Empreendedorismo - Bacharelado - Matinhos - PR - N,16,0,16,False
+2026,Letras - Português - Licenciatura - Matinhos - PR - N,15,0,15,False
+2026,Saúde Coletiva - Bacharelado - Matinhos - PR - M,12,0,12,False
+2026,Serviço Social - Bacharelado - Matinhos - PR - N,25,0,25,False
+2026,Agronomia - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2026,Ciências Biológicas ABI (Bacharelado) - Palotina - PR - I (M+V),12,0,12,False
+2026,Ciências Biológicas ABI (Licenciatura) - Palotina - PR - I (M+V),7,0,7,False
+2026,Ciências Exatas (Física) ABI (Licenciatura) - Palotina - PR - N,0,0,0,False
+2026,Ciências Exatas (Matemática) ABI (Licenciatura) - Palotina - PR - N,6,0,6,False
+2026,Ciências Exatas (Química) ABI (Licenciatura) - Palotina - PR - N,0,0,0,False
+2026,Computação - Licenciatura - Palotina - PR - N,11,0,11,False
+2026,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),5,0,5,False
+2026,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,11,0,11,False
+2026,Engenharia de Energia - Bacharelado - Palotina - PR - M,10,0,10,False
+2026,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2026,Ciências Exatas (Física) ABI (Licenciatura) - Pontal do Paraná - PR - N,2,0,2,False
+2026,Ciências Exatas (Matemática) ABI (Licenciatura) - Pontal do Paraná - PR - N,6,0,6,False
+2026,Ciências Exatas (Química) ABI (Licenciatura) - Pontal do Paraná - PR - N,1,0,1,False
+2026,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,15,0,15,False
+2026,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,32,0,32,False
+2026,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,4,0,4,False
+2026,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),30,0,30,False
+2026,Medicina - Bacharelado - Toledo - PR - I (M+V),24,24,48,False
+2027,Administração - Bacharelado - Curitiba - PR - M,39,38,77,False
+2027,Administração - Bacharelado - Curitiba - PR - N,39,38,77,False
+2027,Agronomia - Bacharelado - Curitiba - PR - I (M+V),52,52,104,False
+2027,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - N,28,28,56,False
+2027,Análise e Desenvolvimento de Sistemas - Tecnológico - Curitiba - PR - V,28,0,28,False
+2027,Arquitetura e Urbanismo - Bacharelado - Curitiba - PR - I (M+V),40,0,40,False
+2027,Artes Visuais - Bacharelado - Curitiba - PR - M,12,0,12,False
+2027,Artes Visuais - Licenciatura - Curitiba - PR - M,12,0,12,False
+2027,Biomedicina - Bacharelado - Curitiba - PR - I (M+V),21,0,21,False
+2027,Ciência da Computação - Bacharelado - Curitiba - PR - I (V+N),60,0,60,False
+2027,Ciências Biológicas ABI - Curitiba - PR - M,42,0,42,False
+2027,Ciências Biológicas ABI - Curitiba - PR - N,42,0,42,False
+2027,Ciências Contábeis - Bacharelado - Curitiba - PR - N,96,0,96,False
+2027,Ciências Econômicas - Bacharelado - Curitiba - PR - M,48,0,48,False
+2027,Ciências Econômicas - Bacharelado - Curitiba - PR - N,54,0,54,False
+2027,Ciências Sociais ABI - Curitiba - PR - M,56,0,56,False
+2027,Comunicação Institucional - Tecnológico - Curitiba - PR - M,33,0,33,False
+2027,Design Gráfico - Bacharelado - Curitiba - PR - I (M+V),27,0,27,False
+2027,Design de Produto - Bacharelado - Curitiba - PR - M,23,0,23,False
+2027,Direito - Bacharelado - Curitiba - PR - M,70,0,70,False
+2027,Direito - Bacharelado - Curitiba - PR - N,70,0,70,False
+2027,Educação Física - Bacharelado - Curitiba - PR - I (M+V),53,0,53,False
+2027,Educação Física - Licenciatura - Curitiba - PR - I (M+V),53,0,53,False
+2027,Enfermagem - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2027,Engenharia Ambiental - Bacharelado - Curitiba - PR - I (M+V),36,0,36,False
+2027,Engenharia Cartográfica e de Agrimensura - Bacharelado - Curitiba - PR - I (M+V),31,0,31,False
+2027,Engenharia Civil - Bacharelado - Curitiba - PR - I (M+V),66,66,132,False
+2027,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Curitiba - PR - I (M+V),35,0,35,False
+2027,Engenharia de Produção - Bacharelado - Curitiba - PR - I (M+V),48,0,48,False
+2027,Engenharia Elétrica - Bacharelado - Curitiba - PR - I (M+V),35,35,70,False
+2027,Engenharia Elétrica - Bacharelado - Curitiba - PR - N,35,0,35,False
+2027,Engenharia Florestal - Bacharelado - Curitiba - PR - I (M+V),28,28,56,False
+2027,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - I (M+V),24,0,24,False
+2027,Engenharia Industrial Madeireira - Bacharelado - Curitiba - PR - N,24,0,24,False
+2027,Engenharia Mecânica - Bacharelado - Curitiba - PR - I (M+V),40,40,80,False
+2027,Engenharia Mecânica - Bacharelado - Curitiba - PR - N,33,33,66,False
+2027,Engenharia Química - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2027,Estatística e Ciência de Dados - Bacharelado - Curitiba - PR - I (V+N),46,0,46,False
+2027,Expressão Gráfica - Bacharelado - Curitiba - PR - M,26,0,26,False
+2027,Farmácia - Bacharelado - Curitiba - PR - I (M+V),43,43,86,False
+2027,Filosofia ABI - Curitiba - PR - M,28,0,28,False
+2027,Filosofia ABI - Curitiba - PR - N,35,0,35,False
+2027,Fisioterapia - Bacharelado - Curitiba - PR - I (M+V),40,0,40,False
+2027,Física - Bacharelado - Curitiba - PR - I (M+V),28,28,56,False
+2027,Física - Licenciatura - Curitiba - PR - N,36,36,72,False
+2027,Geografia ABI - Curitiba - PR - M,21,0,21,False
+2027,Geografia ABI - Curitiba - PR - N,24,0,24,False
+2027,Geologia - Bacharelado - Curitiba - PR - I (M+V),23,0,23,False
+2027,Gestão Pública - Tecnológico - Curitiba - PR - N,32,0,32,False
+2027,Gestão da Informação - Bacharelado - Curitiba - PR - M,48,0,48,False
+2027,Gestão da Qualidade - Tecnológico - Curitiba - PR - N,31,0,31,False
+2027,História - Licenciatura - Curitiba - PR - V,18,0,18,False
+2027,História Memória e Imagem - Bacharelado - Curitiba - PR - N,32,0,32,False
+2027,Informática Biomédica - Bacharelado - Curitiba - PR - I (V+N),20,0,20,False
+2027,Jornalismo - Bacharelado - Curitiba - PR - I (M+N),21,0,21,False
+2027,Letras - Francês - Bacharelado - Curitiba - PR - N,2,0,2,False
+2027,Letras - Inglês - Licenciatura - Curitiba - PR - M,16,0,16,False
+2027,Letras - Inglês - Licenciatura - Curitiba - PR - N,16,0,16,False
+2027,Letras - Italiano - Licenciatura - Curitiba - PR - M,16,0,16,False
+2027,Letras - Japonês - Bacharelado - Curitiba - PR - N,7,0,7,False
+2027,Letras - Polonês - Bacharelado - Curitiba - PR - N,2,0,2,False
+2027,Letras - Português - Bacharelado - Curitiba - PR - M,2,0,2,False
+2027,Letras - Português - Licenciatura - Curitiba - PR - M,16,0,16,False
+2027,Letras - Português - Bacharelado - Curitiba - PR - N,2,0,2,False
+2027,Letras - Português - Licenciatura - Curitiba - PR - N,16,0,16,False
+2027,Letras - Português e (Espanhol ou Alemão ou Grego ou Latim)25 - Bacharelado - Curitiba - PR - M,16,0,16,False
+2027,Letras - Português e Alemão - Licenciatura - Curitiba - PR - M,11,0,11,False
+2027,Letras - Português e Espanhol - Licenciatura - Curitiba - PR - M,11,0,11,False
+2027,Letras - Português e Francês - Licenciatura - Curitiba - PR - N,11,0,11,False
+2027,Letras - Português e Japonês - Licenciatura - Curitiba - PR - N,7,0,7,False
+2027,Letras - Português e Polonês - Licenciatura - Curitiba - PR - N,2,0,2,False
+2027,Luteria - Tecnológico - Curitiba - PR - I (M+V),21,0,21,False
+2027,Matemática - Licenciatura - Curitiba - PR - N,30,0,30,False
+2027,Matemática ABI - Curitiba - PR - V,30,0,30,False
+2027,Matemática Industrial - Bacharelado - Curitiba - PR - V,14,0,14,False
+2027,Medicina - Bacharelado - Curitiba - PR - I (M+V),80,80,160,False
+2027,Medicina Veterinária - Bacharelado - Curitiba - PR - I (M+V),22,22,44,False
+2027,Música - Bacharelado - Curitiba - PR - V,20,0,20,False
+2027,Música - Licenciatura - Curitiba - PR - V,20,0,20,False
+2027,Negócios Imobiliários - Tecnológico - Curitiba - PR - N,32,0,32,False
+2027,Nutrição - Bacharelado - Curitiba - PR - I (M+V),24,22,46,False
+2027,Odontologia - Bacharelado - Curitiba - PR - I (M+V),37,37,74,False
+2027,Pedagogia - Licenciatura - Curitiba - PR - M,31,0,31,False
+2027,Pedagogia - Licenciatura - Curitiba - PR - N,45,0,45,False
+2027,Produção Cultural - Bacharelado - Curitiba - PR - M,10,0,10,False
+2027,Psicologia - Bacharelado - Curitiba - PR - I (M+V),64,0,64,False
+2027,Publicidade e Propaganda - Bacharelado - Curitiba - PR - I (M+N),24,0,24,False
+2027,Química ABI - Curitiba - PR - I (M+V),46,0,46,False
+2027,Química - Licenciatura - Curitiba - PR - N,28,0,28,False
+2027,Relações Públicas - Bacharelado - Curitiba - PR - I (M+N),21,0,21,False
+2027,Secretariado - Tecnológico - Curitiba - PR - N,35,0,35,False
+2027,Terapia Ocupacional - Bacharelado - Curitiba - PR - I (M+V),42,0,42,False
+2027,Terapia Ocupacional - Bacharelado - Curitiba - PR - N,0,42,42,False
+2027,Turismo - Bacharelado - Curitiba - PR - M,31,0,31,False
+2027,Zootecnia - Bacharelado - Curitiba - PR - I (M+V),24,24,48,False
+2027,Agronomia - Bacharelado - Jandaia do Sul - PR - I (M+V),32,0,32,False
+2027,Engenharia de Alimentos - Bacharelado - Jandaia do Sul - PR - I (M+V),10,0,10,False
+2027,Engenharia de Produção - Bacharelado - Jandaia do Sul - PR - I (M+V),10,0,10,False
+2027,Física Computacional - Bacharelado - Jandaia do Sul - PR - I (M+V),5,0,5,False
+2027,Inteligência Artificial e Engenharia de Software - Bacharelado - Jandaia do Sul - PR - I (M+V),16,0,16,False
+2027,Matemática e Tecnologias Digitais - Licenciatura - Jandaia do Sul - PR - V,10,0,10,False
+2027,Administração - Bacharelado - Matinhos - PR - N,21,0,21,False
+2027,Administração Pública - Bacharelado - Matinhos - PR - N,28,0,28,False
+2027,Agroecologia - Tecnológico - Matinhos - PR - M,18,0,18,False
+2027,Artes - Licenciatura - Matinhos - PR - M,21,0,21,False
+2027,Ciências - Licenciatura - Matinhos - PR - N,10,0,10,False
+2027,Ciências Ambientais - Bacharelado - Matinhos - PR - I (M+V),18,0,18,False
+2027,Educação Física - Licenciatura - Matinhos - PR - N,26,0,26,False
+2027,Geografia - Licenciatura - Matinhos - PR - N,9,0,9,False
+2027,Gestão de Turismo - Tecnológico - Matinhos - PR - N,25,0,25,False
+2027,Letras - Português - Licenciatura - Matinhos - PR - N,20,0,20,False
+2027,Saúde Coletiva - Bacharelado - Matinhos - PR - N,16,0,16,False
+2027,Serviço Social - Bacharelado - Matinhos - PR - N,25,0,25,False
+2027,Agronomia - Bacharelado - Palotina - PR - I (M+V),28,28,56,False
+2027,Ciências Biológicas - Bacharelado - Palotina - PR - I (M+V),18,0,18,False
+2027,Ciências Biológicas - Licenciatura - Palotina - PR - I (M+V),18,0,18,False
+2027,ABI - Palotina - PR - N,70,0,70,False
+2027,Computação - Licenciatura - Palotina - PR - N,30,0,30,False
+2027,Engenharia de Aquicultura - Bacharelado - Palotina - PR - I (M+V),20,0,20,False
+2027,Engenharia de Bioprocessos e Biotecnologia - Bacharelado - Palotina - PR - N,33,0,33,False
+2027,Engenharia de Energia - Bacharelado - Palotina - PR - M,24,0,24,False
+2027,Medicina Veterinária - Bacharelado - Palotina - PR - I (M+V),32,32,64,False
+2027,Ciências Exatas (Física) - Licenciatura - Pontal do Paraná - PR - N,4,0,4,False
+2027,Ciências Exatas (Matemática) - Licenciatura - Pontal do Paraná - PR - N,5,0,5,False
+2027,Ciências Exatas (Química) - Licenciatura - Pontal do Paraná - PR - N,5,0,5,False
+2027,Engenharia Ambiental e Sanitária - Bacharelado - Pontal do Paraná - PR - V,20,0,20,False
+2027,Engenharia Civil - Bacharelado - Pontal do Paraná - PR - V,22,0,22,False
+2027,Engenharia de Aquicultura - Bacharelado - Pontal do Paraná - PR - M,21,0,21,False
+2027,Oceanografia - Bacharelado - Pontal do Paraná - PR - I (M+V),30,0,30,False
+2027,Medicina - Bacharelado - Toledo - PR - I (M+V),24,24,48,False

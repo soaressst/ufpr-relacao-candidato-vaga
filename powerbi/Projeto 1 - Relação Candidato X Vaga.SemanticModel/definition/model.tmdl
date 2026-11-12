@@ -1,0 +1,24 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["TMDLView_Desktop","DevMode"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["f_Previsao_Concorrencia","f_Historico_Concorrencia","d_Curso","d_Campus","_Medidas"]
+
+ref table f_Previsao_Concorrencia
+ref table d_Curso
+ref table d_Campus
+ref table _Medidas
+ref table f_Historico_Concorrencia
+ref table Parametro_Fator_Impacto
+
+ref cultureInfo pt-BR
+

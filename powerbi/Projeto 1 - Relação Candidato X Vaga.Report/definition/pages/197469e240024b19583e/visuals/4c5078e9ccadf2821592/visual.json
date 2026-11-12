@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "4c5078e9ccadf2821592",
+  "position": {
+    "x": 17.506234413965089,
+    "y": 1039.6009975062345,
+    "z": 8000,
+    "height": 40,
+    "width": 1473.3333333333335,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "*Exibe visualmente que os campi do interior (Matinhos, Palotina) e as Licenciaturas concentram a maior proporção de vagas com baixa demanda.",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "fontSize": "16pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

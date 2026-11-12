@@ -1,0 +1,123 @@
+table f_Historico_Concorrencia
+	lineageTag: e4412988-1a2b-4c3d-8e9f-0a1b2c3d4e5f
+
+	column turno
+		dataType: string
+		lineageTag: 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b
+		summarizeBy: none
+		sourceColumn: turno
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano_vestibular
+		dataType: int64
+		formatString: 0
+		lineageTag: bf9924f7-64f2-4b5f-b779-9d5371bb4cd9
+		summarizeBy: sum
+		sourceColumn: ano_vestibular
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_curso
+		dataType: string
+		lineageTag: d9085d9c-26d5-48ab-8e2d-3f6bb9b5c6e6
+		summarizeBy: none
+		sourceColumn: nome_curso
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_campus
+		dataType: string
+		lineageTag: 2184c3db-9eeb-441d-a879-cf3c4538f528
+		summarizeBy: none
+		sourceColumn: nome_campus
+
+		annotation SummarizationSetBy = Automatic
+
+	column candidatos_inscritos
+		dataType: double
+		lineageTag: c426784b-66a2-49e9-ab0d-8e2f0e677a9f
+		summarizeBy: sum
+		sourceColumn: candidatos_inscritos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column treineiros
+		dataType: double
+		lineageTag: 9592dffb-9927-4d82-9a07-7bf93c0b7e69
+		summarizeBy: sum
+		sourceColumn: treineiros
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column vagas_ofertadas
+		dataType: double
+		lineageTag: ffd730ab-608f-42e2-af5b-d6e2125a7f53
+		summarizeBy: sum
+		sourceColumn: vagas_ofertadas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column fonte
+		dataType: string
+		lineageTag: 5d163edc-adb4-4bef-ab93-f0ecd68ee02c
+		summarizeBy: none
+		sourceColumn: fonte
+
+		annotation SummarizationSetBy = Automatic
+
+	column cand_vaga_realizada
+		dataType: double
+		lineageTag: ff2b37cc-83f4-4671-9446-a1183270057c
+		summarizeBy: sum
+		sourceColumn: cand_vaga_realizada
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Vagas_Ajustadas_Demanda
+		dataType: string
+		lineageTag: c125f495-6cbe-48fd-a590-e1ac80286c5e
+		summarizeBy: none
+		sourceColumn: Vagas_Ajustadas_Demanda
+
+		annotation SummarizationSetBy = Automatic
+
+	partition f_Historico_Concorrencia = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(
+				        File.Contents("C:\Users\tiago\OneDrive\Documentos\Liga de Data Science\Projetos\Projeto 1 - Relação Candidato x Vaga\3. Tabela Preditiva\data\gold\historico_candidato_vaga.csv"),
+				        [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+				    ),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(
+				        Cabecalhos,
+				        {{"Ano", Int64.Type}, {"Concorrentes", type number}, {"Treineiros", type number},
+				         {"Vagas", type number}, {"Cand_Vaga", type number}},
+				        "en-US"
+				    ),
+				    ComTurno = Table.AddColumn(Tipos, "turno", each
+				        let t = Text.Trim(Text.AfterDelimiter([Curso], " - ", {0, RelativePosition.FromEnd}))
+				        in if t = "M" then "Matutino" else if t = "N" then "Noturno"
+				           else if t = "V" or t = "T" then "Vespertino" else "Integral", type text),
+				    Renomeado = Table.RenameColumns(ComTurno, {
+				        {"Ano", "ano_vestibular"}, {"Curso", "nome_curso"}, {"Campus", "nome_campus"},
+				        {"Vagas", "vagas_ofertadas"}, {"Concorrentes", "candidatos_inscritos"},
+				        {"Cand_Vaga", "cand_vaga_realizada"}, {"Treineiros", "treineiros"}, {"Fonte", "fonte"}
+				    })
+				in
+				    Renomeado
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

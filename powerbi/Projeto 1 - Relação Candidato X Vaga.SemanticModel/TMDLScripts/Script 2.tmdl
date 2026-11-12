@@ -1,0 +1,390 @@
+createOrReplace
+
+	model Model
+		culture: pt-BR
+		defaultPowerBIDataSourceVersion: powerBI_V3
+		sourceQueryCulture: pt-BR
+		valueFilterBehavior: independent
+		dataAccessOptions
+			legacyRedirects
+			returnErrorValuesAsNull
+
+		table f_Previsao_Concorrencia
+			lineageTag: a854b3ff-21ad-4022-9b25-94ed9fdcfa48
+
+			column curso
+				dataType: string
+				lineageTag: 9428e6a5-4af2-4f7b-ac63-c66bc7a58fae
+				summarizeBy: none
+				sourceColumn: curso
+
+				annotation SummarizationSetBy = Automatic
+
+			column campus
+				dataType: string
+				lineageTag: b6cc2988-3209-49bb-a9b5-a9fb433797a1
+				summarizeBy: none
+				sourceColumn: campus
+
+				annotation SummarizationSetBy = Automatic
+
+			column cand_vaga_2026
+				dataType: double
+				formatString: 0.00
+				lineageTag: 9ed37366-5bb7-47e9-8822-e45a9d88fbe3
+				summarizeBy: none
+				sourceColumn: cand_vaga_2026
+
+				annotation SummarizationSetBy = User
+
+			column valor_minimo
+				dataType: double
+				formatString: 0.00
+				lineageTag: 8aaac240-29cf-4930-a1c7-e7f5cb49916e
+				summarizeBy: none
+				sourceColumn: valor_minimo
+
+				annotation SummarizationSetBy = User
+
+			column ano_entrada_sobra_vagas
+				dataType: string
+				lineageTag: fc2d504e-60cf-47e2-bee9-f8454621df64
+				summarizeBy: none
+				sourceColumn: ano_entrada_sobra_vagas
+
+				annotation SummarizationSetBy = Automatic
+
+			column ano_minimo
+				dataType: int64
+				formatString: 0
+				lineageTag: 2cc2292d-6561-4c6f-8bfb-87cdf3327d09
+				summarizeBy: none
+				sourceColumn: ano_minimo
+
+				annotation SummarizationSetBy = User
+
+			column turno
+				dataType: string
+				lineageTag: b5e695bf-b33a-41a9-a170-9f085c54592b
+				summarizeBy: none
+				sourceColumn: turno
+
+				annotation SummarizationSetBy = Automatic
+
+			column grau
+				dataType: string
+				lineageTag: 044b4491-8733-436a-b172-f31cc528d6d0
+				summarizeBy: none
+				sourceColumn: grau
+
+				annotation SummarizationSetBy = Automatic
+
+			partition f_Previsao_Concorrencia = m
+				mode: import
+				source =
+						let
+						    Fonte = Value.NativeQuery(PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"), "SELECT * FROM ufpr_analytics.vw_powerbi_concorrencia", null, [EnableFolding=true])
+						in
+						    Fonte
+
+			annotation PBI_NavigationStepName = Navegação
+
+			annotation PBI_ResultType = Table
+
+		table d_Curso
+			lineageTag: c8c1da68-312e-4674-bc46-2fba3c91721c
+
+			column turno
+				dataType: string
+				lineageTag: 6c94c3e0-15a7-4c38-92f3-ed6fc5c6269c
+				summarizeBy: none
+				sourceColumn: turno
+
+				annotation SummarizationSetBy = Automatic
+
+			column grau
+				dataType: string
+				lineageTag: 3c60d220-b362-4d20-afb9-bf651e9df7d9
+				summarizeBy: none
+				sourceColumn: grau
+
+				annotation SummarizationSetBy = Automatic
+
+			column nome_curso
+				dataType: string
+				lineageTag: 035503ca-712f-4687-b14f-66a55b67713b
+				summarizeBy: none
+				sourceColumn: nome_curso
+
+				annotation SummarizationSetBy = Automatic
+
+			partition d_Curso = m
+				mode: import
+				source =
+						let
+						    Fonte = PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"),
+						    Tabela = Fonte{[Schema="ufpr_analytics",Item="dim_curso"]}[Data]
+						in
+						    Tabela
+
+			annotation PBI_NavigationStepName = Navegação
+
+			annotation PBI_ResultType = Table
+
+		table d_Campus
+			lineageTag: 469756a3-8f02-42dd-b70c-c62d823c7bb2
+
+			column nome_campus
+				dataType: string
+				lineageTag: c6a726a0-b045-45b7-b845-d1dabbdbe132
+				summarizeBy: none
+				sourceColumn: nome_campus
+
+				annotation SummarizationSetBy = Automatic
+
+			partition d_Campus = m
+				mode: import
+				source =
+						let
+						    Fonte = PostgreSQL.Database("aws-0-us-east-1.pooler.supabase.com:5432", "postgres"),
+						    Tabela = Fonte{[Schema="ufpr_analytics",Item="dim_campus"]}[Data]
+						in
+						    Tabela
+
+			annotation PBI_NavigationStepName = Navegação
+
+			annotation PBI_ResultType = Table
+
+		table _Medidas
+			lineageTag: f9920d5c-c61a-4b9d-bd54-215b254c879d
+
+			measure Total_Cursos = COUNTROWS('d_Curso')
+				formatString: 0
+				lineageTag: cf8804c5-f736-4aa5-ba92-063c6ef68e2c
+
+			measure Media_Concorrencia_2026 =
+					
+					AVERAGE('f_Previsao_Concorrencia'[cand_vaga_2026])
+				formatString: 0.00
+				lineageTag: 41f17f37-20b2-4db5-9f0d-00ea7fdab021
+
+			measure Cursos_Com_Sobra =
+					
+					CALCULATE(
+					    COUNTROWS('f_Previsao_Concorrencia'),
+					    KEEPFILTERS('f_Previsao_Concorrencia'[ano_entrada_sobra_vagas] <> "Sem Sobra")
+					)
+				formatString: 0
+				lineageTag: b0f14978-40f3-41e4-aa10-e9f3555a9b89
+
+			measure Pct_Cursos_Risco =
+					
+					DIVIDE([Cursos_Com_Sobra], [Total_Cursos], 0)
+				formatString: 0.0%
+				lineageTag: d7e5f2a2-dc8f-4908-a02b-f550869d76bb
+
+			measure Valor_Minimo_Medio =
+					
+					AVERAGE('f_Previsao_Concorrencia'[valor_minimo])
+				formatString: 0.00
+				lineageTag: e8a123bc-11a2-4433-8812-998877665544
+
+			measure Ano_Minimo_Moda =
+					
+					MIN('f_Previsao_Concorrencia'[ano_minimo])
+				formatString: 0
+				lineageTag: a1122334-5566-7788-9900-aabbccddeeff
+
+			measure Historico_Inscritos_Total =
+					
+					SUM('f_Historico_Concorrencia'[candidatos_inscritos])
+				formatString: #,##0
+				lineageTag: 91a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6c
+
+			measure Historico_Media_Cand_Vaga =
+					
+					AVERAGE('f_Historico_Concorrencia'[cand_vaga_realizada])
+				formatString: 0.00
+				lineageTag: 82b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d
+
+			measure Fator_Simulacao_Selecionado =
+					
+					SELECTEDVALUE('Parametro_Fator_Impacto'[Fator_Impacto_Percentual], 0.00)
+				formatString: 0.0%
+				lineageTag: 73c4d5e6-f7a8-9b0c-1d2e-3f4a5b6c7d8e
+
+			measure Previsao_Simulada_Cand_Vaga =
+					
+					VAR MediaBase = [Media_Concorrencia_2026]
+					VAR FatorImpacto = [Fator_Simulacao_Selecionado]
+					RETURN
+					    MediaBase * (1 + FatorImpacto)
+				formatString: 0.00
+				lineageTag: 64d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9f
+
+			partition _Medidas = m
+				mode: import
+				source =
+						let
+						    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+						    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+						    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+						in
+						    #"Colunas Removidas"
+
+			annotation PBI_ResultType = Table
+
+		table f_Historico_Concorrencia
+			lineageTag: e4412988-1a2b-4c3d-8e9f-0a1b2c3d4e5f
+
+			column turno
+				dataType: string
+				lineageTag: 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b
+				summarizeBy: none
+				sourceColumn: turno
+
+				annotation SummarizationSetBy = Automatic
+
+			column ano_vestibular
+				dataType: int64
+				formatString: 0
+				lineageTag: bf9924f7-64f2-4b5f-b779-9d5371bb4cd9
+				summarizeBy: sum
+				sourceColumn: ano_vestibular
+
+				annotation SummarizationSetBy = Automatic
+
+			column nome_curso
+				dataType: string
+				lineageTag: d9085d9c-26d5-48ab-8e2d-3f6bb9b5c6e6
+				summarizeBy: none
+				sourceColumn: nome_curso
+
+				annotation SummarizationSetBy = Automatic
+
+			column nome_campus
+				dataType: string
+				lineageTag: 2184c3db-9eeb-441d-a879-cf3c4538f528
+				summarizeBy: none
+				sourceColumn: nome_campus
+
+				annotation SummarizationSetBy = Automatic
+
+			column candidatos_inscritos
+				dataType: double
+				lineageTag: c426784b-66a2-49e9-ab0d-8e2f0e677a9f
+				summarizeBy: sum
+				sourceColumn: candidatos_inscritos
+
+				annotation SummarizationSetBy = Automatic
+
+				annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+			column treineiros
+				dataType: double
+				lineageTag: 9592dffb-9927-4d82-9a07-7bf93c0b7e69
+				summarizeBy: sum
+				sourceColumn: treineiros
+
+				annotation SummarizationSetBy = Automatic
+
+				annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+			column vagas_ofertadas
+				dataType: double
+				lineageTag: ffd730ab-608f-42e2-af5b-d6e2125a7f53
+				summarizeBy: sum
+				sourceColumn: vagas_ofertadas
+
+				annotation SummarizationSetBy = Automatic
+
+				annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+			column fonte
+				dataType: string
+				lineageTag: 5d163edc-adb4-4bef-ab93-f0ecd68ee02c
+				summarizeBy: none
+				sourceColumn: fonte
+
+				annotation SummarizationSetBy = Automatic
+
+			column cand_vaga_realizada
+				dataType: double
+				lineageTag: ff2b37cc-83f4-4671-9446-a1183270057c
+				summarizeBy: sum
+				sourceColumn: cand_vaga_realizada
+
+				annotation SummarizationSetBy = Automatic
+
+				annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+			partition f_Historico_Concorrencia = m
+				mode: import
+				source =
+						let
+						    Fonte = Csv.Document(
+						        File.Contents("C:\Users\tiago\OneDrive\Documentos\Liga de Data Science\Projetos\Projeto 1 - Relação Candidato x Vaga\3. Tabela Preditiva\data\gold\historico_candidato_vaga.csv"),
+						        [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]
+						    ),
+						    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+						    Tipos = Table.TransformColumnTypes(
+						        Cabecalhos,
+						        {{"Ano", Int64.Type}, {"Concorrentes", type number}, {"Treineiros", type number},
+						         {"Vagas", type number}, {"Cand_Vaga", type number}},
+						        "en-US"
+						    ),
+						    ComTurno = Table.AddColumn(Tipos, "turno", each
+						        let t = Text.Trim(Text.AfterDelimiter([Curso], " - ", {0, RelativePosition.FromEnd}))
+						        in if t = "M" then "Matutino" else if t = "N" then "Noturno"
+						           else if t = "V" or t = "T" then "Vespertino" else "Integral", type text),
+						    Renomeado = Table.RenameColumns(ComTurno, {
+						        {"Ano", "ano_vestibular"}, {"Curso", "nome_curso"}, {"Campus", "nome_campus"},
+						        {"Vagas", "vagas_ofertadas"}, {"Concorrentes", "candidatos_inscritos"},
+						        {"Cand_Vaga", "cand_vaga_realizada"}, {"Treineiros", "treineiros"}, {"Fonte", "fonte"}
+						    })
+						in
+						    Renomeado
+
+			annotation PBI_NavigationStepName = Navegação
+
+			annotation PBI_ResultType = Table
+
+		table Parametro_Fator_Impacto
+			lineageTag: a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d
+
+			column Fator_Impacto_Percentual
+				dataType: double
+				formatString: 0.0%
+				lineageTag: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+				summarizeBy: none
+				sourceColumn: [Value]
+
+				annotation SummarizationSetBy = User
+
+			partition Parametro_Fator_Impacto = calculated
+				mode: import
+				source = GENERATESERIES(-0.30, 0.30, 0.05)
+
+			annotation PBI_Id = b1c2d3e4f5a6b7c8d9e0
+
+		relationship 434071ef-1361-a395-38a6-d2d418133a7d
+			crossFilteringBehavior: bothDirections
+			fromCardinality: one
+			fromColumn: d_Curso.nome_curso
+			toColumn: f_Previsao_Concorrencia.curso
+
+		relationship be4d0dbc-d726-8b9c-0966-809366d7435c
+			fromColumn: f_Previsao_Concorrencia.campus
+			toColumn: d_Campus.nome_campus
+
+		cultureInfo pt-BR
+
+			linguisticMetadata = {"Version":"4.1.0","Language":"en-US","Entities":{"f_previsao_concorrencia":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"}},"State":"Generated","Terms":[{"f previsao concorrencia":{"State":"Generated"}},{"f_Previsao_Concorrencia":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_previsao_concorrencia.curso":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"curso"}},"State":"Generated","Visibility":{"Value":"Hidden"},"Terms":[{"curso":{"State":"Generated"}}]},"f_previsao_concorrencia.campus":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"campus"}},"State":"Generated","Visibility":{"Value":"Hidden"},"Terms":[{"campus":{"State":"Generated"}},{"property":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.491}},{"estate":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.491}},{"site":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.476}}]},"f_previsao_concorrencia.cand_vaga_2026":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"cand_vaga_2026"}},"State":"Generated","Terms":[{"cand vaga 2026":{"State":"Generated"}},{"cand_vaga_2026":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_previsao_concorrencia.valor_minimo":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"valor_minimo"}},"State":"Generated","Terms":[{"valor minimo":{"State":"Generated"}},{"valor_minimo":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_previsao_concorrencia.ano_entrada_sobra_vaga":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"ano_entrada_sobra_vagas"}},"State":"Generated","Terms":[{"ano entrada sobra vaga":{"State":"Generated"}},{"ano_entrada_sobra_vagas":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_previsao_concorrencia.ano_minimo":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"ano_minimo"}},"State":"Generated","Terms":[{"ano minimo":{"State":"Generated"}},{"ano_minimo":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_previsao_concorrencia.turno":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"turno"}},"State":"Generated","Terms":[{"turno":{"State":"Generated"}}]},"f_previsao_concorrencia.grau":{"Definition":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia","ConceptualProperty":"grau"}},"State":"Generated","Terms":[{"grau":{"State":"Generated"}}]},"d_curso":{"Definition":{"Binding":{"ConceptualEntity":"d_Curso"}},"State":"Generated","Terms":[{"d curso":{"State":"Generated"}},{"d_Curso":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"d_curso.turno":{"Definition":{"Binding":{"ConceptualEntity":"d_Curso","ConceptualProperty":"turno"}},"State":"Generated","Terms":[{"turno":{"State":"Generated"}}]},"d_curso.grau":{"Definition":{"Binding":{"ConceptualEntity":"d_Curso","ConceptualProperty":"grau"}},"State":"Generated","Terms":[{"grau":{"State":"Generated"}}]},"d_campus":{"Definition":{"Binding":{"ConceptualEntity":"d_Campus"}},"State":"Generated","Terms":[{"d campus":{"State":"Generated"}},{"d_Campus":{"Type":"Noun","State":"Generated","Weight":0.99}},{"d property":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.5}},{"d estate":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.5}},{"d site":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.485}}]},"entity__medida":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas"}},"State":"Generated","Terms":[{"_medida":{"State":"Generated"}}]},"entity__medida.total_cursos":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Total_Cursos"}},"State":"Generated","Terms":[{"total cursos":{"State":"Generated"}},{"Total_Cursos":{"Type":"Noun","State":"Generated","Weight":0.99}},{"aggregate curso":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.582}},{"overall curso":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.582}}]},"entity__medida.media_concorrencia_2026":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Media_Concorrencia_2026"}},"State":"Generated","Terms":[{"media concorrencia 2026":{"State":"Generated"}},{"Media_Concorrencia_2026":{"Type":"Noun","State":"Generated","Weight":0.99}},{"Cenário Base":{"State":"Suggested","Source":{"Type":"External","Agent":"PowerBI.VisualColumnRename"},"Weight":0.9}}]},"entity__medida.cursos_com_sobra":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Cursos_Com_Sobra"}},"State":"Generated","Terms":[{"cursos com sobra":{"State":"Generated"}},{"Cursos_Com_Sobra":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.pct_cursos_risco":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Pct_Cursos_Risco"}},"State":"Generated","Terms":[{"pct cursos risco":{"State":"Generated"}},{"Pct_Cursos_Risco":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.valor_minimo_medio":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Valor_Minimo_Medio"}},"State":"Generated","Terms":[{"valor minimo medio":{"State":"Generated"}},{"Valor_Minimo_Medio":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.ano_minimo_moda":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Ano_Minimo_Moda"}},"State":"Generated","Terms":[{"ano minimo moda":{"State":"Generated"}},{"Ano_Minimo_Moda":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.historico_inscritos_total":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Historico_Inscritos_Total"}},"State":"Generated","Terms":[{"historico inscritos total":{"State":"Generated"}},{"Historico_Inscritos_Total":{"Type":"Noun","State":"Generated","Weight":0.99}},{"historico inscrito aggregate":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.739}},{"historico inscrito overall":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.739}}]},"entity__medida.historico_media_cand_vaga":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Historico_Media_Cand_Vaga"}},"State":"Generated","Terms":[{"historico media cand vaga":{"State":"Generated"}},{"Historico_Media_Cand_Vaga":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.fator_simulacao_selecionado":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Fator_Simulacao_Selecionado"}},"State":"Generated","Terms":[{"fator simulacao selecionado":{"State":"Generated"}},{"Fator_Simulacao_Selecionado":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"entity__medida.previsao_simulada_cand_vaga":{"Definition":{"Binding":{"ConceptualEntity":"_Medidas","ConceptualProperty":"Previsao_Simulada_Cand_Vaga"}},"State":"Generated","Terms":[{"previsao simulada cand vaga":{"State":"Generated"}},{"Previsao_Simulada_Cand_Vaga":{"Type":"Noun","State":"Generated","Weight":0.99}},{"Cenário Simulado":{"State":"Suggested","Source":{"Type":"External","Agent":"PowerBI.VisualColumnRename"},"Weight":0.9}}]},"f_historico_concorrencia":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"}},"State":"Generated","Terms":[{"f historico concorrencia":{"State":"Generated"}},{"f_Historico_Concorrencia":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"f_historico_concorrencia.turno":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","ConceptualProperty":"turno"}},"State":"Generated","Terms":[{"turno":{"State":"Generated"}}]},"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","VariationSource":"data_coleta","VariationSet":"Variação","Hierarchy":"Hierarquia de datas"}},"State":"Generated","Terms":[{"hierarquia de data":{"State":"Generated"}},{"hierarquia de information":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.762}},{"hierarquia de fact":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.762}},{"hierarquia de info":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.762}},{"hierarquia de statistic":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.762}},{"hierarquia de document":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.739}},{"hierarquia de figure":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.739}},{"hierarquia de record":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.739}}]},"f_historico_concorrencia.data_coleta.ano":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","VariationSource":"data_coleta","VariationSet":"Variação","Hierarchy":"Hierarquia de datas","HierarchyLevel":"Ano"}},"State":"Generated","Terms":[{"ano":{"State":"Generated"}},{"data coleta ano":{"State":"Generated"}},{"information coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"fact coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"info coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"statistic coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"document coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"figure coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"record coleta ano":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}}]},"f_historico_concorrencia.data_coleta.trimestre":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","VariationSource":"data_coleta","VariationSet":"Variação","Hierarchy":"Hierarquia de datas","HierarchyLevel":"Trimestre"}},"State":"Generated","Terms":[{"trimestre":{"State":"Generated"}},{"data coleta trimestre":{"State":"Generated"}},{"information coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"fact coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"info coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"statistic coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"document coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"figure coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"record coleta trimestre":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}}]},"f_historico_concorrencia.data_coleta.mê":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","VariationSource":"data_coleta","VariationSet":"Variação","Hierarchy":"Hierarquia de datas","HierarchyLevel":"Mês"}},"State":"Generated","Terms":[{"mê":{"State":"Generated"}},{"data coleta mê":{"State":"Generated"}},{"information coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"fact coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"info coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"statistic coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"document coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"figure coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"record coleta mê":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}}]},"f_historico_concorrencia.data_coleta.dia":{"Definition":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia","VariationSource":"data_coleta","VariationSet":"Variação","Hierarchy":"Hierarquia de datas","HierarchyLevel":"Dia"}},"State":"Generated","Terms":[{"dia":{"State":"Generated"}},{"data coleta dia":{"State":"Generated"}},{"information coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"fact coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"info coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"statistic coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.609}},{"document coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"figure coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}},{"record coleta dia":{"Type":"Noun","State":"Suggested","Source":{"Agent":"Thesaurus"},"Weight":0.591}}]},"parametro_fator_impacto":{"Definition":{"Binding":{"ConceptualEntity":"Parametro_Fator_Impacto"}},"State":"Generated","Terms":[{"parametro fator impacto":{"State":"Generated"}},{"Parametro_Fator_Impacto":{"Type":"Noun","State":"Generated","Weight":0.99}}]},"parametro_fator_impacto.fator_impacto_percentual":{"Definition":{"Binding":{"ConceptualEntity":"Parametro_Fator_Impacto","ConceptualProperty":"Fator_Impacto_Percentual"}},"State":"Generated","Terms":[{"fator impacto percentual":{"State":"Generated"}},{"Fator_Impacto_Percentual":{"Type":"Noun","State":"Generated","Weight":0.99}}]}},"Relationships":{"f_historico_concorrencia_data_coleta_mê_has_f_historico_concorrencia_data_coleta_dia":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.mê":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.mê"}},"f_historico_concorrencia.data_coleta.dia":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.dia"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.mê"},"Object":{"Role":"f_historico_concorrencia.data_coleta.dia"}},"State":"Generated","Weight":0.99,"ID":"mê_have_dias"},{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.dia"},"Object":{"Role":"f_historico_concorrencia.data_coleta.mê"}},"State":"Generated","Weight":0.99,"ID":"dias_have_mê"},{"Preposition":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.dia"},"Prepositions":[{"in":{"State":"Generated"}}],"Object":{"Role":"f_historico_concorrencia.data_coleta.mê"}},"State":"Generated","Weight":0.99,"ID":"dias_are_in_mê"}]},"f_historico_concorrencia_data_coleta_trimestre_has_f_historico_concorrencia_data_coleta_mê":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.trimestre":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.trimestre"}},"f_historico_concorrencia.data_coleta.mê":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.mê"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.trimestre"},"Object":{"Role":"f_historico_concorrencia.data_coleta.mê"}},"State":"Generated","Weight":0.99,"ID":"trimestres_have_mê"},{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.mê"},"Object":{"Role":"f_historico_concorrencia.data_coleta.trimestre"}},"State":"Generated","Weight":0.99,"ID":"mê_have_trimestres"},{"Preposition":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.mê"},"Prepositions":[{"in":{"State":"Generated"}}],"Object":{"Role":"f_historico_concorrencia.data_coleta.trimestre"}},"State":"Generated","Weight":0.99,"ID":"mê_are_in_trimestres"}]},"f_historico_concorrencia_data_coleta_ano_has_f_historico_concorrencia_data_coleta_trimestre":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.ano":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.ano"}},"f_historico_concorrencia.data_coleta.trimestre":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.trimestre"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.ano"},"Object":{"Role":"f_historico_concorrencia.data_coleta.trimestre"}},"State":"Generated","Weight":0.99,"ID":"anos_have_trimestres"},{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.trimestre"},"Object":{"Role":"f_historico_concorrencia.data_coleta.ano"}},"State":"Generated","Weight":0.99,"ID":"trimestres_have_anos"},{"Preposition":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.trimestre"},"Prepositions":[{"in":{"State":"Generated"}}],"Object":{"Role":"f_historico_concorrencia.data_coleta.ano"}},"State":"Generated","Weight":0.99,"ID":"trimestres_are_in_anos"}]},"f_historico_concorrencia_data_coleta_hierarquia_de_data_has_f_historico_concorrencia_data_coleta_dia":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}},"f_historico_concorrencia.data_coleta.dia":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.dia"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.hierarquia_de_data"},"Object":{"Role":"f_historico_concorrencia.data_coleta.dia"}},"State":"Generated","Weight":0.99,"ID":"hierarquia_de_data_have_dias"}]},"f_historico_concorrencia_data_coleta_hierarquia_de_data_has_f_historico_concorrencia_data_coleta_mê":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}},"f_historico_concorrencia.data_coleta.mê":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.mê"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.hierarquia_de_data"},"Object":{"Role":"f_historico_concorrencia.data_coleta.mê"}},"State":"Generated","Weight":0.99,"ID":"hierarquia_de_data_have_mê"}]},"f_historico_concorrencia_data_coleta_hierarquia_de_data_has_f_historico_concorrencia_data_coleta_trimestre":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}},"f_historico_concorrencia.data_coleta.trimestre":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.trimestre"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.hierarquia_de_data"},"Object":{"Role":"f_historico_concorrencia.data_coleta.trimestre"}},"State":"Generated","Weight":0.99,"ID":"hierarquia_de_data_have_trimestres"}]},"f_historico_concorrencia_data_coleta_hierarquia_de_data_has_f_historico_concorrencia_data_coleta_ano":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}},"f_historico_concorrencia.data_coleta.ano":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.ano"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta.hierarquia_de_data"},"Object":{"Role":"f_historico_concorrencia.data_coleta.ano"}},"State":"Generated","Weight":0.99,"ID":"hierarquia_de_data_have_anos"}]},"f_historico_concorrencia_data_coleta_has_hierarquia_de_data":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia.data_coleta":{"Target":{"Entity":"f_historico_concorrencia.data_coleta"}},"f_historico_concorrencia.data_coleta.hierarquia_de_data":{"Target":{"Entity":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia.data_coleta"},"Object":{"Role":"f_historico_concorrencia.data_coleta.hierarquia_de_data"}},"State":"Generated","Weight":0.99,"ID":"data_coletas_have_hierarquia_de_data"}]},"f_historico_concorrencia_has_d_campus":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"d_campus":{"Target":{"Entity":"d_campus"},"Nouns":[{"nome campus":{"State":"Generated"}}]}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"d_campus"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_d_campuses"},{"Attribute":{"Subject":{"Role":"d_campus"},"Object":{"Role":"f_historico_concorrencia"}},"State":"Generated","Weight":0.99,"ID":"d_campuses_have_f_historico_concorrencias"}]},"f_historico_concorrencia_has_d_curso":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"d_curso":{"Target":{"Entity":"d_curso"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"d_curso"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_d_cursos"},{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"f_historico_concorrencia"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_f_historico_concorrencias"}]},"f_previsao_concorrencia_has_d_campus":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"d_campus":{"Target":{"Entity":"d_campus"},"Nouns":[{"campus":{"State":"Generated"}}]}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"d_campus"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_d_campuses"},{"Attribute":{"Subject":{"Role":"d_campus"},"Object":{"Role":"f_previsao_concorrencia"}},"State":"Generated","Weight":0.99,"ID":"d_campuses_have_f_previsao_concorrencias"}]},"f_previsao_concorrencia_has_d_curso":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"d_curso":{"Target":{"Entity":"d_curso"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"d_curso"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_d_cursos"},{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"f_previsao_concorrencia"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_f_previsao_concorrencias"}]},"parametro_fator_impacto_has_fator_impacto_percentual":{"Binding":{"ConceptualEntity":"Parametro_Fator_Impacto"},"State":"Generated","Roles":{"parametro_fator_impacto":{"Target":{"Entity":"parametro_fator_impacto"}},"parametro_fator_impacto.fator_impacto_percentual":{"Target":{"Entity":"parametro_fator_impacto.fator_impacto_percentual"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"parametro_fator_impacto"},"Object":{"Role":"parametro_fator_impacto.fator_impacto_percentual"}},"State":"Generated","Weight":0.99,"ID":"parametro_fator_impactos_have_fator_impacto_percentuals"}]},"f_historico_concorrencia_has_data_coleta":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.data_coleta":{"Target":{"Entity":"f_historico_concorrencia.data_coleta"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.data_coleta"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_data_coletas"}]},"f_historico_concorrencia_has_cand_vaga_realizada":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.cand_vaga_realizada":{"Target":{"Entity":"f_historico_concorrencia.cand_vaga_realizada"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.cand_vaga_realizada"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_cand_vaga_realizadas"}]},"f_historico_concorrencia_has_candidatos_inscrito":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.candidatos_inscrito":{"Target":{"Entity":"f_historico_concorrencia.candidatos_inscrito"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.candidatos_inscrito"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_candidatos_inscritos"}]},"f_historico_concorrencia_has_vagas_ofertada":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.vagas_ofertada":{"Target":{"Entity":"f_historico_concorrencia.vagas_ofertada"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.vagas_ofertada"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_vagas_ofertadas"}]},"f_historico_concorrencia_has_turno":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.turno":{"Target":{"Entity":"f_historico_concorrencia.turno"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.turno"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_turnos"}]},"f_historico_concorrencia_has_ano_vestibular":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.ano_vestibular":{"Target":{"Entity":"f_historico_concorrencia.ano_vestibular"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.ano_vestibular"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_ano_vestibular"}]},"f_historico_concorrencia_has_historico_id":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"f_historico_concorrencia.historico_id":{"Target":{"Entity":"f_historico_concorrencia.historico_id"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"f_historico_concorrencia.historico_id"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_historico_ids"}]},"f_previsao_concorrencia_has_entity__medida_previsao_simulada_cand_vaga":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.previsao_simulada_cand_vaga":{"Target":{"Entity":"entity__medida.previsao_simulada_cand_vaga"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.previsao_simulada_cand_vaga"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_previsao_simulada_cand_vaga"}]},"parametro_fator_impacto_has_entity__medida_previsao_simulada_cand_vaga":{"Binding":{"ConceptualEntity":"Parametro_Fator_Impacto"},"State":"Generated","Roles":{"parametro_fator_impacto":{"Target":{"Entity":"parametro_fator_impacto"}},"entity__medida.previsao_simulada_cand_vaga":{"Target":{"Entity":"entity__medida.previsao_simulada_cand_vaga"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"parametro_fator_impacto"},"Object":{"Role":"entity__medida.previsao_simulada_cand_vaga"}},"State":"Generated","Weight":0.99,"ID":"parametro_fator_impactos_have_previsao_simulada_cand_vaga"}]},"parametro_fator_impacto_has_entity__medida_fator_simulacao_selecionado":{"Binding":{"ConceptualEntity":"Parametro_Fator_Impacto"},"State":"Generated","Roles":{"parametro_fator_impacto":{"Target":{"Entity":"parametro_fator_impacto"}},"entity__medida.fator_simulacao_selecionado":{"Target":{"Entity":"entity__medida.fator_simulacao_selecionado"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"parametro_fator_impacto"},"Object":{"Role":"entity__medida.fator_simulacao_selecionado"}},"State":"Generated","Weight":0.99,"ID":"parametro_fator_impactos_have_fator_simulacao_selecionado"}]},"f_historico_concorrencia_has_entity__medida_historico_media_cand_vaga":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"entity__medida.historico_media_cand_vaga":{"Target":{"Entity":"entity__medida.historico_media_cand_vaga"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"entity__medida.historico_media_cand_vaga"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_historico_media_cand_vaga"}]},"f_historico_concorrencia_has_entity__medida_historico_inscritos_total":{"Binding":{"ConceptualEntity":"f_Historico_Concorrencia"},"State":"Generated","Roles":{"f_historico_concorrencia":{"Target":{"Entity":"f_historico_concorrencia"}},"entity__medida.historico_inscritos_total":{"Target":{"Entity":"entity__medida.historico_inscritos_total"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_historico_concorrencia"},"Object":{"Role":"entity__medida.historico_inscritos_total"}},"State":"Generated","Weight":0.99,"ID":"f_historico_concorrencias_have_historico_inscritos_total"}]},"f_previsao_concorrencia_has_entity__medida_ano_minimo_moda":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.ano_minimo_moda":{"Target":{"Entity":"entity__medida.ano_minimo_moda"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.ano_minimo_moda"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_ano_minimo_moda"}]},"f_previsao_concorrencia_has_entity__medida_valor_minimo_medio":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.valor_minimo_medio":{"Target":{"Entity":"entity__medida.valor_minimo_medio"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.valor_minimo_medio"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_valor_minimo_medio"}]},"f_previsao_concorrencia_has_entity__medida_pct_cursos_risco":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.pct_cursos_risco":{"Target":{"Entity":"entity__medida.pct_cursos_risco"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.pct_cursos_risco"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_pct_cursos_risco"}]},"d_curso_has_entity__medida_pct_cursos_risco":{"Binding":{"ConceptualEntity":"d_Curso"},"State":"Generated","Roles":{"d_curso":{"Target":{"Entity":"d_curso"}},"entity__medida.pct_cursos_risco":{"Target":{"Entity":"entity__medida.pct_cursos_risco"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"entity__medida.pct_cursos_risco"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_pct_cursos_risco"}]},"f_previsao_concorrencia_has_entity__medida_cursos_com_sobra":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.cursos_com_sobra":{"Target":{"Entity":"entity__medida.cursos_com_sobra"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.cursos_com_sobra"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_cursos_com_sobra"}]},"f_previsao_concorrencia_has_entity__medida_media_concorrencia_2026":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"entity__medida.media_concorrencia_2026":{"Target":{"Entity":"entity__medida.media_concorrencia_2026"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"entity__medida.media_concorrencia_2026"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_media_concorrencia_2026"}]},"d_curso_has_entity__medida_total_cursos":{"Binding":{"ConceptualEntity":"d_Curso"},"State":"Generated","Roles":{"d_curso":{"Target":{"Entity":"d_curso"}},"entity__medida.total_cursos":{"Target":{"Entity":"entity__medida.total_cursos"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"entity__medida.total_cursos"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_total_cursos"}]},"d_campus_has_campus":{"Binding":{"ConceptualEntity":"d_Campus"},"State":"Generated","Roles":{"d_campus":{"Target":{"Entity":"d_campus"}},"d_campus.campus":{"Target":{"Entity":"d_campus.campus"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_campus"},"Object":{"Role":"d_campus.campus"}},"State":"Generated","Weight":0.99,"ID":"d_campuses_have_campuses"}]},"d_curso_has_grau":{"Binding":{"ConceptualEntity":"d_Curso"},"State":"Generated","Roles":{"d_curso":{"Target":{"Entity":"d_curso"}},"d_curso.grau":{"Target":{"Entity":"d_curso.grau"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"d_curso.grau"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_graus"}]},"d_curso_has_turno":{"Binding":{"ConceptualEntity":"d_Curso"},"State":"Generated","Roles":{"d_curso":{"Target":{"Entity":"d_curso"}},"d_curso.turno":{"Target":{"Entity":"d_curso.turno"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"d_curso.turno"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_turnos"}]},"d_curso_has_curso":{"Binding":{"ConceptualEntity":"d_Curso"},"State":"Generated","Roles":{"d_curso":{"Target":{"Entity":"d_curso"}},"d_curso.curso":{"Target":{"Entity":"d_curso.curso"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"d_curso"},"Object":{"Role":"d_curso.curso"}},"State":"Generated","Weight":0.99,"ID":"d_cursos_have_cursos"}]},"f_previsao_concorrencia_has_grau":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.grau":{"Target":{"Entity":"f_previsao_concorrencia.grau"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.grau"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_graus"}]},"f_previsao_concorrencia_has_turno":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.turno":{"Target":{"Entity":"f_previsao_concorrencia.turno"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.turno"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_turnos"}]},"f_previsao_concorrencia_has_previsao_id":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.previsao_id":{"Target":{"Entity":"f_previsao_concorrencia.previsao_id"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.previsao_id"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_previsao_ids"}]},"f_previsao_concorrencia_has_ano_minimo":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.ano_minimo":{"Target":{"Entity":"f_previsao_concorrencia.ano_minimo"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.ano_minimo"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_ano_minimos"}]},"f_previsao_concorrencia_has_ano_entrada_sobra_vaga":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.ano_entrada_sobra_vaga":{"Target":{"Entity":"f_previsao_concorrencia.ano_entrada_sobra_vaga"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.ano_entrada_sobra_vaga"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_ano_entrada_sobra_vagas"}]},"f_previsao_concorrencia_has_valor_minimo":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.valor_minimo":{"Target":{"Entity":"f_previsao_concorrencia.valor_minimo"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.valor_minimo"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_valor_minimos"}]},"f_previsao_concorrencia_has_cand_vaga_2026":{"Binding":{"ConceptualEntity":"f_Previsao_Concorrencia"},"State":"Generated","Roles":{"f_previsao_concorrencia":{"Target":{"Entity":"f_previsao_concorrencia"}},"f_previsao_concorrencia.cand_vaga_2026":{"Target":{"Entity":"f_previsao_concorrencia.cand_vaga_2026"}}},"Phrasings":[{"Attribute":{"Subject":{"Role":"f_previsao_concorrencia"},"Object":{"Role":"f_previsao_concorrencia.cand_vaga_2026"}},"State":"Generated","Weight":0.99,"ID":"f_previsao_concorrencias_have_cand_vaga_2026"}]}},"Agents":{"Internal":{"Version":"1.1.0"}}}
+				contentType: json
+
+		annotation PBI_ProTooling = ["TMDLView_Desktop"]
+
+		annotation __PBI_TimeIntelligenceEnabled = 1
+
+		annotation PBI_QueryOrder = ["f_Previsao_Concorrencia","f_Historico_Concorrencia","d_Curso","d_Campus","_Medidas"]
+

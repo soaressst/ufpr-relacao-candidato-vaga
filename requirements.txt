@@ -1,0 +1,19 @@
+# Só os pacotes que o código importa (o Streamlit Cloud instala este arquivo)
+
+# App (app.py) e conexão (pipeline/db.py)
+streamlit>=1.40
+pandas>=2.2
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# Pipeline (pipeline/*.py)
+numpy>=1.26
+statsmodels>=0.14
+requests>=2.31
+beautifulsoup4>=4.12
+pdfplumber>=0.11
+
+# API (backend/main.py)
+fastapi>=0.110
+uvicorn>=0.29

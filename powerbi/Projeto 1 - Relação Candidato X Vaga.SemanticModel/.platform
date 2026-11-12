@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Projeto 1 - Relação Candidato X Vaga"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a9b3a9a6-4ae5-407d-ae4e-8fd0039c956c"
+  }
+}

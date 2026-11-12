@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAOcast — Liga Data Science UFPR</title>
+    <meta name="description" content="TAOcast, o podcast da Liga Data Science UFPR: carreira, projetos e bastidores da ciência de dados.">
+    <meta property="og:title" content="TAOcast — Liga Data Science UFPR">
+    <meta property="og:description" content="TAOcast, o podcast da Liga Data Science UFPR: carreira, projetos e bastidores da ciência de dados.">
+    <meta property="og:image" content="logo_circulo.png">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0D3C67">
+    <link rel="icon" href="logo_circulo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'media',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+                    colors: {
+                        marca: { 50: '#EEF4FB', 100: '#D6E4F5', 500: '#2563EB', 600: '#1D4ED8', 700: '#0D3C67', 800: '#0A2E4F', 900: '#071F36' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Grade sutil de fundo (padrão de sites de tecnologia) */
+        .grade { background-image: linear-gradient(to right, rgb(148 163 184 / .12) 1px, transparent 1px), linear-gradient(to bottom, rgb(148 163 184 / .12) 1px, transparent 1px); background-size: 48px 48px; }
+        @media (prefers-reduced-motion: no-preference) { .surgir { animation: surgir .6s ease-out both; } @keyframes surgir { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } } }
+    </style>
+</head>
+<body class="bg-white text-slate-700 antialiased dark:bg-slate-950 dark:text-slate-300">
+
+    <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-marca-700 focus:px-4 focus:py-2 focus:text-white">Pular para o conteúdo</a>
+
+    <!-- Cabeçalho -->
+    <header class="sticky top-0 z-40 border-b border-slate-200/70 bg-white/75 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-950/75">
+        <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+            <a href="index.html" class="flex items-center gap-2.5 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-marca-500">
+                <img src="logo_circulo.png" alt="" class="h-8 w-8 rounded-full object-contain">
+                <span class="text-[15px] font-semibold tracking-tight text-slate-900 dark:text-white">Liga Data Science</span>
+            </a>
+            <nav class="hidden items-center gap-1 text-sm md:flex" aria-label="Principal">
+                <a href="index.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Início</a>
+                <a href="sobre.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Sobre</a>
+                <a href="projetos.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Projetos</a>
+                <a href="pipeline.html" class="rounded-md px-3 py-2 text-slate-600 transition hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Pipeline</a>
+                <a href="taocast.html" aria-current="page" class="rounded-md px-3 py-2 font-medium text-slate-900 dark:text-white">TAOcast</a>
+            </nav>
+            <div class="flex items-center gap-2">
+                <a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="hidden rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700 sm:inline-flex dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200">Fale conosco</a>
+                <button id="botao-menu" type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-slate-700 hover:bg-slate-100 md:hidden dark:text-slate-300 dark:hover:bg-slate-800" aria-controls="menu-movel" aria-expanded="false" aria-label="Abrir menu">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
+        </div>
+        <nav id="menu-movel" class="hidden border-t border-slate-200 px-4 py-3 md:hidden dark:border-slate-800" aria-label="Menu móvel">
+            <a href="index.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Início</a>
+            <a href="sobre.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Sobre</a>
+            <a href="projetos.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Projetos</a>
+            <a href="pipeline.html" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Pipeline</a>
+            <a href="taocast.html" aria-current="page" class="block rounded-md px-3 py-2.5 font-medium text-slate-900 dark:text-white">TAOcast</a>
+            <a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="block rounded-md px-3 py-2.5 text-slate-600 dark:text-slate-400">Fale conosco</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="relative overflow-hidden border-b border-slate-200 dark:border-slate-800">
+            <div class="grade absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]" aria-hidden="true"></div>
+            <div class="absolute left-1/2 top-0 -z-10 h-[360px] w-[800px] -translate-x-1/2 rounded-full bg-gradient-to-br from-marca-100 via-sky-100 to-transparent opacity-70 blur-3xl dark:from-marca-900 dark:via-slate-900 dark:opacity-60" aria-hidden="true"></div>
+            <div class="surgir relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+                <p class="text-sm font-semibold text-marca-600 dark:text-sky-400">Podcast oficial</p>
+                <h1 class="mt-2 max-w-3xl text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-white">TAOcast</h1>
+                <p class="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">O podcast da Liga Data Science UFPR, onde dados viram histórias: carreira, projetos e os bastidores da ciência de dados na universidade.</p>
+            </div>
+        </section>
+        <section class="py-24">
+            <div class="mx-auto max-w-6xl px-4 sm:px-6">
+                <div class="grid gap-6 md:grid-cols-3">
+                <article class="rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                    <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path stroke-linecap="round" stroke-linejoin="round" d="M5 10v1a7 7 0 0 0 14 0v-1M12 18v4M8 22h8"/></svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">Conversas com quem faz</h3>
+                    <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Bate-papos com estudantes, professores e profissionais sobre dados, inteligência artificial e mercado de trabalho.</p>
+                </article>
+                <article class="rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                    <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 18v-6a9 9 0 0 1 18 0v6"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 19a2 2 0 0 1-2 2h-1v-6h3v4ZM3 19a2 2 0 0 0 2 2h1v-6H3v4Z"/></svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">Episódios acessíveis</h3>
+                    <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Temas técnicos explicados de forma leve, para quem está começando ou já atua na área.</p>
+                </article>
+                <article class="rounded-2xl border border-slate-200 bg-white p-8 transition hover:-translate-y-0.5 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+                    <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-marca-50 text-marca-700 dark:bg-marca-900 dark:text-sky-300">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="3"/><path stroke-linejoin="round" d="m10 9 5 3-5 3V9Z"/></svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-slate-900 dark:text-white">Onde assistir</h3>
+                    <p class="mt-2 leading-relaxed text-slate-600 dark:text-slate-400">Novos episódios publicados regularmente no canal oficial da Liga no YouTube.</p>
+                </article>
+                </div>
+                <div class="mt-16 flex flex-col items-start justify-between gap-6 rounded-3xl bg-marca-900 p-8 text-white sm:flex-row sm:items-center sm:p-12">
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight sm:text-3xl">Assista no YouTube</h2>
+                        <p class="mt-2 text-slate-300">Todos os episódios estão no canal oficial da Liga.</p>
+                    </div>
+                    <a href="https://www.youtube.com/@LigaDataScience" target="_blank" rel="noopener" class="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-marca-900 transition hover:bg-slate-100">Acessar o canal <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="border-t border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900/40">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5">
+                    <img src="logo_circulo.png" alt="" class="h-8 w-8 rounded-full object-contain">
+                    <span class="font-semibold text-slate-900 dark:text-white">Liga Data Science</span>
+                </div>
+                <p class="mt-4 max-w-sm text-sm leading-relaxed text-slate-500">Projeto de extensão da Universidade Federal do Paraná dedicado a difundir a ciência de dados.</p>
+            </div>
+            <div>
+                <p class="text-sm font-semibold text-slate-900 dark:text-white">Navegação</p>
+                <ul class="mt-4 space-y-2.5 text-sm">
+                    <li><a href="sobre.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Sobre</a></li>
+                    <li><a href="projetos.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Projetos</a></li>
+                    <li><a href="pipeline.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Pipeline</a></li>
+                    <li><a href="taocast.html" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">TAOcast</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-sm font-semibold text-slate-900 dark:text-white">Redes</p>
+                <ul class="mt-4 space-y-2.5 text-sm">
+                    <li><a href="https://www.instagram.com/ligadatascience" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/liga-data-science-ufpr" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">LinkedIn</a></li>
+                    <li><a href="https://www.youtube.com/@LigaDataScience" target="_blank" rel="noopener" class="text-slate-500 transition hover:text-slate-900 dark:hover:text-white">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-slate-200 dark:border-slate-800">
+            <p class="mx-auto max-w-6xl px-4 py-6 text-xs text-slate-500 sm:px-6">© <span id="ano"></span> Liga Data Science · UFPR</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu móvel
+        const botao = document.getElementById('botao-menu');
+        const menu = document.getElementById('menu-movel');
+        botao.addEventListener('click', () => {
+            const aberto = botao.getAttribute('aria-expanded') === 'true';
+            botao.setAttribute('aria-expanded', String(!aberto));
+            botao.setAttribute('aria-label', aberto ? 'Abrir menu' : 'Fechar menu');
+            menu.classList.toggle('hidden', aberto);
+        });
+        document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+relationship 434071ef-1361-a395-38a6-d2d418133a7d
+	fromColumn: f_Previsao_Concorrencia.curso
+	toColumn: d_Curso.nome_curso
+
+relationship be4d0dbc-d726-8b9c-0966-809366d7435c
+	fromColumn: f_Previsao_Concorrencia.campus
+	toColumn: d_Campus.nome_campus
+

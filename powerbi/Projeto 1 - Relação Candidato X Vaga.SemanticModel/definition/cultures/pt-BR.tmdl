@@ -1,0 +1,2322 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "f_previsao_concorrencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f previsao concorrencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "f_Previsao_Concorrencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "curso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.cand_vaga_2026": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "cand_vaga_2026"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cand vaga 2026": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cand_vaga_2026": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.valor_minimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "valor_minimo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor minimo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_minimo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.ano_entrada_sobra_vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "ano_entrada_sobra_vagas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano entrada sobra vaga": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_entrada_sobra_vagas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.ano_minimo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "ano_minimo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano minimo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_minimo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia.grau": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Previsao_Concorrencia",
+			          "ConceptualProperty": "grau"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "grau": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "d_Curso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_curso.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Curso",
+			          "ConceptualProperty": "turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_curso.grau": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Curso",
+			          "ConceptualProperty": "grau"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "grau": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "d_Campus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "campus": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "d property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "d estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "d site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_cursos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total_Cursos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cursos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Cursos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate curso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall curso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.media_concorrencia_2026": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Media_Concorrencia_2026"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media concorrencia 2026": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Concorrencia_2026": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Cenário Base": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.cursos_com_sobra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Cursos_Com_Sobra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cursos com sobra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cursos_Com_Sobra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.pct_cursos_risco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Pct_Cursos_Risco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pct cursos risco": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pct_Cursos_Risco": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.valor_minimo_medio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Valor_Minimo_Medio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor minimo medio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Valor_Minimo_Medio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.ano_minimo_moda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Ano_Minimo_Menor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano minimo moda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ano_Minimo_Menor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.historico_inscritos_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Historico_Inscritos_Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "historico inscritos total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Historico_Inscritos_Total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "historico inscrito aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "historico inscrito overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.historico_media_cand_vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Historico_Media_Cand_Vaga"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "historico media cand vaga": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Historico_Media_Cand_Vaga": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.fator_simulacao_selecionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Fator_Simulacao_Selecionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fator simulacao selecionado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fator_Simulacao_Selecionado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.previsao_simulada_cand_vaga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Previsao_Simulada_Cand_Vaga"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previsao simulada cand vaga": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Previsao_Simulada_Cand_Vaga": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Cenário Simulado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "f historico concorrencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "f_Historico_Concorrencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.turno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "turno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "turno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.nome_campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "nome_campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_campus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "campus": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nome property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nome estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nome site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.nome_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "nome_curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_curso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.ano_vestibular": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "ano_vestibular"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano vestibular": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_vestibular": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_campus.nome_campus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Campus",
+			          "ConceptualProperty": "nome_campus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome campus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_campus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "campus": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nome property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nome estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "estate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nome site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "d_curso.nome_curso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Curso",
+			          "ConceptualProperty": "nome_curso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome curso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_curso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "parametro_fator_impacto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parametro_Fator_Impacto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parametro fator impacto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Parametro_Fator_Impacto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "parametro_fator_impacto.fator_impacto_percentual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parametro_Fator_Impacto",
+			          "ConceptualProperty": "Fator_Impacto_Percentual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fator impacto percentual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fator_Impacto_Percentual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.candidatos_inscrito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "candidatos_inscritos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "candidatos inscrito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "candidato inscrito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "candidatos_inscritos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.treineiro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "treineiros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "treineiro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.vagas_ofertada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "vagas_ofertadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vagas ofertada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vaga ofertada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "vagas_ofertadas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.fonte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "fonte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fonte": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia.cand_vaga_realizada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "f_Historico_Concorrencia",
+			          "ConceptualProperty": "cand_vaga_realizada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cand vaga realizada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cand_vaga_realizada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "d_curso_has_f_previsao_concorrencia": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_f_previsao_concorrencias"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_d_campus": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "d_campus": {
+			          "Target": {
+			            "Entity": "d_campus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "d_campus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_d_campuses"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_campus"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_campuses_have_f_previsao_concorrencias"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_d_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "d_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_d_cursos"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_cand_vaga_realizada": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.cand_vaga_realizada": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.cand_vaga_realizada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.cand_vaga_realizada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_cand_vaga_realizadas"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_fonte": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.fonte": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.fonte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.fonte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_fontes"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_vagas_ofertada": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.vagas_ofertada": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.vagas_ofertada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.vagas_ofertada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_vagas_ofertadas"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_treineiro": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.treineiro": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.treineiro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.treineiro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_treineiros"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_candidatos_inscrito": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.candidatos_inscrito": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.candidatos_inscrito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.candidatos_inscrito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_candidatos_inscritos"
+			        }
+			      ]
+			    },
+			    "parametro_fator_impacto_has_fator_impacto_percentual": {
+			      "Binding": {
+			        "ConceptualEntity": "Parametro_Fator_Impacto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parametro_fator_impacto": {
+			          "Target": {
+			            "Entity": "parametro_fator_impacto"
+			          }
+			        },
+			        "parametro_fator_impacto.fator_impacto_percentual": {
+			          "Target": {
+			            "Entity": "parametro_fator_impacto.fator_impacto_percentual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parametro_fator_impacto"
+			            },
+			            "Object": {
+			              "Role": "parametro_fator_impacto.fator_impacto_percentual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parametro_fator_impactos_have_fator_impacto_percentuals"
+			        }
+			      ]
+			    },
+			    "d_curso_has_nome_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "d_curso.nome_curso": {
+			          "Target": {
+			            "Entity": "d_curso.nome_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "d_curso.nome_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_nome_cursos"
+			        }
+			      ]
+			    },
+			    "d_campus_has_nome_campus": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Campus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_campus": {
+			          "Target": {
+			            "Entity": "d_campus"
+			          }
+			        },
+			        "d_campus.nome_campus": {
+			          "Target": {
+			            "Entity": "d_campus.nome_campus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_campus"
+			            },
+			            "Object": {
+			              "Role": "d_campus.nome_campus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_campuses_have_nome_campuses"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_ano_vestibular": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.ano_vestibular": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.ano_vestibular"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.ano_vestibular"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_ano_vestibular"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_nome_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.nome_curso": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.nome_curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.nome_curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_nome_cursos"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_nome_campus": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.nome_campus": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.nome_campus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.nome_campus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_nome_campuses"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "f_historico_concorrencia.turno": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_historico_concorrencia.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_turnos"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_previsao_simulada_cand_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.previsao_simulada_cand_vaga": {
+			          "Target": {
+			            "Entity": "entity__medida.previsao_simulada_cand_vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.previsao_simulada_cand_vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_previsao_simulada_cand_vaga"
+			        }
+			      ]
+			    },
+			    "parametro_fator_impacto_has_entity__medida_previsao_simulada_cand_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "Parametro_Fator_Impacto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parametro_fator_impacto": {
+			          "Target": {
+			            "Entity": "parametro_fator_impacto"
+			          }
+			        },
+			        "entity__medida.previsao_simulada_cand_vaga": {
+			          "Target": {
+			            "Entity": "entity__medida.previsao_simulada_cand_vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parametro_fator_impacto"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.previsao_simulada_cand_vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parametro_fator_impactos_have_previsao_simulada_cand_vaga"
+			        }
+			      ]
+			    },
+			    "parametro_fator_impacto_has_entity__medida_fator_simulacao_selecionado": {
+			      "Binding": {
+			        "ConceptualEntity": "Parametro_Fator_Impacto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parametro_fator_impacto": {
+			          "Target": {
+			            "Entity": "parametro_fator_impacto"
+			          }
+			        },
+			        "entity__medida.fator_simulacao_selecionado": {
+			          "Target": {
+			            "Entity": "entity__medida.fator_simulacao_selecionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parametro_fator_impacto"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.fator_simulacao_selecionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parametro_fator_impactos_have_fator_simulacao_selecionado"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_entity__medida_historico_media_cand_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "entity__medida.historico_media_cand_vaga": {
+			          "Target": {
+			            "Entity": "entity__medida.historico_media_cand_vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.historico_media_cand_vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_historico_media_cand_vaga"
+			        }
+			      ]
+			    },
+			    "f_historico_concorrencia_has_entity__medida_historico_inscritos_total": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Historico_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_historico_concorrencia": {
+			          "Target": {
+			            "Entity": "f_historico_concorrencia"
+			          }
+			        },
+			        "entity__medida.historico_inscritos_total": {
+			          "Target": {
+			            "Entity": "entity__medida.historico_inscritos_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_historico_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.historico_inscritos_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_historico_concorrencias_have_historico_inscritos_total"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_ano_minimo_moda": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.ano_minimo_moda": {
+			          "Target": {
+			            "Entity": "entity__medida.ano_minimo_moda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.ano_minimo_moda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_ano_minimo_moda"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_valor_minimo_medio": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.valor_minimo_medio": {
+			          "Target": {
+			            "Entity": "entity__medida.valor_minimo_medio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.valor_minimo_medio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_valor_minimo_medio"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_pct_cursos_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.pct_cursos_risco": {
+			          "Target": {
+			            "Entity": "entity__medida.pct_cursos_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.pct_cursos_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_pct_cursos_risco"
+			        }
+			      ]
+			    },
+			    "d_curso_has_entity__medida_pct_cursos_risco": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "entity__medida.pct_cursos_risco": {
+			          "Target": {
+			            "Entity": "entity__medida.pct_cursos_risco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.pct_cursos_risco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_pct_cursos_risco"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_cursos_com_sobra": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.cursos_com_sobra": {
+			          "Target": {
+			            "Entity": "entity__medida.cursos_com_sobra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.cursos_com_sobra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_cursos_com_sobra"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_entity__medida_media_concorrencia_2026": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "entity__medida.media_concorrencia_2026": {
+			          "Target": {
+			            "Entity": "entity__medida.media_concorrencia_2026"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.media_concorrencia_2026"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_media_concorrencia_2026"
+			        }
+			      ]
+			    },
+			    "d_curso_has_entity__medida_total_cursos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "entity__medida.total_cursos": {
+			          "Target": {
+			            "Entity": "entity__medida.total_cursos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_cursos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_total_cursos"
+			        }
+			      ]
+			    },
+			    "d_curso_has_grau": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "d_curso.grau": {
+			          "Target": {
+			            "Entity": "d_curso.grau"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "d_curso.grau"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_graus"
+			        }
+			      ]
+			    },
+			    "d_curso_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Curso"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_curso": {
+			          "Target": {
+			            "Entity": "d_curso"
+			          }
+			        },
+			        "d_curso.turno": {
+			          "Target": {
+			            "Entity": "d_curso.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_curso"
+			            },
+			            "Object": {
+			              "Role": "d_curso.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_cursos_have_turnos"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_grau": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.grau": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.grau"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.grau"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_graus"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_turno": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.turno": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.turno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.turno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_turnos"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_ano_minimo": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.ano_minimo": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.ano_minimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.ano_minimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_ano_minimos"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_ano_entrada_sobra_vaga": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.ano_entrada_sobra_vaga": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.ano_entrada_sobra_vaga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.ano_entrada_sobra_vaga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_ano_entrada_sobra_vagas"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_valor_minimo": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.valor_minimo": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.valor_minimo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.valor_minimo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_valor_minimos"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_cand_vaga_2026": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.cand_vaga_2026": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.cand_vaga_2026"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.cand_vaga_2026"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_cand_vaga_2026"
+			        }
+			      ]
+			    },
+			    "f_previsao_concorrencia_has_curso": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Previsao_Concorrencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_previsao_concorrencia": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia"
+			          }
+			        },
+			        "f_previsao_concorrencia.curso": {
+			          "Target": {
+			            "Entity": "f_previsao_concorrencia.curso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_previsao_concorrencia"
+			            },
+			            "Object": {
+			              "Role": "f_previsao_concorrencia.curso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_previsao_concorrencias_have_cursos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,19 @@
+table Parametro_Fator_Impacto
+	lineageTag: a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d
+
+	/// Choque em pontos percentuais inteiros (-30 a 30). O controle usa "menor ou igual a" e a medida pega o maior valor selecionado
+	column Fator_Impacto_Percentual
+		dataType: int64
+		formatString: 0"%"
+		lineageTag: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = User
+
+	partition Parametro_Fator_Impacto = calculated
+		mode: import
+		source = GENERATESERIES(-30, 30, 1)
+
+	annotation PBI_Id = b1c2d3e4f5a6b7c8d9e0
+

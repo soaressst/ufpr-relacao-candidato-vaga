@@ -1,0 +1,92 @@
+table _Medidas
+	lineageTag: f9920d5c-c61a-4b9d-bd54-215b254c879d
+
+	measure Total_Cursos = COUNTROWS('d_Curso')
+		formatString: 0
+		lineageTag: cf8804c5-f736-4aa5-ba92-063c6ef68e2c
+
+	measure Media_Concorrencia_2026 =
+			
+			AVERAGE('f_Previsao_Concorrencia'[cand_vaga_2026])
+		formatString: 0.00
+		lineageTag: 41f17f37-20b2-4db5-9f0d-00ea7fdab021
+
+	measure Cursos_Com_Sobra =
+			
+			CALCULATE(
+			    COUNTROWS('f_Previsao_Concorrencia'),
+			    KEEPFILTERS('f_Previsao_Concorrencia'[ano_entrada_sobra_vagas] <> "Sem Sobra")
+			)
+		formatString: 0
+		lineageTag: b0f14978-40f3-41e4-aa10-e9f3555a9b89
+
+	measure Pct_Cursos_Risco =
+			
+			DIVIDE([Cursos_Com_Sobra], [Total_Cursos], 0)
+		formatString: 0.0%
+		lineageTag: d7e5f2a2-dc8f-4908-a02b-f550869d76bb
+
+	measure Valor_Minimo_Medio =
+			
+			AVERAGE('f_Previsao_Concorrencia'[valor_minimo])
+		formatString: 0.00
+		lineageTag: e8a123bc-11a2-4433-8812-998877665544
+
+	/// Menor ano em que a concorrência prevista atinge o piso (2027-2032)
+	measure Ano_Minimo_Menor =
+			
+			MIN('f_Previsao_Concorrencia'[ano_minimo])
+		formatString: 0
+		lineageTag: a1122334-5566-7788-9900-aabbccddeeff
+
+	measure Historico_Inscritos_Total =
+			
+			SUM('f_Historico_Concorrencia'[candidatos_inscritos])
+		formatString: #,##0
+		lineageTag: 91a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6c
+
+	measure Historico_Media_Cand_Vaga =
+			
+			AVERAGE('f_Historico_Concorrencia'[cand_vaga_realizada])
+		formatString: 0.00
+		lineageTag: 82b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d
+
+	measure Fator_Simulacao_Selecionado =
+			
+			-- O controle filtra "menor ou igual a" o ponto da barra (que pode ser quebrado, ex.: -29,7);
+			-- o maior valor que sobra é o choque escolhido. Sem filtro, o choque é 0.
+			IF(
+			    ISFILTERED('Parametro_Fator_Impacto'[Fator_Impacto_Percentual]),
+			    MAX('Parametro_Fator_Impacto'[Fator_Impacto_Percentual]),
+			    0
+			) / 100
+		formatString: 0.0%
+		lineageTag: 73c4d5e6-f7a8-9b0c-1d2e-3f4a5b6c7d8e
+
+	/// Ilustrativo: aplica o mesmo percentual à média de 2026 de todos os cursos; não é saída do modelo
+	measure Previsao_Simulada_Cand_Vaga =
+			
+			VAR MediaBase = [Media_Concorrencia_2026]
+			VAR FatorImpacto = [Fator_Simulacao_Selecionado]
+			RETURN
+			    MediaBase * (1 + FatorImpacto)
+		formatString: 0.00
+		lineageTag: 64d5e6f7-a8b9-0c1d-2e3f-4a5b6c7d8e9f
+
+	/// Nº de cursos com previsão (conta as linhas da tabela de previsões no filtro atual)
+	measure Cursos_Previstos = COUNTROWS('f_Previsao_Concorrencia')
+		formatString: 0
+		lineageTag: 5f3b2c1d-7e8a-4b9c-a0d1-e2f3a4b5c6d7
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
