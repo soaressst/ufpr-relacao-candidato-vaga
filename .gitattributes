@@ -1,1 +1,4 @@
 data/raw/** -text
+
+# Fontes oficiais baixadas (HTML/PDF): não contam como código na estatística de linguagens do GitHub
+data/raw/** linguist-vendored
